@@ -1,0 +1,350 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overview"
+	group: ""
+	icon: "kubejs:ontologic_processor_mainframe"
+	id: "7221508FC57C32A0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["197DE2B3901FCB71"]
+			description: [
+				"Humble in a way, not everyone gets AE2 from the beginning."
+				""
+				"By the way, regarding shaders:"
+				""
+				"Use what you want, PhotonFrontiers is the best with PBR, but the \"Solas GT Support\" is the best for lower-end. It has colored lighting for many GT things, and just looks great."
+				""
+				"In photon, clouds are disabled due to it not making sense to have them. There is no water here anyway."
+				""
+				"Credit goes to KuramA-777 and Ghostipedia."
+			]
+			id: "6EEDA758AA096043"
+			rewards: [
+				{
+					id: "3EE95C173058F93F"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "149BA8C4049ED814"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Everyone starts their journey once"
+			tasks: [{
+				id: "0638F0C5DCDF553D"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Humble Beginnings"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"So, you managed to find this modpack."
+				"I want there to be 100% automation from the get-go, so take this. You will need it."
+				"Resources may be easy to get, but consumed a lot."
+				"&oThe deep drives are basically normal storage cells, but with no type restriction, and 1 byte = 1 item.&r"
+				"(For multiplayer, only one person in the team can claim the rewards.)"
+				""
+				"&4Check out the Info chapter!"
+				""
+				"&lThis pack is probably not GT Beginner friendly!"
+			]
+			icon: "gtceu:opv_field_generator"
+			id: "197DE2B3901FCB71"
+			rewards: [
+				{
+					id: "3F7EDC1A3B0F0357"
+					item: "ae2:creative_energy_cell"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5DAE216B9D545034"
+					item: "ae2:drive"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 128
+					id: "37170A54FFFA60E4"
+					item: "ae2:fluix_glass_cable"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "791B9D242E49CF84"
+					item: "ae2:controller"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "71E31CED6A1DBE18"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5346DE7267FDDFB4"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "55D0EEC717A9ECFF"
+					item: {
+						Count: 1
+						id: "ae2things:disk_drive_64k"
+						tag: { }
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "440D56EF066E4133"
+					item: {
+						Count: 1
+						id: "ae2additions:disk_fluid_64k"
+						tag: { }
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "26F4F019831D48F0"
+					item: "ae2:crafting_terminal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7B0AC642E336455A"
+					item: "ae2:pattern_encoding_terminal"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "10604A0114464B31"
+					item: "gtceu:terminal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "582C330B64CC4AB0"
+					item: "ae2:pattern_provider"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "066734A66F07E27A"
+					item: "ae2:interface"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6AE0B605C950C530"
+					item: "ae2:export_bus"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2D2412C679018A13"
+					item: "ae2:import_bus"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5F9AA06A99B2ED4F"
+					item: "ae2:storage_bus"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "06F282FEC624D61D"
+					item: "bigger_ae2:4_core_crafting_accelerator"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "131989BC59BFE4B4"
+					item: "ae2:16k_crafting_storage"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7A6343BAF9EFCBB4"
+					item: "ae2:molecular_assembler"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1B9BF24AC7559FFA"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DA32853B3B2B57A"
+					item: {
+						Count: 1
+						id: "lightingwand:wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "089C069CF8498320"
+					item: "framedblocks:framing_saw"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "132D4C0089FA142A"
+					item: "minecraft:stonecutter"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "156296B62A51A18B"
+					item: {
+						Count: 1
+						id: "rechiseled:chisel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2E4EC65A1726DB7C"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5C9895B1F14DA90A"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0050488F5DE601B7"
+					item: "expatternprovider:drive_upgrade"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3BE44C33D603FB64"
+					item: {
+						Count: 1
+						id: "nomowanderer:no_mo_wanderer_totem"
+						tag: {
+							Enabled: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FC4A3BC45B84B20"
+					item: "buildersdelight:iron_chisel"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Free Stuff???"
+			tasks: [{
+				id: "1AB6D5645D3A84AB"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6EEDA758AA096043"]
+			description: ["Superflat doesnt mean no stone! This world is special, and you have all of it in your disposal."]
+			id: "2CB72A9E63A32446"
+			subtitle: "Dig down!"
+			tasks: [{
+				id: "3C7D42A418F7E00F"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Cobbled together."
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2CB72A9E63A32446"]
+			description: [
+				"You can now continue in the other quest chapter. This chapter now serves as a progression guide. If you ever get lost, good luck!"
+				""
+				"You may have noticed you didnt get any blank patterns, thats normal. You get them sooner or later."
+				""
+				"&d\"Passive everything!\" - Threefold&r"
+			]
+			id: "3112610287AECDAB"
+			subtitle: "Cobblestone in hand"
+			tasks: [{
+				id: "4D75139144ADA97D"
+				title: "Continue your journey now."
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+	]
+	subtitle: ["Good luck!"]
+	title: "Humble Beginnings"
+}

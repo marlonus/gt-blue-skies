@@ -1,0 +1,48 @@
+{
+    "scripts": {
+        "id": "test:bone",
+        "swing": true,
+        "drop_rule": "block",
+        "properties": [
+            {
+                "property": "scavenge_player:is_hand_empty"
+            },
+            {
+                "property": "scavenge_player:is_hand"
+            },
+            {
+                "property": "scavenge_utils:conditional_effect",
+                "test": {
+                    "property": "scavenge_player:real_player"
+                },
+                "false": {
+                    "property": "scavenge_utils:default_effect"
+                }
+            }
+        ],
+        "loot": [
+            {
+                "lootPool": "minecraft:bone_scavenge",
+                "conditions": [
+                    {
+                        "property": "scavenge_utils:random",
+                        "chance": 85.0
+                    }
+                ]
+            }
+        ],
+        "type": {
+            "type": "right_click",
+            "consume": false,
+            "show": true
+        },
+        "targets": [
+            {
+                "type": "blocks",
+                "id": [
+                    "minecraft:terracotta"
+                ]
+            }
+        ]
+    }
+}

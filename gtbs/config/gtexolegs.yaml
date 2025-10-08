@@ -1,0 +1,30 @@
+# Step height modifier per tier
+# Must be >= 0
+stepHeightModifiers:
+  - 0.4
+  - 0.4
+  - 0.4
+  - 0.4
+  - 0.4
+
+# Movement speed multiplier per tier
+# Must be >= 0
+movementSpeedMultipliers:
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.8
+  - 1.0
+
+# Jump boost modifier per tier
+# Must be >= 0
+jumpBoostModifiers:
+  - 0.0
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+
+# Enable or disable jump boost mechanic entirely
+enableJumpBoost: true
+

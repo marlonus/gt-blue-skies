@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extended_mega_ultimate_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: "kubejs:spintronic_processor_mainframe"
+	id: "681B2A3857E5D588"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/uxv_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 12
+	quest_links: [ ]
+	quests: [{
+		id: "213354F3D5672DC6"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "6F67E2375304EC8E"
+			item: "gtceu:uxv_machine_hull"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: [
+		"Spin to Win (Your sanity back)"
+		"(Just Kidding. No getting that back anytime soon.)"
+	]
+	title: "&eExtended Mega Ultimate Voltage (UXV)"
+}

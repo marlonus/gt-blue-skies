@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "kubejs:coils/off/acausal_singularity_coil_block"
+    },
+    "active=true": {
+      "model": "kubejs:coils/on/acausal_singularity_coil_block"
+    }
+  }
+}

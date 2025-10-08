@@ -1,0 +1,918 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "energy_generation"
+	group: "1F64FD07622D29DF"
+	icon: "gtnn:optical_imc_board"
+	id: "77EA3CCB7D84BAD2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1B23392173088920"]
+			description: ["Most normal boilers do absolutely nothing."]
+			icon: "gtceu:lv_electric_motor"
+			id: "5D32833594C22A6A"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Satisfy YOUR power needs!"
+			tasks: [{
+				id: "59D685AB99EAB4DE"
+				title: "LV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D32833594C22A6A"]
+			description: ["With a little fuel."]
+			id: "2E2857A97CAC9891"
+			subtitle: "Water in, steam out."
+			tasks: [{
+				id: "64E1BF6556EBBDA0"
+				item: "gtceu:low_pressure_steam_boiler"
+				type: "item"
+			}]
+			title: "Low Pressure Steam Boiler"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5D32833594C22A6A"]
+			description: ["Should be enough for the beginning."]
+			id: "03B7A3034E1B6385"
+			subtitle: "The better your steam, the more turbines you need."
+			tasks: [{
+				id: "693A0C57DEA41C61"
+				item: "gtceu:low_pressure_steam_turbine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D32833594C22A6A"]
+			description: [
+				"Aluminum gives way to this technology."
+				""
+				"An upgrade of the Low Pressure Steam Boiler"
+				""
+				"This increases steam temperature, and also makes the carbon dioxide of the fuel collectable."
+				"This intern means you can electrolyze the CO2 for carbon, and feed that carbon back into the boiler."
+			]
+			id: "7EFC146D09407C89"
+			subtitle: "Post EBF"
+			tasks: [{
+				id: "013A7043D23D96C5"
+				item: "kubejs:preheater_module"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E2857A97CAC9891"]
+			description: ["Not usable in other turbines for potential exploits."]
+			icon: "gtceu:low_pressure_steam_bucket"
+			id: "72181B84538600C4"
+			tasks: [{
+				id: "3864F9DBBA223DD5"
+				title: "Low Pressure Steam"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7EFC146D09407C89"]
+			description: ["Not usable in other turbines for potential exploits."]
+			icon: "gtceu:high_temperature_low_pressure_steam_bucket"
+			id: "2EC8CEF8639CCDE1"
+			tasks: [{
+				id: "434175B4C2BA2658"
+				title: "High Temperature Low Pressure Steam"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2EC8CEF8639CCDE1"
+				"03B7A3034E1B6385"
+			]
+			description: ["You need 8 Low Pressure Steam turbines, fed by 1 boiler."]
+			id: "69F269BFE6EEBFAB"
+			subtitle: "Enough for 4 EBFs!"
+			tasks: [{
+				id: "3F2EC00B96240A4A"
+				title: "16A LV"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"72181B84538600C4"
+				"03B7A3034E1B6385"
+			]
+			description: ["You will need 2 turbines fed by 1 boiler."]
+			id: "0C83773B493D01D1"
+			subtitle: "Enough for a EBF."
+			tasks: [{
+				id: "2DD88B5307FF3E52"
+				title: "4A LV"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0F547361F108D811"]
+			icon: "gtceu:mv_electric_motor"
+			id: "1231082FBC5AD5C9"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0303880BE9507838"
+				title: "MV"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1231082FBC5AD5C9"]
+			description: [
+				"{ \"text\": \"Main Quest\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"46A078C3F2F23C21\" } }"
+				""
+				""
+				"{ \"text\": \"Processing Line\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"256C3B5792C21068\" } }"
+			]
+			id: "4B53DA0E7104CB1A"
+			subtitle: "Good energy!"
+			tasks: [{
+				id: "69C71789039DFC21"
+				item: "gtceu:aromatic_combustion_reactor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["76BB6A934B2C7299"]
+			icon: "gtceu:hv_electric_motor"
+			id: "56D06DAFA9342ACE"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5AE19887B28A8E8F"
+				title: "HV"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56D06DAFA9342ACE"]
+			id: "2394ECD6B797EBA6"
+			subtitle: "12A!"
+			tasks: [{
+				id: "784D4FEE82DC9D9B"
+				item: "gtceu:hv_steam_turbine_mb"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3CE67EB353B5507E"]
+			icon: "gtceu:ev_electric_motor"
+			id: "51A89111F113D599"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3C8AA1551224ECE8"
+				title: "EV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51A89111F113D599"]
+			description: [
+				"Moon Dust is suprisingly good in trapping photons, while keeping their energy."
+				"If you build a receiver out of moon dust in orbit, and beam down photon rays, you can boil salt and ender-tank transport it anywhere, then use the salt to boil water and create extremely dense steam, which is then used for power."
+				"The salt should be easy to reuse, but the moon dust wears down over time, sometimes getting consumed entirely."
+				"You should have a backlog of it always ready."
+			]
+			id: "1BD9C14BAEA6E80B"
+			subtitle: "If many photons hit one place, it becomes very hot."
+			tasks: [{
+				id: "7C7BD634F204E4AF"
+				item: "gtceu:ray_receiver"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1BD9C14BAEA6E80B"]
+			description: ["Take the Photon-Imbued Moon Dust and set the photons free, condensed onto salt."]
+			id: "2DBDF6C60C596DA7"
+			subtitle: "Melt down salt with photons!"
+			tasks: [{
+				id: "79EA0068165C2842"
+				item: "gtceu:salt_boiler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DBDF6C60C596DA7"]
+			description: [
+				"1 LuV Amp, 16A EV."
+				""
+				"Taking the molten salt and running it through pipes next to water heats up the water a lot."
+				"The salt is not lost, and the water becomes insanely dense steam."
+			]
+			id: "43F8E33F8D0E9F8B"
+			rewards: [{
+				id: "6BF5DE620255830A"
+				item: "gtceu:ev_energy_input_hatch_16a"
+				type: "item"
+			}]
+			subtitle: "Molten Salt, Solid Power"
+			tasks: [{
+				id: "7094A27829FF5BCA"
+				item: "gtceu:salt_exchanger"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57F9927AD62D9CEC"]
+			icon: "gtceu:iv_electric_motor"
+			id: "269170A165183286"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "300580378A595C06"
+				title: "IV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["760541B89684874D"]
+			id: "02713574D1CCB5A8"
+			subtitle: "16A IV!"
+			tasks: [{
+				id: "01D89CBFBC35C397"
+				item: "gtceu:lava_generator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["269170A165183286"]
+			description: ["It seems this material might interact with certain magical gems."]
+			icon: "gtceu:raw_nether_magma_bucket"
+			id: "49F603A416141412"
+			subtitle: "Black magma?"
+			tasks: [{
+				id: "5314EC4B492B3511"
+				title: "Raw Nether Magma"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"66BA6B676ACBF0A6"
+				"49F603A416141412"
+			]
+			description: ["Putting the skystone in the raw magma made it very reactive. One last step required."]
+			icon: "gtceu:runic_magma_essence_bucket"
+			id: "7C314FD5EFB7CC25"
+			subtitle: "One last step"
+			tasks: [{
+				id: "0DE5C34D77EB7C41"
+				title: "Runic Magma Essence"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C314FD5EFB7CC25"]
+			description: [
+				"This weird suspension of arcane slag is rich in the input Skystone."
+				"You gain back all of it!"
+			]
+			icon: "gtceu:arcane_slag_suspension_bucket"
+			id: "6CF124AB12F8806E"
+			subtitle: "Skystone gone? Nope!"
+			tasks: [{
+				id: "7D39AE7D5F6F6490"
+				title: "Arcane Slag Suspension"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Has suprisingly great uses in this."
+				"Due to its coldness by being in the aether for so long, it can easily be mixed with the insanely high temperature lava to create a magical reaction that was never seen before."
+				"Further processing required."
+			]
+			id: "66BA6B676ACBF0A6"
+			subtitle: "Gained back via arcane slag supension."
+			tasks: [{
+				id: "54DE1FB8F6B4903E"
+				item: "gtceu:skystone_gem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7C314FD5EFB7CC25"
+				"139AA899F8D94739"
+			]
+			description: ["This is a insanely dense lava, with a great heat amount!"]
+			icon: "gtceu:arcane_enriched_nether_magma_bucket"
+			id: "760541B89684874D"
+			subtitle: "Too hot!"
+			tasks: [{
+				id: "4AE063576A3974B6"
+				title: "Arcane Enriched Nether Magma"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"This is perfect for imbuing the reactive lava with one last magical push!"
+				""
+				"Not consumed!"
+			]
+			id: "139AA899F8D94739"
+			subtitle: "Another magical thingamajig?"
+			tasks: [{
+				id: "14190FEC066E0CF1"
+				item: "gtceu:arcane_crystal_gem"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "26DADE19E7D22386"
+			subtitle: "Not the recommended custom generators for this pack, but still useful if you want."
+			tasks: [{
+				id: "2C9B661A52FCF006"
+				title: "Alternatives"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "3FC98AB0E350D6A6"
+			tasks: [{
+				id: "71144802A6B438FD"
+				item: "kubejs:lv_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"26DADE19E7D22386"
+				"3FC98AB0E350D6A6"
+			]
+			id: "4DE04E0C55102B91"
+			tasks: [{
+				id: "0C713637212DB5F4"
+				item: "gtceu:steam_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7930684240ADB30D"
+				"3FC98AB0E350D6A6"
+			]
+			id: "49674C742821EED4"
+			tasks: [{
+				id: "423B19ACD7992738"
+				item: "gtceu:light_fuel_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["682148782958E4D1"]
+			id: "7930684240ADB30D"
+			tasks: [{
+				id: "58CEEEFF29D644A6"
+				title: "Ignore, just for dependency lines"
+				type: "checkmark"
+			}]
+			title: "Oil"
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"49674C742821EED4"
+				"1BB7EA6F934DE08D"
+			]
+			id: "3EC4067F2BAC24F6"
+			tasks: [{
+				id: "480F1885A7E48D7E"
+				item: "gtceu:diesel_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3EC4067F2BAC24F6"
+				"7C6F2564FB674077"
+			]
+			id: "1EE747460069C31A"
+			tasks: [{
+				id: "4DA186B01EA8C04B"
+				item: "gtceu:cetane_boosted_diesel_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3FC98AB0E350D6A6"]
+			id: "1BB7EA6F934DE08D"
+			tasks: [{
+				id: "4133FBCC708288EA"
+				item: "kubejs:mv_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BB7EA6F934DE08D"]
+			id: "7C6F2564FB674077"
+			tasks: [{
+				id: "51BBC968E7B95F90"
+				item: "kubejs:hv_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1EE747460069C31A"
+				"41FC0BFDF9BAD87B"
+			]
+			id: "23A6B8FD62D8BA2D"
+			tasks: [{
+				id: "774C710D6B232392"
+				title: "order quest"
+				type: "checkmark"
+			}]
+			title: "Wanna get some HOG?"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"23A6B8FD62D8BA2D"
+				"36701127784A1DF8"
+			]
+			id: "52B80E6789A9D195"
+			tasks: [{
+				id: "130E3F01BF1F0AB8"
+				item: "gtceu:high_octane_gasoline_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C6F2564FB674077"]
+			id: "36701127784A1DF8"
+			tasks: [{
+				id: "381ABC144497BA74"
+				item: "kubejs:ev_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["36701127784A1DF8"]
+			id: "57A47CB7CEE0A534"
+			tasks: [{
+				id: "76F6AA3561534C58"
+				item: "kubejs:iv_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["57A47CB7CEE0A534"]
+			id: "6119F4DB4429FC79"
+			tasks: [{
+				id: "1443E03D749FD060"
+				item: "kubejs:luv_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1EE747460069C31A"]
+			id: "7828AB6527816C1E"
+			subtitle: "Not great"
+			tasks: [{
+				id: "376E130F368DB44F"
+				item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7828AB6527816C1E"
+				"6119F4DB4429FC79"
+			]
+			id: "2F4A7BEB297C7A87"
+			subtitle: "The other rocket fuels arent worth it too."
+			tasks: [{
+				id: "354302448F3F18D5"
+				title: "Rocket fuel"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7441BAB26BBF6D92"
+				"1BB7EA6F934DE08D"
+			]
+			id: "485FB969DD30C109"
+			tasks: [{
+				id: "61C600C060ADD234"
+				item: "gtceu:benzene_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41FC0BFDF9BAD87B"]
+			id: "7441BAB26BBF6D92"
+			tasks: [{
+				id: "0C96F58A3A3E3230"
+				type: "checkmark"
+			}]
+			title: "Benzene"
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"485FB969DD30C109"
+				"57A47CB7CEE0A534"
+			]
+			id: "65AAF8848295671A"
+			tasks: [{
+				id: "7F7EAAE24224D0F1"
+				item: "gtceu:nitrobenzene_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6119F4DB4429FC79"
+				"2E97D8864C293D94"
+			]
+			id: "1B0FC3B219401D68"
+			subtitle: "Very good!"
+			tasks: [
+				{
+					id: "21D6D1A3443D4C17"
+					item: "gtnn:large_naquadah_reactor"
+					type: "item"
+				}
+				{
+					id: "531875E2F111C8E0"
+					item: "gtceu:thorium_based_liquid_fuel_excited_bucket"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7441BAB26BBF6D92"]
+			id: "2E97D8864C293D94"
+			tasks: [{
+				id: "16715964F3B560E7"
+				type: "checkmark"
+			}]
+			title: "Naquadah Reactor"
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6119F4DB4429FC79"]
+			id: "797E7CA76CCF9207"
+			tasks: [{
+				id: "4AC40016D1D5CF12"
+				item: "kubejs:zpm_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["26DADE19E7D22386"]
+			id: "682148782958E4D1"
+			tasks: [{
+				id: "444DA6B55E408F0E"
+				title: "check"
+				type: "checkmark"
+			}]
+			title: "Fuwusion"
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6119F4DB4429FC79"
+				"682148782958E4D1"
+			]
+			description: ["Let the spam commence!"]
+			id: "5C2A406FBF904B97"
+			subtitle: "Fuwusion"
+			tasks: [{
+				id: "79C17EAD12EB2933"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"5C2A406FBF904B97"
+				"797E7CA76CCF9207"
+			]
+			id: "3E5830F44B49E7C5"
+			tasks: [
+				{
+					id: "06F9BE0268E15F1B"
+					item: "gtceu:helium_plasma_bucket"
+					type: "item"
+				}
+				{
+					id: "1DD4CE56D052A16E"
+					item: "gtceu:plasma_large_turbine"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["797E7CA76CCF9207"]
+			id: "5DC3AAE46699739A"
+			tasks: [{
+				id: "4FC2438AB06F52E9"
+				item: "kubejs:uv_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5DC3AAE46699739A"]
+			id: "2084EFC4F1B004EB"
+			tasks: [{
+				id: "1A0F34CD1B71121A"
+				item: "kubejs:uhv_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"3E5830F44B49E7C5"
+				"5DC3AAE46699739A"
+			]
+			id: "26E202865EBCB80E"
+			tasks: [{
+				id: "3858998B910120BB"
+				item: "gtceu:tin_plasma_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"26E202865EBCB80E"
+				"2084EFC4F1B004EB"
+			]
+			id: "7325EB9F76B291E3"
+			tasks: [{
+				id: "433A304D537FF67E"
+				item: "gtceu:americium_plasma_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"7325EB9F76B291E3"
+				"205EE2560040CB52"
+			]
+			id: "4D034A17F88B3A0D"
+			subtitle: "TBA"
+			tasks: [{
+				id: "2383A4FC0E0D472F"
+				item: "gtca:celestial_tungsten_plasma_plasma_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2084EFC4F1B004EB"]
+			id: "205EE2560040CB52"
+			tasks: [{
+				id: "6CA786F5F73FE23B"
+				item: "kubejs:uev_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1B0FC3B219401D68"]
+			id: "20A08529C5146FEE"
+			tasks: [{
+				id: "325EAF7DCF514885"
+				item: "gtceu:uranium_based_liquid_fuel_excited_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["20A08529C5146FEE"]
+			id: "0A8D57E2F0B0E70B"
+			tasks: [{
+				id: "7AF1CCD9C1054D09"
+				item: "gtceu:plutonium_based_liquid_fuel_excited_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0A8D57E2F0B0E70B"]
+			id: "1F3D22F115E49AEC"
+			tasks: [{
+				id: "36C7E03DCF82F3BC"
+				item: "gtceu:naquadah_based_liquid_fuel_excited_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7930684240ADB30D"]
+			id: "41FC0BFDF9BAD87B"
+			tasks: [{
+				id: "22FB7AB1EA0392DE"
+				title: "Gasoline"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"57A47CB7CEE0A534"
+				"4DE04E0C55102B91"
+			]
+			id: "4370AEE7823D41E1"
+			subtitle: "Super Steam!"
+			tasks: [{
+				id: "7B13F73144D42086"
+				item: "gtca:extreme_heat_exchanger"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4370AEE7823D41E1"
+				"6119F4DB4429FC79"
+			]
+			id: "09B4AEDD9B73A3A2"
+			subtitle: "Iron Plasma is the best"
+			tasks: [{
+				id: "7E3E8F9828B43ABA"
+				item: "gtca:shd_turbine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			icon: "gtceu:luv_electric_motor"
+			id: "50BB06DE2BF02D9A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "18DB6A60BDA3C0CB"
+				title: "LuV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: "gtceu:zpm_electric_motor"
+			id: "2D5B6C0D0574BE48"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "29B445E52DE9E8FE"
+				title: "ZPM"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			icon: "gtceu:uv_electric_motor"
+			id: "6DA3E0FF4E421AEC"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "253B286DD83341B8"
+				title: "UV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			icon: "gtceu:uhv_electric_motor"
+			id: "013FCA6AB880961D"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "326909F88A803E40"
+				title: "UHV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+	]
+	subtitle: ["Powering Meltdowns"]
+	title: "Energy Generation"
+}

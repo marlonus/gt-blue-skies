@@ -1,0 +1,319 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zero_point_module"
+	group: "39117F9F1F55A7DB"
+	icon: "gtceu:quantum_processor_mainframe"
+	id: "032408288BAFE6BB"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/zpm_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["578536A1E5B0F26C"]
+			id: "1399E47C5BA441CA"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Deadly for braincells"
+			tasks: [{
+				id: "582876DFD1F1409E"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1399E47C5BA441CA"]
+			id: "07EDEC46AE1F8DD0"
+			subtitle: "You need lots of europium."
+			tasks: [{
+				id: "31FF1CECE88873F8"
+				item: "gtceu:zpm_electric_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1399E47C5BA441CA"]
+			id: "4BB13873860B78EC"
+			tasks: [{
+				id: "7A4CE99993F54090"
+				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4BB13873860B78EC"]
+			id: "5B477FA3A406F4B3"
+			tasks: [{
+				id: "220565A48C562C2F"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5B477FA3A406F4B3"
+				"1399E47C5BA441CA"
+			]
+			id: "4074A8993222A9B3"
+			tasks: [{
+				id: "62F05B436ACED465"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07EDEC46AE1F8DD0"]
+			id: "0FAB762687893876"
+			tasks: [{
+				id: "6FB1931C8BC2FBE9"
+				item: "gtceu:zpm_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FAB762687893876"]
+			id: "0677FF9556F6868F"
+			tasks: [{
+				id: "56A5543F21840242"
+				item: "gtceu:zpm_energy_input_hatch"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4074A8993222A9B3"]
+			id: "5340E6596DB3A43B"
+			tasks: [{
+				id: "6BB1924C7C0B3F33"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5340E6596DB3A43B"]
+			id: "76F1EA82B158C6FC"
+			tasks: [{
+				id: "787B7F650CA46BEB"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76F1EA82B158C6FC"]
+			id: "333D7D3853B77726"
+			shape: "gear"
+			subtitle: "The first assline circuit."
+			tasks: [{
+				id: "6ED86AFE5F679835"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"333D7D3853B77726"
+				"0677FF9556F6868F"
+			]
+			id: "72E750DA15E118A7"
+			shape: "gear"
+			subtitle: "FUWUSION THE SECOND"
+			tasks: [{
+				id: "07BDBB7A96A5CD00"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FAB762687893876"]
+			id: "646C9682FDEEBF5D"
+			subtitle: "Over 9000"
+			tasks: [{
+				id: "32BA15B52EB61285"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72E750DA15E118A7"]
+			id: "403E767893760C91"
+			tasks: [{
+				id: "04B05465FBA956B7"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72E750DA15E118A7"]
+			id: "0701EE5EF521047E"
+			tasks: [{
+				id: "2BD621EF4B9D044E"
+				item: "gtceu:americium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72E750DA15E118A7"]
+			id: "751BF83615C3099C"
+			tasks: [{
+				id: "6B684836AB75FFFB"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["333D7D3853B77726"]
+			id: "55E15A45E60711C3"
+			subtitle: "Amazing"
+			tasks: [{
+				id: "727743630C08A034"
+				item: "gtceu:zpm_parallel_hatch"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["646C9682FDEEBF5D"]
+			id: "79BBF26B816A3833"
+			subtitle: "Fun!"
+			tasks: [{
+				id: "104CB4F260344199"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"07EDEC46AE1F8DD0"
+				"5F3080C55A6BC88C"
+			]
+			id: "0065687BAFCCAE43"
+			subtitle: "PCBs in fast!"
+			tasks: [{
+				id: "42B5031AE8A74CEF"
+				item: "gtca:pcb_factory_mki"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["646C9682FDEEBF5D"]
+			description: ["Uses protons, neutrons and electrons."]
+			id: "194F65951F0E65CC"
+			subtitle: "Insanely costly, insanely cool"
+			tasks: [{
+				id: "0A9D485D79D5CC76"
+				item: "gtca:tegmark_forge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["194F65951F0E65CC"]
+			id: "7CA3DF2983C7A5FE"
+			tasks: [{
+				id: "38BEAADE69FA9E10"
+				item: "gtca:ohriharukon_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7CA3DF2983C7A5FE"]
+			id: "5F3080C55A6BC88C"
+			tasks: [{
+				id: "783C968F996C5906"
+				item: "gtca:stellar_alloy_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5F3080C55A6BC88C"
+				"1399E47C5BA441CA"
+			]
+			description: ["Makes specific things in huge masses."]
+			id: "5CADB5A086A8069B"
+			subtitle: "This is fucking crazy"
+			tasks: [{
+				id: "2853C0F43AF01809"
+				item: "gtceu:wtf_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["79BBF26B816A3833"]
+			id: "7573AFC6C8586CA4"
+			subtitle: "Not the last :)"
+			tasks: [{
+				id: "679411BCB7060D4A"
+				item: "gtceu:neutronium_boule"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72E750DA15E118A7"]
+			id: "26D191F70A15AC52"
+			subtitle: "The UV Casing Material"
+			tasks: [{
+				id: "4A4307A48F6976C6"
+				item: "gtceu:biovoid_alloy_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+	]
+	subtitle: [
+		"I still don't know why its called this way."
+		"(Crying inside)"
+	]
+	title: "&aZero Point Module (ZPM)"
+}

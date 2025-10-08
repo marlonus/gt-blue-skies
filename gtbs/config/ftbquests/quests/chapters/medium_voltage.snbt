@@ -1,0 +1,678 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "medium_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: "gtceu:good_electronic_circuit"
+	id: "305783A3375A145A"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/mv_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -5.0d
+		y: 0.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5F1FE3E76052443B"]
+			description: [""]
+			id: "0F547361F108D811"
+			rewards: [{
+				count: 4
+				id: "6A0E7425B925909B"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Welcome to MV!"
+			tasks: [{
+				id: "4836B58E324D8708"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E4FC14935CB3A6B"]
+			description: [
+				"1024 EU/t is insane!!"
+				""
+				"You only need 2 buckets of oxygen to kickstart the process."
+				""
+				"[ \"If you haven't set up \", { \"text\": \"Silicon Dioxide\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5488D426951874B5\" } }, \" processing yet, do so!\" ]"
+				""
+				"You can add up to 4 Dynamo hatches on this."
+			]
+			id: "46A078C3F2F23C21"
+			rewards: [{
+				count: 4
+				id: "1C5D9C72569B3E16"
+				item: "gtceu:mv_energy_output_hatch"
+				type: "item"
+			}]
+			subtitle: "The real deal"
+			tasks: [{
+				id: "488A10C9D7D5EB0E"
+				item: "gtceu:aromatic_combustion_reactor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E4FC14935CB3A6B"]
+			description: [
+				"Yeah, use it for this."
+				"You need to input coal tar this time."
+			]
+			id: "5BEE460115448824"
+			subtitle: "Remember the big drill?"
+			tasks: [{
+				id: "2A64F308B726751D"
+				item: "gtceu:ferranite_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E4FC14935CB3A6B"]
+			id: "11C8D9213535C5DE"
+			subtitle: "For your AE2 Circuits."
+			tasks: [{
+				id: "4BC4F484C9F9302B"
+				item: "gtceu:large_inscriber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E4FC14935CB3A6B"]
+			description: [
+				"You can use any borderless lamp."
+				""
+				"Creates minerals for you in bulk."
+				""
+				"Use the ME output things I gave you for one of these. You will get 2 more very soon."
+			]
+			id: "262F6541A7DF5FB7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AD494BC002C3859"
+					table_id: 2406338149809736145L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E0E8557D14FCFF6"
+					table_id: 2406338149809736145L
+					type: "choice"
+				}
+				{
+					id: "7070D4A3EC0CB618"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+				{
+					id: "1A2F1B05D46CFA4D"
+					item: "gtceu:me_output_hatch"
+					type: "item"
+				}
+			]
+			subtitle: "Not an eye of harmony"
+			tasks: [{
+				id: "2BBE98848B38A985"
+				item: "gtceu:astral_extractor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11C8D9213535C5DE"]
+			id: "5F69C2BE47169932"
+			subtitle: "Create the AE2 stuff!"
+			tasks: [
+				{
+					id: "381AADC402F8CC56"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					id: "0455B5B45BE03116"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "14E49D3B9EC8724D"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			title: "Processors"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["262F6541A7DF5FB7"]
+			description: ["The ME hatches and busses are there so you dont need to make 50 normal variants."]
+			id: "5B193345D76EFC8E"
+			rewards: [
+				{
+					id: "666A4B21A907F495"
+					item: "gtceu:me_output_hatch"
+					type: "item"
+				}
+				{
+					id: "34C1A1A9E4608586"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+				{
+					id: "651E7EC356365D5C"
+					item: "gtceu:me_input_bus"
+					type: "item"
+				}
+				{
+					id: "064541B4383AF1E4"
+					item: "gtceu:me_input_hatch"
+					type: "item"
+				}
+			]
+			subtitle: "Mass Materials!"
+			tasks: [{
+				id: "57368A056649FE87"
+				item: "gtceu:large_mineral_extractor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F547361F108D811"]
+			description: ["With the easy resources its bearable though. Just make a lot."]
+			id: "2B5E23771D169F72"
+			subtitle: "You are going to hate this too."
+			tasks: [{
+				id: "2607EE91C4580F8C"
+				item: "gtceu:mv_electric_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B5E23771D169F72"]
+			description: ["Way better"]
+			id: "73A12248962A15BF"
+			tasks: [{
+				id: "320D2B2996996082"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B5E23771D169F72"]
+			id: "216169D2119F4424"
+			tasks: [{
+				id: "59B0176034812606"
+				item: "gtceu:mv_sifter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["216169D2119F4424"]
+			id: "6B40EC12AE8FD4BB"
+			subtitle: "Diabolical Crafting Recipe"
+			tasks: [{
+				id: "60801404C2B69554"
+				item: "gtceu:mv_emitter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B40EC12AE8FD4BB"]
+			id: "72487F0E305AECE8"
+			subtitle: "Use the lenses"
+			tasks: [{
+				id: "640F008DACDCB02B"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B40EC12AE8FD4BB"]
+			id: "6363FDE91EF1051F"
+			subtitle: "Make the lenses"
+			tasks: [{
+				id: "62A1BD31D00603E8"
+				item: "gtceu:mv_lathe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"72487F0E305AECE8"
+				"6363FDE91EF1051F"
+				"3A8B4132F35B8EDC"
+			]
+			id: "4CDE21F97A5FD911"
+			subtitle: "Make a Monocrystalline Silicon Boule, Cut it, engrave it and cut it again."
+			tasks: [{
+				id: "0F717E4088EBFC8A"
+				item: "gtceu:ilc_chip"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CDE21F97A5FD911"]
+			description: [
+				"Better LV Circuits."
+				""
+				"Some may think this is actually harder, but it really isn't. The total resource cost always lowers from tier to tier!&l"
+			]
+			id: "461C5C1FEBEA5498"
+			subtitle: "Make soldering alloy!"
+			tasks: [{
+				id: "06095E0B47AB1B2F"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["461C5C1FEBEA5498"]
+			id: "799172381991A216"
+			subtitle: "A better MV Circuit!"
+			tasks: [{
+				id: "208FEA9293F03941"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"48E1CA9062C40669"
+				"5B3E1BC401814105"
+			]
+			description: [
+				"The hardest yet."
+				""
+				"I mean circuits."
+			]
+			id: "14A29DC94EFCEC09"
+			subtitle: "HV!"
+			tasks: [{
+				id: "199132EAB967AE0A"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["799172381991A216"]
+			id: "5B3E1BC401814105"
+			subtitle: "64 Gigabytes of DDR5"
+			tasks: [{
+				id: "1F1462FDB3358CBE"
+				item: "gtceu:ram_chip"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"799172381991A216"
+				"1BDFF843D20E82C8"
+			]
+			description: ["If not... then I immediately force you to do so now."]
+			id: "48E1CA9062C40669"
+			subtitle: "I hope you made Polyethylene."
+			tasks: [{
+				id: "0ADD7F725823838E"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4420102F82D5BD8A"]
+			description: [""]
+			id: "38F6476994DA8775"
+			subtitle: "You need this!"
+			tasks: [{
+				id: "33F8AF8122809B55"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F547361F108D811"]
+			id: "7E4FC14935CB3A6B"
+			subtitle: "Mostly important. Not mostly. Very."
+			tasks: [{
+				id: "6D03A2928B411241"
+				title: "Notable things!"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73A12248962A15BF"]
+			id: "70E7896D1375C9E1"
+			subtitle: "Actually one of the most important things each tier."
+			tasks: [{
+				id: "2491DD467A5E3F22"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70E7896D1375C9E1"]
+			description: [
+				"You can't make a vacuum freezer yet, so dipping hot ingots in water should do the job well enough."
+				""
+				"You should use distilled water if possible!"
+			]
+			id: "4420102F82D5BD8A"
+			subtitle: "Hot ingots?"
+			tasks: [{
+				id: "56AB60E609BB58C1"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			title: "Kanthal"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38F6476994DA8775"]
+			id: "1BDFF843D20E82C8"
+			subtitle: "Higher temperatures inbound!"
+			tasks: [{
+				id: "42BAD6CCBAF2A85A"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70E7896D1375C9E1"]
+			id: "562EE3BB2A9F5323"
+			subtitle: "You can now make soooo many ACRs!"
+			tasks: [{
+				id: "6E2146944D0D7631"
+				title: "More Power"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B5E23771D169F72"]
+			id: "651FA2E91C558FE7"
+			subtitle: "Mixes faster or something."
+			tasks: [{
+				id: "57ED7B37B6346B56"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["651FA2E91C558FE7"]
+			description: ["You will probably rule this out as your No.1 Enemy. But you will do so with every tier material."]
+			id: "133EE39C3F828621"
+			subtitle: "Become well acquainted with this!"
+			tasks: [{
+				id: "2B99168C75A7D9EC"
+				item: "gtceu:stainless_steel_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["133EE39C3F828621"]
+			description: ["Not anymore anyway"]
+			id: "1954CD321AFFFDC0"
+			subtitle: "HV Materials!"
+			tasks: [{
+				id: "7464CF3AB40B6435"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["150123472526783E"]
+			id: "60F66059FB0507C0"
+			subtitle: "For even better machinery."
+			tasks: [{
+				id: "5A297E78DC89169F"
+				item: "gtceu:hv_machine_casing"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60F66059FB0507C0"]
+			description: [
+				"Speaking of rubber, make some new one! You can in MV, and you definetly should. Just because."
+				""
+				""
+				"{ \"text\": \"Speaking of...\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0569AB23DDD5B0AF\" } }"
+			]
+			id: "2B6FD5E2AB498769"
+			subtitle: "Just so you can embrace synthetic rubbers."
+			tasks: [{
+				id: "57ECD956DFE065B9"
+				item: "gtceu:gold_single_cable"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45D111461433FC98"]
+			id: "3A8B4132F35B8EDC"
+			tasks: [{
+				id: "49029D2147EEE7B7"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62696C56CF67567B"]
+			id: "45D111461433FC98"
+			tasks: [{
+				id: "2ACEA9F832C13140"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["651FA2E91C558FE7"]
+			hide_dependency_lines: true
+			id: "62696C56CF67567B"
+			tasks: [{
+				id: "501E5AB923ED7B5D"
+				item: "gtceu:vanadium_steel_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["651FA2E91C558FE7"]
+			id: "21A2F36996386B11"
+			tasks: [{
+				id: "23C43F09A2574775"
+				item: "gtceu:black_matter_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21A2F36996386B11"]
+			description: [
+				"You will need this for rocket fuel."
+				""
+				"Watch out for the tiers though!"
+			]
+			id: "3F5B2DEB7AA69994"
+			subtitle: "GTNH my beloved"
+			tasks: [{
+				id: "5FCEEECEE8A26F40"
+				item: "gtnn:exxonmobil_chemical_plant"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["651FA2E91C558FE7"]
+			id: "44EDE717A76CBF45"
+			subtitle: "You'll need this for SMD stuff later."
+			tasks: [{
+				id: "21D50FA4978A3E83"
+				item: "gtceu:nickel_zinc_ferrite_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E4FC14935CB3A6B"]
+			id: "526F906555E02BE4"
+			tasks: [{
+				id: "7871B015E7834C82"
+				item: "gtexolegs:mv_exoskeleton_legs"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1954CD321AFFFDC0"
+				"1A3E79A465BD8670"
+			]
+			id: "150123472526783E"
+			subtitle: "The HV Casing Material"
+			tasks: [{
+				id: "355F6A7FD19A51EE"
+				item: "gtceu:replicite_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2571DCE7334B2BDB"]
+			id: "094A23EB64DB55A5"
+			subtitle: "Clumps of... this"
+			tasks: [{
+				id: "230CCB6B2406A14F"
+				item: "replication:raw_replica"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3775F1E44D00478E"]
+			id: "2571DCE7334B2BDB"
+			subtitle: "The closest to pure matter for now"
+			tasks: [{
+				id: "7C7692757C0337CE"
+				title: "Replica Solution"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["094A23EB64DB55A5"]
+			id: "1A3E79A465BD8670"
+			subtitle: "A very weird material, seems to be able to shift into other things?"
+			tasks: [{
+				id: "2F7192918B92E400"
+				item: "replication:replica_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"651FA2E91C558FE7"
+				"21A2F36996386B11"
+			]
+			id: "3775F1E44D00478E"
+			subtitle: "Mixing random things with water seems to do the trick."
+			tasks: [{
+				id: "0D610C6AE953E77F"
+				title: "Matter Mixture"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2571DCE7334B2BDB"]
+			id: "2509B2B2CB3DC6BB"
+			tasks: [{
+				id: "53C91A08F6EB65FB"
+				title: "You get the black matter back"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+	]
+	subtitle: [
+		"Quadruple the Power, Octuple the problems."
+		"(Congrats! Your base now explodes faster!)"
+	]
+	title: "&4Medium Voltage (MV)"
+}

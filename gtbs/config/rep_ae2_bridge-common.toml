@@ -1,0 +1,13 @@
+#Whether to log the dirt block on common setup
+logDirtBlock = true
+#A magic number
+#Range: > 0
+magicNumber = 42
+#What you want the introduction message to be for the magic number
+magicNumberIntroduction = "The magic number is... "
+#Energy consumption of the bridge in AE/t
+#Range: > 0
+bridgeEnergyConsumption = 500
+#A list of items to log on common setup.
+items = ["minecraft:iron_ingot"]
+

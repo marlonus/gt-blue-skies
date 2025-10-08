@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "kubejs:coils/off/transcendental_void_coil_block"
+    },
+    "active=true": {
+      "model": "kubejs:coils/on/transcendental_void_coil_block"
+    }
+  }
+}

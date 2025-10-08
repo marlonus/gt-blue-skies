@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "kubejs:coils/off/tachyonic_lattice_coil_block"
+    },
+    "active=true": {
+      "model": "kubejs:coils/on/tachyonic_lattice_coil_block"
+    }
+  }
+}

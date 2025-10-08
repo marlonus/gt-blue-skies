@@ -1,0 +1,199 @@
+{
+	id: "216507CC44E149D1"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:cyan_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:purple_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:blue_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:brown_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:green_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:red_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:black_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:light_gray_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:gray_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:pink_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:lime_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:yellow_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:light_blue_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:magenta_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:orange_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				id: "gtceu:white_borderless_lamp"
+				tag: {
+					bloom: 1b
+					inverted: 1b
+					lit: 1b
+				}
+			}
+		}
+	]
+}

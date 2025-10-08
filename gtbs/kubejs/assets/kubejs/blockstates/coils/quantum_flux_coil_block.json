@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "kubejs:coils/off/quantum_flux_coil_block"
+    },
+    "active=true": {
+      "model": "kubejs:coils/on/quantum_flux_coil_block"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "processing_lines_uxvmax"
+	group: "486E15D011E2971A"
+	icon: "gtceu:large_chemical_reactor"
+	id: "21DD45F2A3423207"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Processing Lines UXV-MAX"
+}

@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "39117F9F1F55A7DB", title: "The 20 Stages of Grief" }
+		{ id: "143975462EE54071", title: "Dimensional Goals" }
+		{ id: "486E15D011E2971A", title: "Processing Lines" }
+		{ id: "1F64FD07622D29DF", title: "Other" }
+	]
+}

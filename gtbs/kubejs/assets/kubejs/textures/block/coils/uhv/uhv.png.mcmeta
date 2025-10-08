@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/coils/uhv/uhv_ctm"
+    }
+}

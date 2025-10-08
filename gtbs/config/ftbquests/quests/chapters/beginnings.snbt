@@ -1,0 +1,1259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beginnings"
+	group: "39117F9F1F55A7DB"
+	icon: "gtceu:vacuum_tube"
+	id: "3ABE874ADB411FFA"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/ulv_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3112610287AECDAB"]
+			description: [
+				"Look in the shop. You need multiblocks right?"
+				""
+				"Also, the maintenance hatch &lnever&r fails. I disabled that. Most vanilla GT multiblocks dont even need one."
+				"If some dont form, just add the hatch for good measure, and maybe that helps."
+				"(Dont need to do anything with it though, maintenance is fine forever)"
+				""
+				"The primitive multiblocks, even without consuming power, need a energy hatch."
+				""
+				"How does all this work? I don't know. But use it for your advantage."
+			]
+			id: "10EA45F4EFE23329"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Why the chest?"
+			tasks: [{
+				id: "40764DF33D1CD532"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "Welcome to the actual first chapter."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4479DDA816EA69D9"]
+			description: [
+				"Finally, minerals."
+				"They can all be input into the same furnace, it smelts fast enough!"
+			]
+			id: "715E37BE434BAA20"
+			subtitle: "The nice metals!"
+			tasks: [
+				{
+					id: "630BEDC06359528E"
+					item: "gtceu:iron_dust"
+					type: "item"
+				}
+				{
+					id: "27DDBE657799857C"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+				{
+					id: "338ACAD9F0842932"
+					item: "gtceu:copper_dust"
+					type: "item"
+				}
+				{
+					id: "75F0258759EFD05E"
+					item: "gtceu:lead_dust"
+					type: "item"
+				}
+				{
+					id: "6D0C0B10D4B2F8A0"
+					item: "gtceu:gold_dust"
+					type: "item"
+				}
+				{
+					id: "44CC0660EF145D87"
+					item: "gtceu:silver_dust"
+					type: "item"
+				}
+			]
+			title: "Metallic Dusts"
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5AB38FA51330D949"]
+			description: ["If you want to monitor your resources directly, use this!"]
+			id: "79690F452741D749"
+			optional: true
+			rewards: [
+				{
+					id: "1C4017A3C0EBDD12"
+					item: {
+						Count: 1
+						id: "functionalstorage:linking_tool"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4C259D7856DE6949"
+					item: "functionalstorage:configuration_tool"
+					type: "item"
+				}
+			]
+			subtitle: "Mass storage, without using AE2"
+			tasks: [
+				{
+					id: "7F42669E8661C9A1"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+				{
+					id: "399D95F6C0356449"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+				{
+					id: "4B117ADA1E1C7273"
+					item: "functionalstorage:storage_controller"
+					type: "item"
+				}
+			]
+			title: "Drawers"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"048BB48E77136A1E"
+				"4A2983A3CD384EED"
+			]
+			id: "7CF7D3A504D82725"
+			subtitle: "Crush your stones"
+			tasks: [{
+				id: "51E521F0DDB3F083"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CF7D3A504D82725"]
+			id: "6179BC57BEA4A5C1"
+			subtitle: "Crush it again"
+			tasks: [{
+				id: "623033359A077413"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6179BC57BEA4A5C1"]
+			id: "08B19207C866DA05"
+			subtitle: "This easily in a GT pack?"
+			tasks: [{
+				id: "4FB5A7B5C367DC9C"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AB38FA51330D949"]
+			description: ["You can get some barebones iron tools for cheap in the shop!"]
+			id: "63735BFF0C3093BB"
+			optional: true
+			subtitle: "Buy them!"
+			tasks: [{
+				id: "5E32F1D8C46AA514"
+				item: {
+					Count: 1
+					id: "gtceu:iron_wrench"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							Mode: 2b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Tools"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A644BCB3BFFA46F"]
+			description: [
+				"You can expand into other territories!"
+				""
+				"Automate it now, you can buy pipes with a few ingots!"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "5AB38FA51330D949"
+			subtitle: "Yay!"
+			tasks: [{
+				id: "693043770BB70EAD"
+				title: "Finally, resources"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AB38FA51330D949"]
+			description: [
+				"And trees. Dont question it."
+				""
+				"Dont lose the saplings and seeds!"
+			]
+			id: "4D4B15FF2CC94FA7"
+			rewards: [
+				{
+					id: "3A2C802D8D3274E9"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "067BAA04ABC54F9C"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "3A661DCE9DA205CE"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					id: "3951DE6A58A85F23"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+				{
+					id: "3304EB0919E80935"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "6D800A569AE3D5BC"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+				{
+					id: "363A85261A3E9FF4"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "77EC272563F64AF1"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "0F0E7ECAC915E5F6"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					id: "1ACA143156B4DCB0"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "2DB8ECCF5FE3734D"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "31C9A0B6351236D7"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "Farming Crops!"
+			tasks: [
+				{
+					id: "532EDC13700C8CEE"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+				{
+					id: "3C73E4A2FA4198BB"
+					item: "gtceu:primitive_greenhouse"
+					type: "item"
+				}
+			]
+			title: "Primitive Greenhouse"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5AB38FA51330D949"]
+			id: "626108ED9312BF52"
+			subtitle: "Mixes stuff. Its simple."
+			tasks: [{
+				id: "6A6349EF1D809BAF"
+				item: "gtceu:primitive_mixer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["626108ED9312BF52"]
+			description: [
+				"To craft them faster, make a project red timer and a crafter! Crafters are backported in this pack."
+				""
+				"Feed the crafter the resources for firebricks and let a redstone signal craft it there! It outputs into containers it faces, or just the ground."
+			]
+			id: "60195B944B622267"
+			subtitle: "For the LPBF and Large Coke Oven"
+			tasks: [{
+				id: "43EF6059AA71D558"
+				item: "gtceu:firebricks"
+				type: "item"
+			}]
+			title: "Firebricks"
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D4B15FF2CC94FA7"]
+			description: ["Powering up a LPBF is not the easiest task."]
+			id: "370F48D50E5D1DFD"
+			subtitle: "You need some for charcoal and creosote."
+			tasks: [{
+				count: 128L
+				id: "0436871CB23A1F05"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Debark Log"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"60195B944B622267"
+				"370F48D50E5D1DFD"
+			]
+			description: [
+				"LPBFs create huge amounts of ingots of steel in a blast. Pun definetly intended."
+				""
+				"The large coke oven is a must, you can feed tons of charcoal that way!"
+			]
+			id: "0F55EDF7592646EC"
+			subtitle: "Finally."
+			tasks: [
+				{
+					id: "41015CBA68A9FD12"
+					item: "gtceu:large_primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "58F507BE640F9276"
+					item: "gtceu:large_coke_oven"
+					type: "item"
+				}
+			]
+			title: "LPBF and LCO"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F55EDF7592646EC"]
+			id: "6C7EC75716904FB0"
+			subtitle: "This really is a breakthrough."
+			tasks: [
+				{
+					count: 64L
+					id: "7CD4A0FE7E10F85A"
+					item: { Count: 64, id: "gtceu:treated_wood_planks" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "617BA6420DC857B9"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+			]
+			title: "Treated wood and Steel!"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C7EC75716904FB0"]
+			description: ["Beware of the steel shortage!"]
+			id: "60E327B13E0D4064"
+			subtitle: "This costs a ton."
+			tasks: [{
+				id: "4A9E4AE50578D39D"
+				item: "gtceu:solid_machine_casing"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F55EDF7592646EC"]
+			description: ["Void the excess. Add the fluid voiding upgrade from this reward, set it to a threshold it should void after reaching, and youre set."]
+			id: "4E30D09AD087E283"
+			rewards: [{
+				id: "7708D3D4FED3269D"
+				item: "gtceu:advanced_fluid_voiding_cover"
+				type: "item"
+			}]
+			subtitle: "Store your Creosote"
+			tasks: [{
+				id: "2E79E092AEB12742"
+				item: "gtceu:wooden_multiblock_tank"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EBE98282D5F16E7"]
+			description: ["Yes."]
+			id: "54B9B23307A4172C"
+			subtitle: "All this for that?"
+			tasks: [{
+				id: "130D773731E8A88E"
+				item: "gtceu:lv_machine_casing"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54B9B23307A4172C"]
+			id: "61E7A4FD93833723"
+			subtitle: "I cant resist"
+			tasks: [{
+				id: "7EFFB4F14F736587"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C7EC75716904FB0"]
+			description: ["ULV Circuits for you!"]
+			id: "5D9764FAF6CB556F"
+			subtitle: "Very advanced for now"
+			tasks: [{
+				id: "71BD83FD5CA7CAAC"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54B9B23307A4172C"]
+			id: "3786451BE929C93B"
+			subtitle: "Wires on a piece of sticky wood"
+			tasks: [{
+				id: "3D8265200C76809A"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3786451BE929C93B"
+				"61E7A4FD93833723"
+			]
+			description: [
+				"You need TONS of these. Batch crafting galore!"
+				""
+				"Onward to another quest chapter."
+			]
+			id: "5A1A751A2E8AA6DE"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "First Circuitry"
+			tasks: [{
+				id: "4910C7A2D0DDBB5E"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A1A751A2E8AA6DE"]
+			description: [
+				"This machine is capable of making many new materials, assuming you input the correct stuff."
+				""
+				"You will need it to get morovium first."
+			]
+			id: "24101BBBE0434986"
+			rewards: [
+				{
+					count: 128
+					id: "07E1A6D84DFF0281"
+					item: "gtceu:steel_frame"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "415CAE838C775606"
+					item: "gtceu:bronze_frame"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "752B059E5276BE48"
+					item: "gtceu:lv_machine_casing"
+					type: "item"
+				}
+			]
+			subtitle: "Another big multiblock?"
+			tasks: [{
+				id: "2AEA8896F6381580"
+				item: "gtceu:voidpiercer_drill_engine"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A1A751A2E8AA6DE"]
+			description: [
+				"How this works? Im unsure. Takes power!"
+				"You can add a parallel hatch later."
+				""
+				"That chest contains every vanilla flower, grow them infinitely!"
+			]
+			id: "5C69DFD6466276E9"
+			rewards: [{
+				id: "1DD270FE99E29911"
+				item: {
+					Count: 1
+					id: "minecraft:chest"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "minecraft:dandelion"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "minecraft:poppy"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "minecraft:blue_orchid"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "minecraft:lilac"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "minecraft:rose_bush"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "minecraft:peony"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "minecraft:pink_tulip"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "minecraft:white_tulip"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "minecraft:orange_tulip"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "minecraft:red_tulip"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "minecraft:azure_bluet"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "minecraft:allium"
+								}
+								{
+									Count: 1b
+									Slot: 12b
+									id: "minecraft:sunflower"
+								}
+								{
+									Count: 1b
+									Slot: 13b
+									id: "minecraft:lily_of_the_valley"
+								}
+								{
+									Count: 1b
+									Slot: 14b
+									id: "minecraft:cornflower"
+								}
+								{
+									Count: 1b
+									Slot: 15b
+									id: "minecraft:oxeye_daisy"
+								}
+							]
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "For even faster growing!"
+			tasks: [{
+				id: "5183744EC758FA31"
+				item: "gtceu:large_greenhouse"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A1A751A2E8AA6DE"]
+			description: [""]
+			id: "4E8BEF66AB702AE7"
+			subtitle: "The old one was slow."
+			tasks: [{
+				id: "31AF3A7E7ABA79D6"
+				item: "gtceu:industrial_pbf"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["10EA45F4EFE23329"]
+			id: "543A726E02B9E737"
+			optional: true
+			rewards: [
+				{
+					command: "/gamerule doDayLightCycle false"
+					console: true
+					elevate_perms: true
+					id: "5BDF50C2408AD9E9"
+					title: "Disable"
+					type: "command"
+				}
+				{
+					command: "/gamerule doDaylightCycle true"
+					console: true
+					elevate_perms: true
+					id: "6C70CBC033A2E613"
+					title: "Enable"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "527135166732D930"
+				title: "Disable Daylight Cycle"
+				type: "checkmark"
+			}]
+			title: "Daylight Cycle"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["10EA45F4EFE23329"]
+			id: "72A2D82F610900FF"
+			optional: true
+			rewards: [
+				{
+					command: "/gamerule doWeatherCycle false"
+					console: true
+					elevate_perms: true
+					id: "3889F3F0A6328FBF"
+					title: "Disabled"
+					type: "command"
+				}
+				{
+					command: "/gamerule doWeatherCycle true"
+					id: "1EA81F3BC70B9993"
+					title: "Enable"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1AD5F719FF07E669"
+				title: "Weather Cycle"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["10EA45F4EFE23329"]
+			id: "47C03CDBE94BF601"
+			optional: true
+			rewards: [
+				{
+					command: "/time set noon"
+					console: true
+					elevate_perms: true
+					id: "674CCBC842A423B7"
+					title: "Noon"
+					type: "command"
+				}
+				{
+					command: "/time set night"
+					console: true
+					elevate_perms: true
+					id: "620F54F2914BDDBF"
+					title: "Night"
+					type: "command"
+				}
+				{
+					command: "/time set midnight"
+					console: true
+					elevate_perms: true
+					id: "63E804777D85CEB7"
+					title: "Midnight"
+					type: "command"
+				}
+				{
+					command: "/time set day"
+					console: true
+					elevate_perms: true
+					id: "6112D7A2ED6A905B"
+					title: "Day"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0632AB963EBEDC26"
+				title: "Time"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["10EA45F4EFE23329"]
+			id: "43F0ED4800FB62ED"
+			optional: true
+			rewards: [
+				{
+					command: "/weather clear"
+					console: true
+					elevate_perms: true
+					id: "35F71E4EA75862B7"
+					title: "Clear"
+					type: "command"
+				}
+				{
+					command: "/weather rain"
+					console: true
+					elevate_perms: true
+					id: "6DAA5374417F303C"
+					title: "Rain"
+					type: "command"
+				}
+				{
+					command: "/weather thunder"
+					id: "73C4201D2121AD59"
+					title: "Thunder"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6483A7BD87801D15"
+				title: "Weather"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6E038813BADCA71C"
+				"168AD3B2A75FA995"
+			]
+			id: "1EBE98282D5F16E7"
+			subtitle: "Thought casings were so simple? Think again!"
+			tasks: [{
+				id: "665B78C3FC23A43C"
+				item: "gtceu:aethersteel_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EC91005E45969CF"]
+			description: ["You can also get weird ores aside from stone. May be useful now."]
+			id: "3D4B0D7D332B4BCB"
+			subtitle: "Does what its name implies"
+			tasks: [{
+				id: "587159823C20FE4D"
+				item: "gtceu:primitive_drill"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60E327B13E0D4064"]
+			description: [
+				"You need a special machine for now. The blast furnace you got is simply not enough."
+				""
+				"Later on you can use the EBF."
+			]
+			id: "6E038813BADCA71C"
+			subtitle: "Aethersteel is not easy to smelt"
+			tasks: [{
+				id: "4BAC4ED7F1EA9E5F"
+				item: "gtceu:aetherproof_furnace"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D9764FAF6CB556F"]
+			description: ["Now go on towards the processing lines quest chapter of this tier."]
+			id: "168AD3B2A75FA995"
+			subtitle: "Another processing line for good measure"
+			tasks: [{
+				id: "4368D62899E59B4B"
+				title: "aetheric compound"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D4B0D7D332B4BCB"]
+			id: "048BB48E77136A1E"
+			subtitle: "Your pickaxe got a well deserved break"
+			tasks: [{
+				id: "797ABB7C55C66018"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D4B0D7D332B4BCB"]
+			id: "4A2983A3CD384EED"
+			subtitle: "No smelting!"
+			tasks: [{
+				id: "32A264532C145083"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D4B0D7D332B4BCB"]
+			id: "06FE0FF22C6BAC7B"
+			subtitle: "Weird"
+			tasks: [{
+				id: "77B2A9E525FAD706"
+				item: "gtceu:crushed_void_conglomerate_ore"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D4B0D7D332B4BCB"]
+			id: "0E2A67BFB37A5EE7"
+			subtitle: "A macerator for poor people"
+			tasks: [{
+				id: "321CC6CEF9D5D9B0"
+				item: "gtceu:primitive_macerator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10EA45F4EFE23329"]
+			id: "3EC91005E45969CF"
+			rewards: [{
+				count: 32
+				id: "0BE8614FB3E25332"
+				item: "gtceu:wood_frame"
+				type: "item"
+			}]
+			subtitle: "A very cheap casing for very cheap machines."
+			tasks: [{
+				id: "730072993E42BA87"
+				item: "kubejs:crude_casing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0E2A67BFB37A5EE7"
+				"06FE0FF22C6BAC7B"
+			]
+			id: "4200F90FE54CE282"
+			subtitle: "It wasnt crushed enough"
+			tasks: [{
+				id: "4839AD47D75CD5EC"
+				item: "gtceu:impure_void_conglomerate_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4200F90FE54CE282"
+				"08B19207C866DA05"
+			]
+			description: ["Takes the chunks and sifts them! You can seperate stuff using it."]
+			id: "6F69CD3517F9BB1D"
+			subtitle: "Not manually operated!"
+			tasks: [{
+				id: "2A366F5513E1CEE9"
+				item: "gtceu:primitive_sifter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"12F07FDF8D571151"
+				"21F88F1700D7A6B5"
+			]
+			id: "29B72937E720AF98"
+			subtitle: "Imbues things with heat. Sometimes called a oven."
+			tasks: [{
+				id: "3AFEBC726555E026"
+				item: "gtceu:ashen_kiln"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F69CD3517F9BB1D"]
+			id: "12F07FDF8D571151"
+			tasks: [{
+				id: "60D14470DF5DC98C"
+				item: "gtceu:unprepared_void_conglomerate_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F69CD3517F9BB1D"]
+			icon: "gtceu:shining_residue_bucket"
+			id: "41455F36889CCC87"
+			subtitle: "May contain goodies in form of gems."
+			tasks: [{
+				id: "1E982F8852B7BD96"
+				title: "Shining Residue"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6179BC57BEA4A5C1"]
+			id: "1741693A9649557B"
+			subtitle: "Water does its thing"
+			tasks: [{
+				id: "04589447CBBF8FFF"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6179BC57BEA4A5C1"]
+			id: "32030655B463E076"
+			tasks: [{
+				id: "3957D350027C2E42"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1741693A9649557B"]
+			id: "0FBCA67D99BC8B7B"
+			subtitle: "Useful sometimes."
+			tasks: [{
+				id: "42CD22E61454AE85"
+				item: "minecraft:terracotta"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["32030655B463E076"]
+			id: "21F88F1700D7A6B5"
+			subtitle: "Looks great and endures great."
+			tasks: [{
+				id: "132097E5640ECF4F"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"29B72937E720AF98"
+				"00B0C39A4D850EA0"
+			]
+			id: "048EC90125852926"
+			subtitle: "You need a calcium catalyst."
+			tasks: [{
+				id: "3A3897A11F264813"
+				item: "gtceu:calcined_void_conglomerate_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["591E1A32BB9E97CC"]
+			description: ["Not needed in huge quantities, its renewable."]
+			id: "00B0C39A4D850EA0"
+			subtitle: "A catalyst for this."
+			tasks: [{
+				id: "4EBC028C88918D2A"
+				item: "gtceu:calcium_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FBCA67D99BC8B7B"]
+			description: ["Done automatically later."]
+			id: "3B256D1EF7BAC220"
+			subtitle: "Terracotta contains a little bone remains"
+			tasks: [{
+				id: "3E0846D33CB1C097"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B256D1EF7BAC220"]
+			id: "591E1A32BB9E97CC"
+			subtitle: "What are bones made of? (Not that hard of a question)"
+			tasks: [{
+				id: "5A49A68AD1AAB08B"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["048EC90125852926"]
+			id: "58C89607396C6833"
+			subtitle: "Water strikes again!"
+			tasks: [{
+				id: "68222578FA3B618A"
+				item: "gtceu:washing_basin"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"58C89607396C6833"
+				"535DDCFAEF7E9D32"
+			]
+			icon: "gtceu:prepared_void_conglomerate_mixture_bucket"
+			id: "1D6CC679BF3D567D"
+			tasks: [{
+				id: "29E397613DA06406"
+				title: "Prepared Void Conglomerate Mixture"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["535DDCFAEF7E9D32"]
+			id: "597B8AC1972CB9D3"
+			rewards: [{
+				id: "309B1AA9C13E0B0F"
+				item: "gtceu:lv_super_tank"
+				type: "item"
+			}]
+			subtitle: "The Calcium is brought back!"
+			tasks: [{
+				id: "4BF5DA34A81E6744"
+				item: "gtceu:quicklime_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58C89607396C6833"]
+			description: ["You need a atmospheric electrolyzer."]
+			icon: "gtceu:sludgy_residue_bucket"
+			id: "535DDCFAEF7E9D32"
+			subtitle: "Contains trace minerals."
+			tasks: [{
+				id: "7A534D7D558646BA"
+				title: "Sludgy Residue"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1D6CC679BF3D567D"
+				"41455F36889CCC87"
+			]
+			description: [
+				"You can use the magnetic fields of this planet to locally create a little energy to electrolyze this stuff."
+				"Also explains the northern lights at night."
+			]
+			id: "203FCEB676AE9F05"
+			subtitle: "Electrolyzing.. without the electro part?"
+			tasks: [{
+				id: "2176CED4AE4040D2"
+				item: "gtceu:atmospheric_electrolyzer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["203FCEB676AE9F05"]
+			id: "703774264753C1E7"
+			tasks: [{
+				id: "6B4DE84BC72F44B5"
+				item: "gtceu:heavy_void_conglomerate_dust"
+				type: "item"
+			}]
+			title: "Heavy Void Conglomerate Dust"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["203FCEB676AE9F05"]
+			id: "3D45D2F1CB25342D"
+			tasks: [{
+				id: "4F2086903257EF16"
+				item: "gtceu:light_void_conglomerate_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["203FCEB676AE9F05"]
+			id: "7BDE95AF71299A20"
+			tasks: [{
+				id: "6B8BADC1B8A22F87"
+				title: "Gems and stuff"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"703774264753C1E7"
+				"3D45D2F1CB25342D"
+			]
+			id: "4479DDA816EA69D9"
+			tasks: [{
+				id: "2CCB18D612E1717A"
+				item: "gtceu:centrifugal_seperator"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["715E37BE434BAA20"]
+			description: ["Almost all. This thing just does a few recipes, but those are fast!"]
+			id: "5A644BCB3BFFA46F"
+			subtitle: "For all your furnace needs."
+			tasks: [{
+				id: "1BCBB09CC5392001"
+				item: "gtceu:primitive_smeltery"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Honestly, this is not ULV."]
+	title: "&4Ultra Low Voltage (ULV)"
+}

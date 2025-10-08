@@ -1,0 +1,1097 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimension_hopping"
+	group: "143975462EE54071"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
+	}
+	id: "16D33226F793C47F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5AFABE7C6A8C9105"
+				"121E71F8A99177C4"
+			]
+			description: [
+				"No gru, dont steal it!"
+				""
+				"HV!"
+			]
+			id: "277D6B569DEE35FD"
+			subtitle: "To the moon!"
+			tasks: [{
+				id: "688CE171F4BD7316"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: ["\"Your barren beginning — flat, empty, unforgiving. All progress starts here.\""]
+			icon: "ad_astra:earth_globe"
+			id: "121E71F8A99177C4"
+			subtitle: "This is where you just spawn."
+			tasks: [{
+				id: "20B075911556CFF1"
+				title: "Superflat Land"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["277D6B569DEE35FD"]
+			description: [
+				"Space Stations are going to be important for your journey."
+				""
+				"\"The silence of space, dotted with derelict satellites and drifting remnants of human ambition.\""
+				""
+				"You need to go to the moon first to build a overworld space station. Desh required :)."
+			]
+			icon: "ad_astra:space_painting"
+			id: "451C38A2523B3106"
+			subtitle: "Not only one!"
+			tasks: [{
+				dimension: "ad_astra:earth_orbit"
+				id: "30746CDDC622B773"
+				type: "dimension"
+			}]
+			title: "Orbits"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09F4060EE23CAD28"]
+			description: ["Nether and Ender air is now possible."]
+			id: "51FB168865A1C84E"
+			subtitle: "Literally takes gasses from some random planet it orbits."
+			tasks: [{
+				id: "600B9F0ED98755FE"
+				item: "gtceu:orbital_gas_siphon"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["277D6B569DEE35FD"]
+			description: ["\"Bleak and dusty, yet littered with strange crystalline growths and cosmic echoes.\""]
+			icon: "ad_astra:moon_globe"
+			id: "5BE197FBC8F283BD"
+			subtitle: "One small step... you know the drill"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "0498DD7C0BE853B2"
+				type: "dimension"
+			}]
+			title: "Luna"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09F4060EE23CAD28"]
+			description: ["Yes, the Moon counts."]
+			id: "64B004C2F91B8CC9"
+			subtitle: "Mines stuff from the planet or dimension its placed on. No, the planet wont spontaniously combust."
+			tasks: [{
+				id: "393E6900C0715054"
+				item: "gtceu:planetary_miner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5BE197FBC8F283BD"]
+			description: ["And yes, it is malleable. No wires though."]
+			icon: "gtceu:cheese_ingot"
+			id: "095FF6EDD1198D4D"
+			subtitle: "Not found anywhere else!"
+			tasks: [{
+				id: "25CF179C715CDF4D"
+				title: "Cheese"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09F4060EE23CAD28"]
+			description: ["The planet it orbits is important! The suns gravity is notably higher than that of earth."]
+			id: "2A46008B36130862"
+			subtitle: "Assembles stuff in a vacuum, notably orbits."
+			tasks: [{
+				id: "3DB175563CC9E683"
+				item: "gtceu:orbital_assembler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["121E71F8A99177C4"]
+			description: [
+				"Have fun with the Process Machine Casings :)"
+				""
+				"Good luck building them. Also, how will you power them?"
+				""
+				"Also, you dont need to build many. They are big for a reason."
+				""
+				"(Tip, maybe make a generator of your tier and just shove up the ingredients for the reaction in a ender chest / tank)"
+			]
+			icon: "ad_astra:gravity_normalizer"
+			id: "09F4060EE23CAD28"
+			subtitle: "They are BIG!"
+			tasks: [
+				{
+					id: "78CB1DA2D2D65A5C"
+					title: "Notable Machines"
+					type: "checkmark"
+				}
+				{
+					id: "1D99B757B53247ED"
+					item: "gtnn:process_machine_casing"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5BE197FBC8F283BD"]
+			icon: "gtceu:exquisite_arcane_crystal_gem"
+			id: "577BD4864AC99BBC"
+			subtitle: "Has some magical properties!"
+			tasks: [{
+				id: "4570256F92ADD1C3"
+				title: "Arcane Crystals"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5BE197FBC8F283BD"]
+			icon: "ad_astra:desh_ingot"
+			id: "518F58341BBD6C8C"
+			subtitle: "Flexible, but not really sturdy."
+			tasks: [{
+				id: "0183632349829733"
+				title: "Desh"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["121E71F8A99177C4"]
+			description: [
+				"\"A fetid swamp of rot and alien growths, where life clings through twisted biotechnology.\""
+				""
+				"HV!"
+			]
+			icon: "undergarden:depthrock"
+			id: "3C27225AEC6D2B93"
+			subtitle: "A filthy swamp, great for biotechnology."
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "6740D66B2E4DFAAD"
+				type: "dimension"
+			}]
+			title: "The Undergarden"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["204A396CB8D842B0"]
+			description: ["\"An inferno of brimstone and molten seas, where impossible alloys can be born.\""]
+			icon: "minecraft:netherrack"
+			id: "3E6673D3FF3AB97F"
+			subtitle: "This is hell! Great for high-temperature stuff!"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6AE42D52C8318B7F"
+				title: "The Nether"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6601A19017EC61F3"]
+			description: [
+				"Dont worry about the echoing screams everywhere. Thats normal."
+				""
+				"\"A realm of silence and sculk, pulsing with resonance from the abyss.\""
+			]
+			icon: "minecraft:sculk_sensor"
+			id: "36E9DCAC27A3CB38"
+			subtitle: "Deeper than ever before. Great for sculk research."
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "3FACC56F103E21EA"
+				type: "dimension"
+			}]
+			title: "The Otherside"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BE197FBC8F283BD"]
+			description: ["EV!"]
+			id: "204A396CB8D842B0"
+			subtitle: "Higher than ever! (Not drugs)"
+			tasks: [{
+				id: "57A50DDAFF5D792F"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["204A396CB8D842B0"]
+			description: ["\"A rusty wasteland hiding metals beneath the sand, scarred by ancient winds.\""]
+			icon: "ad_astra:mars_globe"
+			id: "503C8D57E1298A1D"
+			subtitle: "No elon, dont take it!"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "55A545A2D578242B"
+				title: "Mars"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["503C8D57E1298A1D"]
+			icon: "ad_astra:ostrum_ingot"
+			id: "629A7DFBF19E9A53"
+			subtitle: "Required for higher tier rockets."
+			tasks: [{
+				id: "641BC23E3E1143CA"
+				title: "Ostrum"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["503C8D57E1298A1D"]
+			icon: "gtceu:germanium_ingot"
+			id: "29082D64BDF5FC9C"
+			subtitle: "Germanium already?"
+			tasks: [{
+				id: "34BA433AE39B3716"
+				title: "Germanite"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["503C8D57E1298A1D"]
+			description: ["IV!"]
+			id: "50AB7FE0A48963FC"
+			subtitle: "3rd times the charm. Almost."
+			tasks: [{
+				id: "608C27A0E643BD19"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50AB7FE0A48963FC"]
+			description: ["\"A crushing atmosphere of acid and fire, hostile yet rich in volatile chemistry.\""]
+			icon: "ad_astra:venus_globe"
+			id: "0830558278E76055"
+			subtitle: "Rather warm outside shall I say?"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "0A5A5761C31EAF95"
+				type: "dimension"
+			}]
+			title: "Venus."
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50AB7FE0A48963FC"]
+			description: ["\"Scorched by the sun, frozen in shadow — extremes that forge rare materials.\""]
+			icon: "ad_astra:mercury_globe"
+			id: "10AEE06EC29B5C2A"
+			subtitle: "No.. not the element."
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "304771E9A9304873"
+				type: "dimension"
+			}]
+			title: "Mercury!"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0830558278E76055"]
+			icon: "ad_astra:calorite_ingot"
+			id: "648E818EF64E0442"
+			subtitle: "For your last rocket!"
+			tasks: [{
+				id: "323569C3B4708ECC"
+				title: "Calorite"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0830558278E76055"]
+			description: ["Dont forget to make the whole naquadah family!"]
+			icon: "gtceu:naquadah_ingot"
+			id: "18D46CB29567654E"
+			subtitle: "Good luck processing this!"
+			tasks: [{
+				id: "736B1D17333E1BE4"
+				title: "Naquadah"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10AEE06EC29B5C2A"]
+			icon: "gtceu:plutonium_ingot"
+			id: "5D8DDE9739F81F74"
+			subtitle: "Tastes funky"
+			tasks: [{
+				id: "378DE8893FDB9C05"
+				title: "Plutonium"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10AEE06EC29B5C2A"]
+			icon: "gtceu:uranium_ingot"
+			id: "2F83F0F028469E93"
+			subtitle: "Makes your teeth feel weird"
+			tasks: [{
+				id: "3904421FE54D188E"
+				title: "Uranium"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10AEE06EC29B5C2A"]
+			icon: "gtceu:thorium_ingot"
+			id: "7BE55039A835BA12"
+			subtitle: "Am I the only one tasting metal?"
+			tasks: [{
+				id: "55A561D314CB54D6"
+				title: "Thorium"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0830558278E76055"]
+			description: ["LuV!"]
+			id: "6601A19017EC61F3"
+			subtitle: "Uses a new rocket fuel."
+			tasks: [{
+				id: "72638FC9C249B13E"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6601A19017EC61F3"]
+			description: ["\"A frozen world of endless cold breezes, where cryogenic secrets lie buried beneath the ice.\""]
+			icon: "ad_astra:glacio_globe"
+			id: "2DC78196FC862B67"
+			subtitle: "Cold as hell.  Well not actually."
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "147CC92AAFC7D103"
+				type: "dimension"
+			}]
+			title: "Glacio"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C27225AEC6D2B93"]
+			icon: "undergarden:froststeel_ingot"
+			id: "336E3EDF80645360"
+			subtitle: "Cryogenic Properties"
+			tasks: [{
+				id: "6F6E33807F0436A6"
+				title: "Froststeel"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C27225AEC6D2B93"]
+			icon: "undergarden:cloggrum_ingot"
+			id: "6A3850F613470707"
+			subtitle: "Very durable, ancient metal"
+			tasks: [{
+				id: "5941CFE2590780DB"
+				title: "Cloggrum"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C27225AEC6D2B93"]
+			icon: "gtceu:utherium_ingot"
+			id: "03E0BFFC970A9DE2"
+			subtitle: "Has magical properties."
+			tasks: [{
+				id: "5DE25068D17CA712"
+				title: "Utherium"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C27225AEC6D2B93"]
+			icon: "gtceu:regalium_ingot"
+			id: "757479570124F0A1"
+			subtitle: "Has a high heat resistance."
+			tasks: [{
+				id: "5299483DE3CDCABF"
+				title: "Regalium"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E6673D3FF3AB97F"]
+			icon: "gtceu:pyroflux_bucket"
+			id: "1F7793B42A69B907"
+			subtitle: "Extremely hot!"
+			tasks: [{
+				id: "73CCA21B52FEEF01"
+				title: "Pyroflux"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E6673D3FF3AB97F"]
+			icon: "gtceu:demonsteel_ingot"
+			id: "0C8DCD2E7AF87693"
+			subtitle: "Affiliated with the Doom Slayer."
+			tasks: [{
+				id: "3F98715A6EB1CCBE"
+				title: "Demonsteel"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E6673D3FF3AB97F"]
+			icon: "gtceu:hellfire_alloy_ingot"
+			id: "4B7087ECDCBDD777"
+			subtitle: "Burns hotter than hell, and is really fire."
+			tasks: [{
+				id: "63426C2AFAF5493B"
+				title: "Hellfire Alloy"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36E9DCAC27A3CB38"]
+			icon: "gtceu:soul_crystal_ingot"
+			id: "548B3F873B5C6CC9"
+			subtitle: "It would scream if it could."
+			tasks: [{
+				id: "5768D6AD084058DD"
+				title: "Soul Crystals"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36E9DCAC27A3CB38"]
+			icon: "gtceu:echo_ingot"
+			id: "4D5E7CDC463A3ADB"
+			subtitle: "You can hear faint echoes holding this."
+			tasks: [{
+				id: "7F4DB56C2C6CAE14"
+				title: "Echo Ingot"
+				type: "checkmark"
+			}]
+			title: "Echo Ingot"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36E9DCAC27A3CB38"]
+			icon: "gtceu:resonarium_ingot"
+			id: "53AFB545931D3878"
+			subtitle: "Resonates with high sculk powers."
+			tasks: [{
+				id: "661FC4AF44092A0F"
+				title: "Resonarium"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36E9DCAC27A3CB38"]
+			icon: "gtceu:grime_alloy_ingot"
+			id: "187C24989EBAC835"
+			subtitle: "Its usage isnt as grim as its name implies!"
+			tasks: [{
+				id: "283B7A2FA2ED6CCE"
+				title: "Grime Alloy"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DC78196FC862B67"]
+			description: ["Depends on if you can process it :)"]
+			icon: "gtceu:neutronium_ingot"
+			id: "077E4D0B19A9A155"
+			subtitle: "Already?"
+			tasks: [{
+				id: "1AC56E768C3A3C7D"
+				title: "Neutronium"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2DC78196FC862B67"]
+			icon: "gtceu:space_neutronium_ingot"
+			id: "628D241D83FF4231"
+			subtitle: "Neutronium but with shifted colors."
+			tasks: [{
+				id: "2A4E36B7CFE6F9DD"
+				title: "Space Neutronium"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DC78196FC862B67"]
+			icon: "gtceu:infinity_catalyst_dust"
+			id: "4BB3018DEF253454"
+			subtitle: "Its a long way until you actually get the stuff."
+			tasks: [{
+				id: "2CB8D506BB4296C5"
+				title: "Raw Infinity Catalyst"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"36E9DCAC27A3CB38"
+				"2DC78196FC862B67"
+			]
+			description: [
+				"You could technically teleport to the end with this, but you dont need to."
+				""
+				"UV!"
+				""
+				"Tired of rockets? Think teleporters are for scrubs? Well guess what — now you can build your very own Milky Way Stargate™!"
+				""
+				"That's right, an actual working wormhole generator — just slap in some exotic alloys, a mountain of power, and maybe sacrifice your sanity, and BOOM: instant galaxy-spanning highway."
+				""
+				"Why settle for  'fast travel' when you could be hurling yourself through unstable space-time at lightspeed?"
+				""
+				"Pick one up today for the low price of everything you own plus your will to live!"
+				"&o(The Stargate does not come with a manual. Accidental invasions, time loops, and catastrophic implosions are not covered by warranty.)"
+			]
+			icon: "sgjourney:milky_way_stargate"
+			id: "5852DD67CD9CCF66"
+			subtitle: "GTNH is proud"
+			tasks: [{
+				id: "058C50E966E21621"
+				item: "sgjourney:milky_way_stargate"
+				type: "item"
+			}]
+			title: "Stargate"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5852DD67CD9CCF66"]
+			description: [
+				"Milky Way Address: -26-6-14-31-11-29-"
+				""
+				"\"A desert of eternal sun and shifting sands, above a planet-core burning with molten fury.\""
+			]
+			icon: "minecraft:sand"
+			id: "0A205D642D61781C"
+			subtitle: "A desert planet with a unique core."
+			tasks: [{
+				dimension: "sgjourney:abydos"
+				id: "44D16BB790CBBEC9"
+				title: "Abydos"
+				type: "dimension"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5852DD67CD9CCF66"]
+			description: [
+				"Milky Way Address: -8-1-22-14-36-19-"
+				""
+				"\"Verdant forests touched by the arcane, where mana seeps through roots and rivers.\""
+			]
+			icon: "minecraft:oak_leaves"
+			id: "3FAAD8DB078986EE"
+			subtitle: "Forest planet with magical properties."
+			tasks: [{
+				dimension: "sgjourney:chulak"
+				id: "4529EFAE2FBAC9B9"
+				title: "Chulak"
+				type: "dimension"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5852DD67CD9CCF66"]
+			description: [
+				"Milky Way Address: -18-7-3-36-25-15-"
+				""
+				"\"The shattered husk of a world dragged into a black hole, echoing with lost technologies.\""
+			]
+			icon: "botania:black_hole_talisman"
+			id: "7A2E846D49EB3B73"
+			subtitle: "A completely destroyed world, orbiting a Black Hole. Ancient Technologies await."
+			tasks: [{
+				dimension: "sgjourney:cavum_tenebrae"
+				id: "6BF9F3014A63378C"
+				type: "dimension"
+			}]
+			title: "Cavum Tenebrae"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A2E846D49EB3B73"]
+			description: [
+				"After exploring the destroyed planet, you can now finally return to the home planet of the long-gone civilization that settled there once."
+				""
+				"UIV!"
+			]
+			id: "4C274352C282882A"
+			subtitle: "You actually managed to find the remains of the ancient Pegasus galaxy inhabitants?"
+			tasks: [{
+				id: "53EF27FEBD013F22"
+				item: "sgjourney:pegasus_stargate"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C274352C282882A"]
+			description: [
+				"Pegasus Address: -29-5-17-34-6-12-"
+				""
+				"\"An endless ocean world in Pegasus, concealing luminous minerals and ancient mysteries beneath its waves.\""
+			]
+			icon: {
+				Count: 1
+				id: "botania:water_bowl"
+				tag: {
+					Fluid: {
+						Amount: 1000
+						FluidName: "minecraft:water"
+					}
+				}
+			}
+			id: "21A3BFB36F2D186E"
+			subtitle: "A ocean world, with a weird mineral composition."
+			tasks: [{
+				dimension: "sgjourney:lantea"
+				id: "59FE7589CF1B5A3C"
+				type: "dimension"
+			}]
+			title: "Lantea"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A205D642D61781C"]
+			icon: "gtceu:solarite_ingot"
+			id: "56CF8342590C8EA5"
+			subtitle: "Absorbs heat directly, important for solar stuff."
+			tasks: [{
+				id: "7CFF8A14483E8E58"
+				title: "Solarite"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A205D642D61781C"]
+			icon: "gtceu:moltenheart_ingot"
+			id: "3F7A76A47650FC45"
+			subtitle: "Extremely hot abydos crust."
+			tasks: [{
+				id: "6CEF188A5D496F9C"
+				title: "Moltenheart"
+				type: "checkmark"
+			}]
+			title: "Moltenheart"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A205D642D61781C"]
+			icon: "gtceu:time_crystal_ingot"
+			id: "0AF00F23A34AE147"
+			subtitle: "Fragile, shifts time as you know it."
+			tasks: [{
+				id: "0EAE422B057253FC"
+				title: "Time Crystal"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FAAD8DB078986EE"]
+			icon: "gtceu:verdanite_ingot"
+			id: "6207453333588BE2"
+			subtitle: "Bio-reactive, return to the undergarden maybe?"
+			tasks: [{
+				id: "7E4B4378ADF01276"
+				title: "Verdanite"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FAAD8DB078986EE"]
+			icon: "gtceu:manacite_crystal_ingot"
+			id: "654D1CD5EFEC65BD"
+			subtitle: "Mana-carrying crystal with important abilities."
+			tasks: [{
+				id: "332D8F768A0913D7"
+				title: "Manacite Crystal"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3FAAD8DB078986EE"]
+			icon: "gtceu:manasteel_ingot"
+			id: "0424E83EBBA42E13"
+			subtitle: "Almost pure mana!"
+			tasks: [{
+				id: "5182C183C8912FDB"
+				title: "Manasteel"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3FAAD8DB078986EE"]
+			icon: "gtceu:terrasteel_ingot"
+			id: "42880FCE8BB92137"
+			subtitle: "Nature itself in a ingot."
+			tasks: [{
+				id: "7C5E6F8E78FF032A"
+				title: "Terrasteel"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A2E846D49EB3B73"]
+			icon: "gtceu:oblivium_ingot"
+			id: "26C90F43E3AAFF60"
+			subtitle: "Has traces of dark matter imbued, may be useful later."
+			tasks: [{
+				id: "7CCEFD1DDDFAB9EF"
+				title: "Oblivium"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A2E846D49EB3B73"]
+			icon: "gtceu:relictium_ingot"
+			id: "56BB157698FCF4B6"
+			subtitle: "Remnants of a ancient pegasus galaxy civilization. You can probably return to their homeworld."
+			tasks: [{
+				id: "411FB50FEBA9168F"
+				title: "Relictium"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A2E846D49EB3B73"]
+			icon: "gtceu:graviton_crystal_ingot"
+			id: "5C486F9CE985915D"
+			subtitle: "Highly unstable, particle bending crystals."
+			tasks: [{
+				id: "6DCA71D3B460724F"
+				title: "Graviton Crystal"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21A3BFB36F2D186E"]
+			icon: "gtceu:aquatium_ingot"
+			id: "1422D5448E431DAA"
+			subtitle: "Superconductive when submerged, may allow for higher tier fusion coils."
+			tasks: [{
+				id: "31D504C62017B003"
+				title: "Aquatium"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21A3BFB36F2D186E"]
+			icon: "gtceu:atlantean_pearlite_ingot"
+			id: "4B28C73FB85F5094"
+			subtitle: "A biomineral conglomerate, stores data like a champ!"
+			tasks: [{
+				id: "5DD00C2722D262E0"
+				title: "Atlantean Pearlite"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21A3BFB36F2D186E"]
+			icon: "gtceu:hydroflux_crystal_ingot"
+			id: "60C796BBE47DEFC1"
+			subtitle: "Basically the polar opposite to Pyroflux. Pressure reactive, and insanely cold."
+			tasks: [{
+				id: "10037E0CFD3F26FA"
+				title: "Hydroflux Crystal"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["121E71F8A99177C4"]
+			description: [
+				"Sick of wasting hours flying rockets back and forth just to grab a handful of dust? Hate when your orbital miner is light-years away but your coffee is getting cold?"
+				""
+				"Fear not, traveler! Introducing the Tempad™ — the only handheld teleportation device certified* to fold space, time, AND your laundry (still in beta)!"
+				""
+				"Just dial in, press the button, and whoosh — you're THERE."
+				"No fuel, no waiting, no boring rocket trips!"
+				""
+				"And for a low price of just one singularity (singularity not included, actual cost may vary between 400,000 and 450,000), this little gadget can be yours!"
+				""
+				"Tempad™ — don't fly it, port it!"
+				""
+				"(*Certification void in all known universes. We accept no responsibility for spaghettification, duplication, or spontaneous combustion.)"
+			]
+			id: "68CDC33630F74415"
+			subtitle: "For quick travel between dimensions"
+			tasks: [{
+				id: "28DEF78D37764CF5"
+				item: "tempad:he_who_remains_tempad"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["121E71F8A99177C4"]
+			description: [
+				"\"A luminous skyrealm floating above reality.\""
+				""
+				"EV!"
+			]
+			icon: "aether:aether_portal_frame"
+			id: "1E8ED592232013AA"
+			subtitle: "Way above your head!"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "2CD16A32DE103391"
+				title: "Aether"
+				type: "dimension"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["121E71F8A99177C4"]
+			description: [
+				"\"A fractured voidscape suspended in nothingness.\""
+				""
+				"IV!"
+				""
+				"The end is actually inacessible due to some bug I can't trace back. Sorry."
+				"You will have to work around it with end-like machinery here."
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "3ECC5478A33284BF"
+			subtitle: "Not actually."
+			tasks: [{
+				id: "7E7952701C38D998"
+				title: "End"
+				type: "checkmark"
+			}]
+			title: "The End"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E8ED592232013AA"]
+			id: "50109F840C464C23"
+			tasks: [{
+				id: "2CB39F2A3DC74EC0"
+				item: "gtceu:aetherium_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E8ED592232013AA"]
+			id: "51D14A6C09E78AAC"
+			tasks: [{
+				id: "1DF3A41118ED25E8"
+				item: "gtceu:skystone_gem"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E8ED592232013AA"]
+			id: "2BC8F01F1B4978A6"
+			tasks: [{
+				id: "4CE49893BB5DECF3"
+				item: "gtceu:aurorite_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3ECC5478A33284BF"]
+			id: "034F0051BE4C5F43"
+			tasks: [{
+				id: "5D286B2F8AB48EA5"
+				item: "gtceu:entropy_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3ECC5478A33284BF"]
+			id: "5F3D0CCC5D27F15B"
+			tasks: [{
+				id: "3BECBEA4527B369A"
+				item: "gtceu:mindspore_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3ECC5478A33284BF"]
+			id: "2A33521D9CE57402"
+			tasks: [{
+				id: "4A40C7265E96EB8F"
+				item: "gtceu:oblivionite_gem"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E8ED592232013AA"]
+			id: "702A576B7265CC53"
+			tasks: [{
+				id: "657B1D3CE324AD98"
+				item: "gtceu:gravitite_gem"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E8ED592232013AA"]
+			id: "76D5ED6E1DF1BEAC"
+			tasks: [{
+				id: "0B974B5FB7A16AD8"
+				item: "gtceu:zanite_gem"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+	]
+	subtitle: ["You know server hopping, but do you know this?"]
+	title: "Dimension Hopping"
+}

@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chulak"
+	group: "143975462EE54071"
+	icon: "minecraft:oak_leaves"
+	id: "208326194BA3A5BB"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Magical"]
+	title: "Chulak"
+}

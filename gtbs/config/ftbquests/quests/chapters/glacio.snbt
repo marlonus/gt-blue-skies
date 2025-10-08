@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "glacio"
+	group: "143975462EE54071"
+	icon: "ad_astra:glacio_globe"
+	id: "5A6D2BD4305647A0"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Basically hamburg weather all year"]
+	title: "Glacio"
+}

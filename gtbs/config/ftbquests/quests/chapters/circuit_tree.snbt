@@ -1,0 +1,1339 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "circuit_tree"
+	group: ""
+	icon: "kubejs:dimensional_quantum_circuit"
+	id: "4A47BED207D049BB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4987A4469EB91AC4"]
+			description: ["Hand-crafted and ready to go!"]
+			id: "6B5207065E74CFC9"
+			subtitle: "Welcome to &4LV&r!"
+			tasks: [{
+				id: "2813FFFB5D5DF185"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B5207065E74CFC9"]
+			description: ["The new era!"]
+			id: "3C89466F25F624E3"
+			subtitle: "Welcome to &4MV&r!"
+			tasks: [{
+				id: "7B3B320F231FE4B8"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78468A935A4F7031"]
+			description: ["Dont mind the gap. It infuriates me too."]
+			id: "3F77E9A6D096A2ED"
+			progression_mode: "flexible"
+			subtitle: "Easier EV!"
+			tasks: [{
+				id: "25265095215A06E0"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F77E9A6D096A2ED"]
+			description: ["Microprocessors!"]
+			id: "3525575A4180F167"
+			subtitle: "Welcome to &eIV&r!"
+			tasks: [{
+				id: "4E9223380ED68B0A"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74CD2A85CC3D1573"]
+			description: ["Even tinier processors!"]
+			id: "68FEAE95373596A7"
+			subtitle: "Welcome to &bLuV&r!"
+			tasks: [{
+				id: "3EB6DC004BEC7833"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FD3BDA6BC1EBC4F"]
+			description: ["Zalgo is not happy."]
+			id: "491DFC1ADCCA754F"
+			subtitle: "Welcome to &aZPM&r!"
+			tasks: [{
+				id: "7FE853BAD9D9BF40"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C179923E0E5DA46"]
+			description: ["Making circuits out of crystals. Well, sort of."]
+			id: "0E826EBCD0884BD9"
+			subtitle: "Welcome to &1UV&r!"
+			tasks: [{
+				id: "64500367A62A369C"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7D90AC49DB9059FA"]
+			description: [
+				"You are so far already! Dont give up!"
+				""
+				"Yes, it lives. And yes, it may be a threat."
+			]
+			id: "1506F14898A69F45"
+			subtitle: "Welcome to &4UHV&r! This is not the end!"
+			tasks: [{
+				id: "4E6CC3E71D6C9D01"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5526B15F17A2900B"]
+			description: [
+				"Is it alive? Short answer: yes. But don't ask questions."
+				"Dont eat this."
+			]
+			id: "2C2741D2A7DC2878"
+			subtitle: "Welcome to &aUEV&r!"
+			tasks: [{
+				id: "12ABD1C6BDF2A556"
+				item: "kubejs:gooware_processor_mainframe"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["45CF843449A7F2CF"]
+			description: ["Photonic processors?"]
+			id: "4CFEB998678D99D5"
+			subtitle: "Welcome to &2UIV&r!"
+			tasks: [{
+				id: "0A4516346737F405"
+				item: "kubejs:optical_processor_mainframe"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["496F4AF5AE0A5A86"]
+			description: ["Electron spin harnessing."]
+			id: "095826B9B4CE2863"
+			subtitle: "Welcome to &eUXV&r!"
+			tasks: [{
+				id: "6E885EA3981FCADC"
+				item: "kubejs:spintronic_processor_mainframe"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6FC13380BE554242"]
+			description: ["A literal galaxy."]
+			id: "3D981847E1A5D3BF"
+			subtitle: "Welcome to &1&lOpV&r!"
+			tasks: [{
+				id: "4B56BE1896E2A38D"
+				item: "kubejs:cosmic_processor_mainframe"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5DCBC99B727AD7B6"]
+			description: [
+				"Transcend causality."
+				""
+				"You literally control physics itself. Respect."
+				""
+				"Everything ends. Not this though, soon."
+			]
+			id: "29F7B74412F7F9EE"
+			subtitle: "Welcome to &4&lMAX&r!"
+			tasks: [{
+				id: "024AE8BCDD2BB00D"
+				item: "kubejs:supracausal_processor_mainframe"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2A4157FD986606F3"]
+			id: "78468A935A4F7031"
+			subtitle: "The better HV Circuit!"
+			tasks: [{
+				id: "33C2D60106D3417A"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D23CF6E92530D8A"]
+			id: "2A4157FD986606F3"
+			subtitle: "The best MV Circuit!"
+			tasks: [{
+				id: "4D97BB7995087024"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["043E521EB15DC472"]
+			id: "1D767FE80BD981FD"
+			require_sequential_tasks: false
+			subtitle: "Another MV Circuit!"
+			tasks: [{
+				id: "5DE7D1D7A44A7917"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C89466F25F624E3"]
+			id: "043E521EB15DC472"
+			subtitle: "The second best LV Circuit!"
+			tasks: [{
+				id: "5035F4472C6A2868"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58944EB9220EB27D"]
+			id: "74CD2A85CC3D1573"
+			subtitle: "A better IV Circuit!"
+			tasks: [{
+				id: "730B9234187E5C17"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B5B430EF47531D6"]
+			id: "58944EB9220EB27D"
+			subtitle: "A new EV Circuit!"
+			tasks: [{
+				id: "46DC5A86E36EC50B"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3525575A4180F167"]
+			id: "0B5B430EF47531D6"
+			subtitle: "The King of HV!"
+			tasks: [{
+				id: "767715120139C70B"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["150CC475D031F673"]
+			id: "2FD3BDA6BC1EBC4F"
+			subtitle: "The new LuV circuit!"
+			tasks: [{
+				id: "4AAD52738178FC25"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D7B2C6E24567AD9"]
+			id: "150CC475D031F673"
+			subtitle: "A new IV Circuit!"
+			tasks: [{
+				id: "1F9485E9D90E02F1"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68FEAE95373596A7"]
+			id: "2D7B2C6E24567AD9"
+			subtitle: "The easiest EV Circuit!"
+			tasks: [{
+				id: "3F92778DAC610A14"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06B64111372705C2"]
+			id: "4C179923E0E5DA46"
+			subtitle: "ZPM the second"
+			tasks: [{
+				id: "6C1AE1B07C9EF76D"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07AC7A4458A7062A"]
+			id: "06B64111372705C2"
+			subtitle: "The new LuV!"
+			tasks: [{
+				id: "62DC9DB4D37BAED9"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["491DFC1ADCCA754F"]
+			id: "07AC7A4458A7062A"
+			subtitle: "IV Circuits have never been this easy!"
+			tasks: [{
+				id: "772DE350AD97DC86"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C0C7F16E96150DB"]
+			id: "7D90AC49DB9059FA"
+			subtitle: "Easier UV!"
+			tasks: [{
+				id: "1A302005507E26FD"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3CFE0F279B0B2C74"]
+			id: "7C0C7F16E96150DB"
+			subtitle: "ZPM Circuit again!"
+			tasks: [{
+				id: "3C3F18F8DFC7BCAC"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E826EBCD0884BD9"]
+			id: "3CFE0F279B0B2C74"
+			subtitle: "LuV but the best!"
+			tasks: [{
+				id: "515FF3A86ADB4EE7"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09D9A1542F419830"]
+			id: "5526B15F17A2900B"
+			subtitle: "Easier UHV!"
+			tasks: [{
+				id: "51B8DC60BB1E8257"
+				item: "kubejs:gooware_processor_computer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["312A2C6ED06EF2C9"]
+			id: "09D9A1542F419830"
+			subtitle: "Easier UV!"
+			tasks: [{
+				id: "46A180FBC0BBD777"
+				item: "kubejs:gooware_processor_assembly"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1506F14898A69F45"]
+			description: ["Thanks to a friend for making the UEV-MAX circuit textures!"]
+			id: "312A2C6ED06EF2C9"
+			subtitle: "The best ZPM circuit!"
+			tasks: [{
+				id: "0D157A0647B4C40B"
+				item: "kubejs:gooware_processor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DD7BDA3ED21D1F6"]
+			id: "45CF843449A7F2CF"
+			subtitle: "A new UEV Circuit!"
+			tasks: [{
+				id: "735975A5B289B758"
+				item: "kubejs:optical_processor_computer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["043E521EB15DC472"]
+			description: ["Why would you need this?"]
+			id: "25C5AD8345240F8F"
+			subtitle: "ULV at its finest!"
+			tasks: [{
+				id: "302F70894AB3680E"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D9764FAF6CB556F"]
+			id: "4987A4469EB91AC4"
+			subtitle: "&4ULV!"
+			tasks: [{
+				id: "0E29DDA2C1B980A6"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C3C6AE0FE90ADF9"]
+			id: "1DD7BDA3ED21D1F6"
+			subtitle: "UHV but easier!"
+			tasks: [{
+				id: "679313A02E0CD5B1"
+				item: "kubejs:optical_processor_assembly"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C2741D2A7DC2878"]
+			id: "4C3C6AE0FE90ADF9"
+			subtitle: "The best UV circuit!"
+			tasks: [{
+				id: "67509698CE97A064"
+				item: "kubejs:optical_processor"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["023CADD146EC2C6F"]
+			id: "496F4AF5AE0A5A86"
+			subtitle: "UIV circuits but newer!"
+			tasks: [{
+				id: "6257DF27BD79E3B2"
+				item: "kubejs:spintronic_processor_computer"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2C4F4FC702FCCFD1"]
+			id: "023CADD146EC2C6F"
+			subtitle: "UEV but better!"
+			tasks: [{
+				id: "75425763CCDA42CA"
+				item: "kubejs:spintronic_processor_assembly"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CFEB998678D99D5"]
+			id: "2C4F4FC702FCCFD1"
+			subtitle: "UHV at its easiest!"
+			tasks: [{
+				id: "0BC962C469BCC327"
+				item: "kubejs:spintronic_processor"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A842C484D5B21D1"]
+			id: "6FC13380BE554242"
+			subtitle: "UXV, now easier!"
+			tasks: [{
+				id: "6909736EB0A76288"
+				item: "kubejs:cosmic_processor_computer"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["22591E8C8C2E2EE2"]
+			id: "2A842C484D5B21D1"
+			subtitle: "UIV but even cooler!"
+			tasks: [{
+				id: "738DA8673421EB1A"
+				item: "kubejs:cosmic_processor_assembly"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["095826B9B4CE2863"]
+			id: "22591E8C8C2E2EE2"
+			subtitle: "UEV at its best!"
+			tasks: [{
+				id: "17959AD681C8273D"
+				item: "kubejs:cosmic_processor"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["364E0992E7929270"]
+			id: "5DCBC99B727AD7B6"
+			subtitle: "Only a few more OpV circuits to go!"
+			tasks: [{
+				id: "21FBC91148C983D0"
+				item: "kubejs:supracausal_processor_computer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2A614A38CE39EAEB"]
+			id: "364E0992E7929270"
+			subtitle: "UXV almost perfected!"
+			tasks: [{
+				id: "5D5503D779494B95"
+				item: "kubejs:supracausal_processor_assembly"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3D981847E1A5D3BF"]
+			id: "2A614A38CE39EAEB"
+			subtitle: "UIV but easy!"
+			tasks: [{
+				id: "12D241F06E7DE458"
+				item: "kubejs:supracausal_processor"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1D767FE80BD981FD"]
+			description: ["Integrated processors. A ton of work."]
+			id: "3C47BB11FB721E02"
+			subtitle: "Welcome to &6HV&r!"
+			tasks: [{
+				id: "0A647B7B7FA2C819"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B5207065E74CFC9"]
+			description: ["Dont mine the Acausal Engine!"]
+			id: "2F37F706102C5670"
+			subtitle: "1800K"
+			tasks: [{
+				id: "351BC87E26DC6B0E"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3C89466F25F624E3"
+				"2F37F706102C5670"
+			]
+			description: ["May be a pain at first."]
+			id: "0CEB4BC924D5CBA2"
+			subtitle: "2700K"
+			tasks: [{
+				id: "564B796592B618FA"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3C47BB11FB721E02"
+				"0CEB4BC924D5CBA2"
+			]
+			description: ["Good old Nichrome"]
+			id: "3979027DD4DDED4C"
+			subtitle: "3600K"
+			tasks: [{
+				id: "0E3A1C288DF4EBC6"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3979027DD4DDED4C"
+				"7D23CF6E92530D8A"
+			]
+			description: ["A new competitor! This was something different back then. Honestly, I cant remember."]
+			id: "7863D0433150DD7C"
+			subtitle: "4500K"
+			tasks: [{
+				id: "3197A87AC9C3B4B5"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3525575A4180F167"
+				"7863D0433150DD7C"
+			]
+			description: ["No HSS-S coils here, unlike in GTNH."]
+			id: "17B168BAAAD13283"
+			subtitle: "5400K"
+			tasks: [{
+				id: "5ED3433DB289B37B"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"68FEAE95373596A7"
+				"17B168BAAAD13283"
+			]
+			description: ["Fictional Materials made real."]
+			id: "4794CA8CEEA32718"
+			subtitle: "7200K"
+			tasks: [{
+				id: "4411262E1C9A1AE3"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"491DFC1ADCCA754F"
+				"4794CA8CEEA32718"
+			]
+			description: [
+				"Over 9000"
+				""
+				"You knew im going to say that."
+			]
+			id: "65FD44B86E69A82F"
+			subtitle: "9001K"
+			tasks: [{
+				id: "01E4D15DFE59A594"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0E826EBCD0884BD9"
+				"65FD44B86E69A82F"
+			]
+			description: ["The last normal coil."]
+			id: "62BE7DB2C8CBB746"
+			subtitle: "10800K"
+			tasks: [{
+				id: "5F04428378D995F1"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"62BE7DB2C8CBB746"
+				"1506F14898A69F45"
+			]
+			description: ["Welcome to the new era!"]
+			id: "20DD00CB1BF32671"
+			subtitle: "11700K"
+			tasks: [{
+				id: "56718F39FFDE0988"
+				item: "kubejs:quantum_flux_coil_block"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2C2741D2A7DC2878"
+				"20DD00CB1BF32671"
+			]
+			description: ["Goo Circuits are already weird. Whats this then?"]
+			id: "309E965D04D317A7"
+			subtitle: "12600K"
+			tasks: [{
+				id: "4EC8197213F57FAD"
+				item: "kubejs:tachyonic_lattice_coil_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"309E965D04D317A7"
+				"4CFEB998678D99D5"
+			]
+			description: ["Traps photons for heat or something. I dont know anymore."]
+			id: "3E057FF02910310F"
+			subtitle: "13500K"
+			tasks: [{
+				id: "4094B13D7D254861"
+				item: "kubejs:photonic_singularity_coil_block"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3E057FF02910310F"
+				"095826B9B4CE2863"
+			]
+			description: ["Even though electrons have a spin, that doesnt make them a centrifuge. I hope at least."]
+			id: "474B6F7DA84085B3"
+			subtitle: "14400K"
+			tasks: [{
+				id: "2C700C3E57EFDBBB"
+				item: "kubejs:graviton_condenser_coil_block"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"474B6F7DA84085B3"
+				"3D981847E1A5D3BF"
+			]
+			description: ["Cosmic circuits, and now cosmic coils?"]
+			id: "4786BF426C35DF1D"
+			subtitle: "15300K"
+			tasks: [{
+				id: "6A0CC0641A41898B"
+				item: "kubejs:cosmic_horizon_coil_block"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"29F7B74412F7F9EE"
+				"4786BF426C35DF1D"
+			]
+			description: ["How do these coils exist?"]
+			id: "5D8DA3E98184D17F"
+			subtitle: "16200K"
+			tasks: [{
+				id: "33EB03B36562A29C"
+				item: "kubejs:supra_causal_coil_block"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5D8DA3E98184D17F"
+				"0AC5AA5386E266B2"
+			]
+			description: ["What are you trying to smelt?"]
+			id: "77838673D5C79B57"
+			subtitle: "17100K"
+			tasks: [{
+				id: "6F3664CAC0D50967"
+				item: "kubejs:ontological_collapse_coil_block"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4987A4469EB91AC4"]
+			description: ["Thanks to Pansmith for these and many other textures!"]
+			id: "13C1E71C1E3E42C6"
+			subtitle: "Credit where credit is due"
+			tasks: [{
+				id: "500251335389E4BB"
+				item: "kubejs:ulv_universal_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B5207065E74CFC9"]
+			id: "2F8CCDBB8AF3998B"
+			tasks: [{
+				id: "3D48CEF4FD8881A8"
+				item: "kubejs:lv_universal_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C89466F25F624E3"]
+			id: "01A2CA8DB473C718"
+			tasks: [{
+				id: "39112947BB498B01"
+				item: "kubejs:mv_universal_circuit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C47BB11FB721E02"]
+			id: "49F99ABB6009AD61"
+			tasks: [{
+				id: "308DF28CADF6C1A6"
+				item: "kubejs:hv_universal_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D23CF6E92530D8A"]
+			id: "4F11591B07389389"
+			tasks: [{
+				id: "14B3C44300A6AABC"
+				item: "kubejs:ev_universal_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3525575A4180F167"]
+			id: "456CA669D9CC003C"
+			tasks: [{
+				id: "3E84B1C7FDA5ACF3"
+				item: "kubejs:iv_universal_circuit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68FEAE95373596A7"]
+			id: "67605082C013217E"
+			tasks: [{
+				id: "3C1082558F616ECD"
+				item: "kubejs:luv_universal_circuit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["491DFC1ADCCA754F"]
+			id: "2713EC4011CECDB4"
+			tasks: [{
+				id: "3D0B5A9FB7CEE2DE"
+				item: "kubejs:zpm_universal_circuit"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E826EBCD0884BD9"]
+			id: "69CED194861B7993"
+			tasks: [{
+				id: "2877F3A8F13084E9"
+				item: "kubejs:uv_universal_circuit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1506F14898A69F45"]
+			id: "076AA6B6F8B3A106"
+			tasks: [{
+				id: "67EAE7EF539CB087"
+				item: "kubejs:uhv_universal_circuit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C2741D2A7DC2878"]
+			id: "54A82E7DD102486F"
+			tasks: [{
+				id: "3DAF4329D5BDF777"
+				item: "kubejs:uev_universal_circuit"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CFEB998678D99D5"]
+			id: "09C807A374ACC642"
+			tasks: [{
+				id: "7AA7C31C76F22774"
+				item: "kubejs:uiv_universal_circuit"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["29F7B74412F7F9EE"]
+			id: "2ACF170FB492588E"
+			subtitle: "This isnt the end?? Easy UXV!"
+			tasks: [{
+				id: "065842BF6CA82461"
+				item: "kubejs:matter_processor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2ACF170FB492588E"]
+			id: "35CBB8FF7B2E8024"
+			subtitle: "Ever wanted better OpV circuits?"
+			tasks: [{
+				id: "63CD16E9CC945057"
+				item: "kubejs:matter_processor_assembly"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["35CBB8FF7B2E8024"]
+			id: "37D7EB00E0EBB818"
+			subtitle: "MAX.. again?"
+			tasks: [{
+				id: "3FF0AFB52FA6F77F"
+				item: "kubejs:matter_processor_computer"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["37D7EB00E0EBB818"]
+			description: [
+				"Are you scared of pi?"
+				"Or wait, joke incoming"
+				"Are you scared of pi, or just allergic?"
+				"Get it?"
+				"Pi? Like pie?"
+				""
+				"&mIm going insane making this modpack&r"
+			]
+			id: "0AC5AA5386E266B2"
+			subtitle: "Welcome to &a&lπV&r!"
+			tasks: [{
+				id: "4D75068144094C60"
+				item: "kubejs:matter_processor_mainframe"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0AC5AA5386E266B2"]
+			id: "678C6E1CAE6AB5F4"
+			subtitle: "OpV at its best!"
+			tasks: [{
+				id: "723B0E4BE6245432"
+				item: "kubejs:dimensional_processor"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["678C6E1CAE6AB5F4"]
+			id: "6670FD686955457F"
+			subtitle: "MAX... for the third time."
+			tasks: [{
+				id: "4FA93F0418431866"
+				item: "kubejs:dimensional_processor_assembly"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6670FD686955457F"]
+			id: "01DAB261B757BCF1"
+			subtitle: "ΩV Circuits but easier!"
+			tasks: [{
+				id: "2777F3030D138757"
+				item: "kubejs:dimensional_processor_computer"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["01DAB261B757BCF1"]
+			description: [
+				"I really want to thank pansmith for these textures."
+				""
+				"Wanted greek stuff in your voltage tier too?"
+			]
+			id: "3B079CD48523D8E2"
+			subtitle: "Welcome to &b&lΩV&r!"
+			tasks: [{
+				id: "78B314E815C67871"
+				item: "kubejs:dimensional_processor_mainframe"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3B079CD48523D8E2"]
+			id: "0A5B1BC4E5247F34"
+			subtitle: "MAX circuits. As a first in the line."
+			tasks: [{
+				id: "37D60C0422CFF4BB"
+				item: "kubejs:ontologic_processor"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0A5B1BC4E5247F34"]
+			id: "6A11E68F99427342"
+			subtitle: "The easiest ΩV circuit."
+			tasks: [{
+				id: "18899073E4906B5C"
+				item: "kubejs:ontologic_processor_assembly"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6A11E68F99427342"]
+			id: "6017EB4DE41F9B8F"
+			subtitle: "The easiest πV circuits."
+			tasks: [{
+				id: "11FB3C07C9CA22D1"
+				item: "kubejs:ontologic_processor_computer"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6017EB4DE41F9B8F"]
+			description: ["Have fun making this!"]
+			id: "330C4A36D3019DFE"
+			subtitle: "Welcome to the actual last tier, &d&lאV&r!"
+			tasks: [{
+				id: "6667A39012A79912"
+				item: "kubejs:ontologic_processor_mainframe"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"77838673D5C79B57"
+				"3B079CD48523D8E2"
+			]
+			description: ["Literally transcends reality. What could go wrong?"]
+			id: "5E795A5ACFB7F143"
+			subtitle: "18000K"
+			tasks: [{
+				id: "298316451BB90505"
+				item: "kubejs:transcendental_void_coil_block"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"5E795A5ACFB7F143"
+				"330C4A36D3019DFE"
+			]
+			description: ["Literally destroys space-time at a plank-level."]
+			id: "1139714F998283A5"
+			subtitle: "18900K"
+			tasks: [{
+				id: "665F6412BDD3C1E5"
+				item: "kubejs:mindwave_resonance_coil_block"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"1139714F998283A5"
+				"58E0A819A0D244A6"
+			]
+			description: ["Higher heat than anything you can imagine."]
+			id: "3250818910867D31"
+			subtitle: "99999K"
+			tasks: [{
+				id: "027BE3A82BE2A8E4"
+				item: "kubejs:acausal_singularity_coil_block"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["095826B9B4CE2863"]
+			description: ["Thanks to a friend for making the UXV+ universal circuit textures!"]
+			id: "34413F889D351080"
+			tasks: [{
+				id: "5F1E24355B2F39C4"
+				item: "kubejs:uxv_universal_circuit"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3D981847E1A5D3BF"]
+			id: "71B0C77D9C49DE48"
+			tasks: [{
+				id: "489C2467F9F7593E"
+				item: "kubejs:opv_universal_circuit"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["29F7B74412F7F9EE"]
+			id: "0F77AF733945C52E"
+			tasks: [{
+				id: "716A96A7CA8FF360"
+				item: "kubejs:max_universal_circuit"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0AC5AA5386E266B2"]
+			id: "4683C166B1B3179C"
+			tasks: [{
+				id: "35FDB5C468EEE0D2"
+				item: "kubejs:max1_universal_circuit"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3B079CD48523D8E2"]
+			id: "63DE8ACFDE73924C"
+			tasks: [{
+				id: "5734234D8340629C"
+				item: "kubejs:max2_universal_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["330C4A36D3019DFE"]
+			description: ["Its technically not needed, but a friend told me it would be more consistent that way."]
+			id: "5B3ADE383FDA1D81"
+			subtitle: "The final Universal Circuit"
+			tasks: [{
+				id: "35F125E28619858C"
+				item: "kubejs:max3_universal_circuit"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3C47BB11FB721E02"]
+			description: [
+				"This circuit line was suggested to me by some rogue individual, insisting I should add it."
+				""
+				"The same guy made the textures, so thanks!"
+			]
+			id: "01A70DE37737EC92"
+			subtitle: "The easiest LV circuit."
+			tasks: [{
+				id: "10B9F249D1209456"
+				item: "kubejs:refined_processor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01A70DE37737EC92"]
+			id: "456E21858D1FA332"
+			subtitle: "Easier MV"
+			tasks: [{
+				id: "030F12A88449B41F"
+				item: "kubejs:refined_processor_assembly"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["456E21858D1FA332"]
+			id: "2CD3F85D157022B9"
+			subtitle: "New HV?"
+			tasks: [{
+				id: "351DE57494391E4A"
+				item: "kubejs:refined_processor_supercomputer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CD3F85D157022B9"]
+			id: "7D23CF6E92530D8A"
+			subtitle: "Welcome to &fEV&r!"
+			tasks: [{
+				id: "13E14AFD5EB4712B"
+				item: "kubejs:refined_processor_mainframe"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["085A5FD99338A066"]
+			description: ["Wow, you actually reached the final circuit."]
+			id: "58E0A819A0D244A6"
+			subtitle: "THE FINAL CIRCUIT"
+			tasks: [{
+				id: "1E6F651B277294C3"
+				item: "kubejs:dimensional_quantum_circuit"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["330C4A36D3019DFE"]
+			description: ["Why not make these things agonizing?"]
+			id: "085A5FD99338A066"
+			subtitle: "Almost the final Circuit"
+			tasks: [{
+				id: "37A16AE63951F92F"
+				item: "kubejs:dimensional_piko_circuit"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 15.0d
+		}
+	]
+	subtitle: ["Misery beyond belief"]
+	title: "Circuit Tree"
+}

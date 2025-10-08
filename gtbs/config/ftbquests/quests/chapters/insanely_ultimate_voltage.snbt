@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "insanely_ultimate_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: "kubejs:optical_processor_mainframe"
+	id: "1B8A5DFF66074AAC"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/uiv_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 11
+	quest_links: [ ]
+	quests: [{
+		id: "2C01A99AD3DB0C8C"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "516268969B807D5B"
+			item: "gtceu:uiv_machine_hull"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: [
+		"Optics are a blessing and a curse."
+		"Without it, you wouldnt need to see this."
+	]
+	title: "&2Insanely Ultimate Voltage (UIV)"
+}

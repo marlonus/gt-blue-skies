@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "high_ultimate_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: "gtceu:wetware_processor_mainframe"
+	id: "20F350385AB45538"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/uhv_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -4.0d
+		y: 0.0d
+	}]
+	order_index: 9
+	quest_links: [ ]
+	quests: [{
+		id: "1C483C796BA0DC02"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "521B86F4643B8174"
+			item: "gtceu:uhv_machine_hull"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["I hope the circuits are the only wet thing here."]
+	title: "&4Highly Ultimate Voltage (UHV)"
+}

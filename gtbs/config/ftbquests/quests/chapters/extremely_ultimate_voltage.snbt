@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extremely_ultimate_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: "kubejs:gooware_processor_mainframe"
+	id: "4E2EFF3663E9F893"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/uev_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		id: "570383575EA0842E"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "08B8BA8D1F997AA4"
+			item: "gtceu:uev_machine_hull"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["Soft Circuits. Really."]
+	title: "&aExtremely Ultimate Voltage (UEV)"
+}

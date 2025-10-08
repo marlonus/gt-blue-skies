@@ -1,0 +1,480 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ludicrous_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: "gtceu:nano_processor_mainframe"
+	id: "060B1958DC30B6D2"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/luv_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0973D8F727E1847E"]
+			id: "41BEE28BAF363FB5"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Age of fuwusion"
+			tasks: [{
+				id: "5BBD13440E449A1F"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41BEE28BAF363FB5"]
+			id: "39953E6AB4317532"
+			subtitle: "Hope you made a assembly line automation."
+			tasks: [{
+				id: "0EF6324B63069540"
+				item: "gtceu:luv_electric_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39953E6AB4317532"]
+			id: "6877377BAA317E52"
+			tasks: [{
+				id: "73F8A6BD2F0278BB"
+				item: "gtceu:luv_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6877377BAA317E52"]
+			id: "1A2E1B97BBFC6094"
+			tasks: [{
+				id: "50A1FC6B64FDDA88"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6877377BAA317E52"]
+			id: "2D33B88EFCF8D976"
+			subtitle: "Very handy for pattern inputs."
+			tasks: [{
+				id: "37CC58EB5FEE1C7B"
+				item: "gtceu:luv_dual_input_hatch"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41BEE28BAF363FB5"]
+			id: "127FD7A707667AA6"
+			tasks: [{
+				id: "27169734B9912DC8"
+				item: "gtceu:fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["127FD7A707667AA6"]
+			id: "2632DDF3730E6731"
+			tasks: [{
+				id: "2F556817F2774C1C"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41BEE28BAF363FB5"]
+			id: "27EF83672C269DD6"
+			tasks: [{
+				id: "6BB2D22868B3455A"
+				item: "gtceu:qbit_cpu_wafer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27EF83672C269DD6"]
+			id: "1B6EA44F554F99F5"
+			tasks: [{
+				id: "2DAD6B4D987AD844"
+				item: "gtceu:qbit_cpu_chip"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2632DDF3730E6731"
+				"1B6EA44F554F99F5"
+			]
+			id: "56A44FA4B6588E51"
+			tasks: [{
+				id: "52E8BC2C7B1491E4"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56A44FA4B6588E51"]
+			id: "0EED465F6B7542E2"
+			tasks: [{
+				id: "068ACB0EF28CEB0F"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EED465F6B7542E2"]
+			id: "1F3F9656EC719047"
+			tasks: [{
+				id: "747C4DBA24372B43"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1F3F9656EC719047"
+				"347E58DC6E991F3D"
+			]
+			id: "578536A1E5B0F26C"
+			shape: "gear"
+			subtitle: "As always, good luck!"
+			tasks: [{
+				id: "088365DBB86C500E"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6877377BAA317E52"]
+			id: "392A38F18149681B"
+			tasks: [{
+				id: "29AF3CBD39AE7C5F"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["578536A1E5B0F26C"]
+			description: ["You need a ZPM fluid solidifer too."]
+			id: "3A122D3A743437D9"
+			subtitle: "Make circuits in huge batches!"
+			tasks: [{
+				id: "20E14C321D284874"
+				item: "gtnn:circuit_assembly_line"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["578536A1E5B0F26C"]
+			id: "5CF26468A7FA5211"
+			shape: "gear"
+			tasks: [{
+				id: "22ED479238E5D83A"
+				item: "gtceu:luv_parallel_hatch"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5CF26468A7FA5211"
+				"392A38F18149681B"
+			]
+			description: ["The blast furnace of doom, now in your hands."]
+			id: "21B4300F351E89F3"
+			subtitle: "You need trinium for the NaqAlloy frames."
+			tasks: [{
+				id: "4F0AB6D0F1380078"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["578536A1E5B0F26C"]
+			id: "38595AFDA985E185"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "FUWUSIONNNN"
+			tasks: [{
+				id: "10C8A2D9F974CD5E"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38595AFDA985E185"]
+			description: ["Remember the \"Passive Everything\" quote from threefold?"]
+			id: "3EDF47D20E415ED0"
+			subtitle: "Fusion Fun"
+			tasks: [{
+				id: "654AC00A0FD8C37F"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6877377BAA317E52"]
+			id: "3FA2765254C5AD54"
+			subtitle: "Laser in, laser out"
+			tasks: [{
+				id: "481174FB848DA2F4"
+				item: "gtceu:active_transformer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3FA2765254C5AD54"
+				"6877377BAA317E52"
+			]
+			description: ["Can be used with the Central Monitor to get a real-time energy display screen!"]
+			id: "2D3B2D86E07330F1"
+			subtitle: "Power Storage for life"
+			tasks: [{
+				id: "486F859F8E24AA93"
+				item: "gtceu:power_substation"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D3B2D86E07330F1"]
+			id: "65BEBE51E3B13FD4"
+			tasks: [{
+				id: "7A7E0C5041C8ECE5"
+				item: "gtceu:empty_tier_ii_battery"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2D3B2D86E07330F1"
+				"07B9DECA54D6A881"
+			]
+			id: "5D2B6605D20FC207"
+			tasks: [{
+				id: "7081A9C99B318218"
+				item: "gtca:proton_cell"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5D2B6605D20FC207"
+				"65BEBE51E3B13FD4"
+			]
+			id: "7D2F394F81D6952F"
+			subtitle: "Immense power storage"
+			tasks: [{
+				id: "046B9A0CD4DC11DF"
+				item: "gtca:proton_cell_battery"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["73A20B02DB948905"]
+			id: "07B9DECA54D6A881"
+			tasks: [{
+				id: "00B33375358F21F6"
+				item: "gtca:proton"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41BEE28BAF363FB5"]
+			id: "73A20B02DB948905"
+			subtitle: "Particle Accelerators at your doorstep"
+			tasks: [{
+				id: "7985CF6A5B12AB30"
+				item: "gtca:comet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FFC74526CA9703F"]
+			id: "347E58DC6E991F3D"
+			shape: "gear"
+			subtitle: "Needs new fuel."
+			tasks: [{
+				id: "64951CBB71BDEAEA"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F0788D0A60E6FEB"]
+			id: "5FFC74526CA9703F"
+			tasks: [{
+				id: "6D03A755C2B9FA30"
+				item: "gtnn:heavy_plate_t4"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A2E1B97BBFC6094"
+				"2D33B88EFCF8D976"
+			]
+			id: "2F0788D0A60E6FEB"
+			tasks: [{
+				id: "77201CC3C6C2B601"
+				item: "gtnn:heavy_ingot_t4"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EDF47D20E415ED0"]
+			description: ["Stock up!"]
+			id: "352044D03045F22B"
+			subtitle: "For later."
+			tasks: [{
+				id: "04EAFF1F2DC1845D"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["352044D03045F22B"]
+			id: "38D0B17B7C062328"
+			subtitle: "Grow the crystals reliably with Europium!"
+			tasks: [{
+				id: "3BC3A5E8C90EA5E7"
+				item: "gtceu:raw_crystal_chip_parts"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["352044D03045F22B"]
+			id: "7A93D84EF2BBD0DA"
+			subtitle: "For later"
+			tasks: [{
+				id: "74D3DD31831FBD3A"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["578536A1E5B0F26C"]
+			id: "2A1E5509F91F0BDE"
+			subtitle: "Nano Circuits in 1 step"
+			tasks: [{
+				id: "43DB8F2A89DADF7E"
+				item: "gtceu:advanced_soc"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["578536A1E5B0F26C"]
+			description: ["Needs UHV Superconductor :)"]
+			id: "3D8AE9AE58926B03"
+			subtitle: "Mass Chilling"
+			tasks: [{
+				id: "50F4A77472D8CB47"
+				item: "gtceu:mega_vacuum_freezer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["38595AFDA985E185"]
+			id: "3E2597448A2C78A7"
+			subtitle: "The ZPM Casing Material"
+			tasks: [{
+				id: "08509EABAD712EB1"
+				item: "gtceu:cryoflux_steel_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39953E6AB4317532"]
+			id: "42E6FED4C04A2D1F"
+			subtitle: "The better chestplate"
+			tasks: [{
+				id: "066D860DD21DBE52"
+				item: {
+					Count: 1
+					id: "gtceu:advanced_quarktech_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["Is it the voltage thats ludicrous, or is it you?"]
+	title: "&bLudicrous Voltage (LuV)"
+}

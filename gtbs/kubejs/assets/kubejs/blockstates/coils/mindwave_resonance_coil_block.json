@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "kubejs:coils/off/mindwave_resonance_coil_block"
+    },
+    "active=true": {
+      "model": "kubejs:coils/on/mindwave_resonance_coil_block"
+    }
+  }
+}

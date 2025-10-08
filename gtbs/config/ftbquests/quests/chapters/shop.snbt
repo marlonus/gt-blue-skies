@@ -1,0 +1,301 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shop"
+	group: "1F64FD07622D29DF"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "gtceu:item/neutronium_credit"
+		}
+	}
+	id: "725C8BE2399BCC78"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["6EEDA758AA096043"]
+			description: [
+				"For a small fee of a &9chest&r, you get a few hatches and busses."
+				"Included is a &2maintenance hatch bundle&r! You dont need to worry about maintenance today, or ever!"
+				""
+				"(&4GregTech is not responsible for any health complications that may arise when consuming these products.&r)"
+				""
+				"You will definetly buy this a lot. Stockpile wood!"
+			]
+			id: "2A958D7B08E99AF7"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1DD10BE1A620A829"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68421C0398043F29"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "59B1BB694F43B8C1"
+					item: "gtceu:ulv_output_hatch"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "70A3A3974880A64C"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A4B5453DA0ACB10"
+					item: "gtceu:ulv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72C269DCD1414B93"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Hatches and busses!"
+			tasks: [{
+				consume_items: true
+				id: "15C8FA4B4BF00C8C"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "Multiblock Essentials"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["10EA45F4EFE23329"]
+			id: "1F90832CBC95632B"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "1CD0739EFFE485BB"
+					item: "gtceu:tin_normal_item_pipe"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0E7318CB966CB3C4"
+					item: "gtceu:tin_alloy_normal_fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6D05A58803BDCA96"
+					item: "ulvcovm:ulv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5139C57ED28EAB4A"
+					item: "ulvcovm:ulv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6E5E868D4647E166"
+					item: "ulvcovm:ulv_electric_pump"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Automation!"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7917022A4DB2CBFE"
+				item: { Count: 2, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "Piping and transfer"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["10EA45F4EFE23329"]
+			id: "416297CB56596E0D"
+			optional: true
+			rewards: [
+				{
+					id: "5648E84531CBC73D"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15F0D516C835FA1A"
+					item: {
+						Count: 1
+						id: "gtceu:iron_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A8938A1D7FFCE1A"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4330D4611AD5AB72"
+					item: {
+						Count: 1
+						id: "gtceu:iron_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "703232F063744F70"
+					item: {
+						Count: 1
+						id: "gtceu:iron_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7944028A55FC1395"
+					item: {
+						Count: 1
+						id: "gtceu:iron_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "600AAF158DAFFDC6"
+					item: {
+						Count: 1
+						id: "gtceu:iron_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Cheap iron tools"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0FE127150B9F0269"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Tools for days"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29F7B74412F7F9EE"]
+			description: [
+				"When you do press it, anything you buy triggers the quest chapter completion sound."
+				""
+				"You can only press it when having built the... supracausal galactic mainframe. Yay!"
+			]
+			id: "5D3C3A4EA65F1E78"
+			subtitle: "Save your ears"
+			tasks: [{
+				id: "3ED17DE44B39C96F"
+				title: "Dont check this quest."
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Totally not pay to Win!"]
+	title: "Shop"
+}

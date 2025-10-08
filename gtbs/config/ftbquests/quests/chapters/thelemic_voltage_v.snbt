@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thelemic_voltage_v"
+	group: "39117F9F1F55A7DB"
+	icon: "kubejs:dimensional_processor_mainframe"
+	id: "08DA772A2047541C"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/max2_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 16
+	quest_links: [ ]
+	quests: [{
+		description: ["EU/t is now a chill 34,359,738,352!"]
+		id: "17F14E9A6593B797"
+		shape: "gear"
+		size: 2.0d
+		subtitle: "And you thought it couldnt get any worse."
+		tasks: [{
+			id: "64A15EA2ECB3266B"
+			item: "kubejs:dimensional_processor_mainframe"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["Actually processes stuff in universes within universes."]
+	title: "&3&oO&b&om&f&on&3&oi&b&ov&f&oe&3&or&b&os&f&oa&3&ol &f&oV&3&oo&b&ol&f&ot&3&oa&b&og&f&oe &b&o(&f&oΩ&3&oV&b&o)"
+}

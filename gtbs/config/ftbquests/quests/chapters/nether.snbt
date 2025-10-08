@@ -1,0 +1,207 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "143975462EE54071"
+	icon: "minecraft:netherrack"
+	id: "76B8BF102346797F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["204A396CB8D842B0"]
+			description: ["You unlock the nether via normal means after you craft this."]
+			id: "72C76F6AFA80CDA0"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "No need to step in"
+			tasks: [{
+				id: "4BBE39D33D126C9F"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F2858F5C291D89C"]
+			icon: "gtceu:infernal_basalt_residue_dust"
+			id: "17A1FF996B9C1C09"
+			tasks: [{
+				id: "0FB45524806F44B0"
+				title: "Infernal Basalt Residue Dust"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72C76F6AFA80CDA0"]
+			id: "7F2858F5C291D89C"
+			tasks: [{
+				id: "23B8367FAC3B0628"
+				title: "The search for hot stuff"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17A1FF996B9C1C09"]
+			icon: "gtceu:sulfurous_magma_gas_bucket"
+			id: "224C15CD0F790C43"
+			tasks: [{
+				id: "1615107245B17924"
+				title: "Sulfurous Magma Gas"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17A1FF996B9C1C09"]
+			icon: "gtceu:ashen_flux_mixture_dust"
+			id: "1F636E2ACE115CA1"
+			tasks: [{
+				id: "1111CF16BDC6E2A9"
+				title: "Ashen Flux Mixture Dust"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F636E2ACE115CA1"]
+			icon: "gtceu:pyroclastic_essence_bucket"
+			id: "54675A2DF51EA0F0"
+			tasks: [{
+				id: "074C2CD7EEB1996E"
+				title: "Pyroclastic Essence"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F636E2ACE115CA1"]
+			icon: "gtceu:smoldering_metal_sludge_dust"
+			id: "5D227A5A34B071B8"
+			tasks: [{
+				id: "382C1036DE1D03AB"
+				title: "Smoldering Metal Sludge Dust"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["224C15CD0F790C43"]
+			icon: "gtceu:molten_obsidian_glass_bucket"
+			id: "36D987F6D335539A"
+			tasks: [{
+				id: "64AAB7764C6E06A8"
+				title: "Molten Obsidian Glass"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["224C15CD0F790C43"]
+			icon: "gtceu:cinder_residue_dust"
+			id: "3C4A833BC32272B9"
+			tasks: [{
+				id: "4B3752D87A6FE120"
+				title: "Cinder Residue Dust"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"36D987F6D335539A"
+				"54675A2DF51EA0F0"
+			]
+			icon: "gtceu:hellfire_extract_bucket"
+			id: "02A9A651AE1869E8"
+			tasks: [{
+				id: "452E38CF8752DC3A"
+				title: "Hellfire Extract"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A320BAD0E3D0469"]
+			icon: "gtceu:demonic_alloy_slurry_bucket"
+			id: "7C9563FA6A1A22E5"
+			tasks: [{
+				id: "49EA1619592E2B9A"
+				title: "Demonic Alloy Slurry"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C9563FA6A1A22E5"]
+			id: "24C59B5E34604CF2"
+			shape: "gear"
+			tasks: [{
+				id: "7BE887C0D1EA2F34"
+				item: "gtceu:pyroflux_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C9563FA6A1A22E5"]
+			id: "6706ED43FC01897F"
+			shape: "gear"
+			tasks: [{
+				id: "641799F5EEA552B5"
+				item: "gtceu:demonsteel_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5D227A5A34B071B8"
+				"02A9A651AE1869E8"
+				"3C4A833BC32272B9"
+			]
+			id: "5A320BAD0E3D0469"
+			shape: "gear"
+			tasks: [{
+				id: "56CD664233AD30CF"
+				item: "gtceu:hellfire_alloy_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C9563FA6A1A22E5"]
+			id: "2AF46FA26F89BD29"
+			shape: "gear"
+			tasks: [{
+				id: "1E776B77DB718BD1"
+				item: "gtceu:nether_star_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Hot stuff"]
+	title: "Nether"
+}

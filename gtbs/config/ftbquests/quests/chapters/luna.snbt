@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "luna"
+	group: "143975462EE54071"
+	icon: "ad_astra:moon_globe"
+	id: "0F905CF1029970EF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5BE197FBC8F283BD"]
+			id: "6CDC5EADF9556D36"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "(Enter the moon dimension to complete)"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "313A14629EDC8964"
+				title: "Welcome!"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CDC5EADF9556D36"]
+			description: [
+				"Gives you a shit ton of rocks."
+				"Good luck processing all of them; though, you are very close to GCYM."
+			]
+			id: "428BDBB8AB65479C"
+			subtitle: "The big-ass drill"
+			tasks: [{
+				id: "0840C0E307EC04E5"
+				item: "gtceu:planetary_miner"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["428BDBB8AB65479C"]
+			description: [
+				"It is 60% faster than the same tier of macerators, also gaining a parallel per tier you progress."
+				"LV = 1, MV = 2 and so on."
+			]
+			id: "548FFD7EE59B7776"
+			subtitle: "This is the best for now."
+			tasks: [{
+				id: "312CACF15DC49897"
+				item: "gtnn:maceration_stack_controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["548FFD7EE59B7776"]
+			id: "1B220D0628E5EA8B"
+			tasks: [{
+				id: "5FC4942A31E78FF9"
+				title: "You will return here later. Have fun with your unecessarily many materials!"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Barren"]
+	title: "Luna"
+}

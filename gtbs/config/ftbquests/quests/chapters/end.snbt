@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "143975462EE54071"
+	icon: "minecraft:ender_eye"
+	id: "048056C1F3DAA6F9"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["3ECC5478A33284BF"]
+		description: ["The end is far from here."]
+		icon: "minecraft:ender_eye"
+		id: "19D87F65BEB45A0F"
+		shape: "gear"
+		size: 2.0d
+		subtitle: "Not even the dimension."
+		tasks: [{
+			id: "6ED1E01990F6CF7C"
+			title: "End"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["Voidland"]
+	title: "End"
+}

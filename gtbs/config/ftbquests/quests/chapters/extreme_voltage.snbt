@@ -1,0 +1,482 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "kubejs:item/circuits/refined_processor_mainframe"
+		}
+	}
+	id: "2A13CEFF833B577E"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/ev_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23422FFE7951FC9A"]
+			description: ["Have fun in this chapter! You are nearing GCYM!"]
+			id: "3CE67EB353B5507E"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Extreme Regret"
+			tasks: [{
+				id: "755D4AF89700A414"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CE67EB353B5507E"]
+			id: "2F3526004AC13EB8"
+			tasks: [{
+				id: "5A6A888CD3D0AA01"
+				item: "gtexolegs:ev_exoskeleton_legs"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CE67EB353B5507E"]
+			description: ["Very fucking expensive."]
+			id: "485B70E3768131BC"
+			subtitle: "You will hate this too. With neodymium now."
+			tasks: [{
+				id: "75C26ADDF0B73308"
+				item: "gtceu:ev_electric_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["485B70E3768131BC"]
+			id: "40AE0234429B66EB"
+			tasks: [{
+				id: "454D1D0487CA6A60"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"485B70E3768131BC"
+				"3C2C8D9067860A91"
+			]
+			id: "43C8598E68C0417E"
+			subtitle: "More efficient Plastic Production!"
+			tasks: [{
+				id: "0452CD88765EF900"
+				item: "gtca:polymerizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["485B70E3768131BC"]
+			id: "0709EE8FC514D174"
+			tasks: [{
+				id: "1A4C39B1B26FE759"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"485B70E3768131BC"
+				"646EE7FB8DAB257E"
+			]
+			id: "0898EDF586B59114"
+			tasks: [{
+				id: "7B0B0D3799CBE832"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0898EDF586B59114"]
+			id: "497DE270B78E89B4"
+			tasks: [{
+				id: "5120A19CFE7CF945"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0709EE8FC514D174"
+				"497DE270B78E89B4"
+			]
+			id: "631771E6CFD346BC"
+			subtitle: "The greatest MV circuit."
+			tasks: [{
+				id: "302F83E3E2D84492"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["631771E6CFD346BC"]
+			id: "4137C158C4387F3E"
+			rewards: [{
+				auto: "invisible"
+				id: "7FDDE981254F2B52"
+				ignore_reward_blocking: true
+				stage: "aether"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "3654E0970D1DD701"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4137C158C4387F3E"]
+			id: "29324A6723426455"
+			tasks: [{
+				id: "3927273503E654FB"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"29324A6723426455"
+				"55A72B61B761BCE7"
+			]
+			description: ["Yes, you need to progress to the Aether, Undergarden, Nether and Moon for this."]
+			id: "150621B91A0F7867"
+			shape: "gear"
+			subtitle: "Needs Microbe-Infested Biosludge, as well as Demonsteel, Tungsten and Aethermarite"
+			tasks: [{
+				id: "5065F7EBB80A56C8"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["485B70E3768131BC"]
+			id: "255F81F8CBAF8B41"
+			tasks: [{
+				id: "1591BE3B2A104321"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE67EB353B5507E"]
+			description: ["Also easy to automate."]
+			id: "48D8EDBA13C85A11"
+			subtitle: "Extremely good"
+			tasks: [
+				{
+					id: "2D0D08FBAF0AAB55"
+					item: "gtceu:ray_receiver"
+					type: "item"
+				}
+				{
+					id: "1BFC79219D491681"
+					item: "gtceu:salt_boiler"
+					type: "item"
+				}
+				{
+					id: "29AD9669417783DC"
+					item: "gtceu:salt_exchanger"
+					type: "item"
+				}
+			]
+			title: "Molten Salt Photonic Power"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40AE0234429B66EB"]
+			id: "214EEBFD110F374B"
+			tasks: [{
+				id: "582B814137A33E9C"
+				item: "gtceu:rtm_alloy_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["255F81F8CBAF8B41"]
+			id: "4C552EFE006DD84B"
+			tasks: [{
+				id: "4935D5D5674C4A5F"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"214EEBFD110F374B"
+				"255F81F8CBAF8B41"
+			]
+			id: "19E2F8A3076CDDE0"
+			tasks: [{
+				id: "08326CE9F3F7D696"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19E2F8A3076CDDE0"]
+			description: [
+				"A planetary drill on the moon might give you multiple materials needed for progression."
+				"Its way better than the old drills."
+				""
+				"Also, dont mind the ore veins, they are insignificant. The planetary drill is infinite."
+			]
+			id: "4A62C500E240B3E2"
+			subtitle: "The moon might help you!"
+			tasks: [{
+				id: "54A61332F21112B0"
+				title: "On the search for tungsten"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4C552EFE006DD84B"]
+			description: ["Its never been easier to upgrade your processing."]
+			id: "07788E00ACDADA47"
+			subtitle: "Multiamp Hatches!"
+			tasks: [{
+				id: "03B26DE5648C6111"
+				item: "gtceu:ev_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4A62C500E240B3E2"
+				"6CDC5EADF9556D36"
+			]
+			id: "55A72B61B761BCE7"
+			subtitle: "Set up a passive processing line for this."
+			tasks: [{
+				id: "35946B9DD15EA91B"
+				item: "gtceu:tungsten_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["55A72B61B761BCE7"]
+			description: ["Almost the next tier"]
+			id: "67A7D51AB615B963"
+			subtitle: "They are actually not that complex!"
+			tasks: [
+				{
+					id: "00268F28C3EF6385"
+					item: "gtceu:tungsten_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "6A39D384439155C6"
+					item: "gtceu:tungsten_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "The tungsten siblings"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["67A7D51AB615B963"]
+			id: "5015BA0138EF7E9B"
+			shape: "gear"
+			subtitle: "Saves a lot of headaches. Creates some itself, just look at the programmed circuits."
+			tasks: [{
+				id: "17DF2319E6008E39"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["67A7D51AB615B963"]
+			description: ["Get ready for Mars Bastnasite processing :)"]
+			id: "799952303170F816"
+			shape: "gear"
+			subtitle: "Finally"
+			tasks: [{
+				id: "1759CFC4D3B74B92"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4137C158C4387F3E"]
+			id: "3D86686BE1540940"
+			subtitle: "Have fun!"
+			tasks: [{
+				id: "641007A3E9F1B25A"
+				title: "Aether Time!"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["799952303170F816"]
+			description: ["Just build a nether portal now."]
+			id: "796ADD9270404DB9"
+			subtitle: "Like, really."
+			tasks: [{
+				id: "6FB9ED68D2732AEE"
+				title: "Go to hell"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["55A72B61B761BCE7"]
+			id: "4611D4C7B7976596"
+			subtitle: "You will use this stuff rather often. You can probably make them in batches of a huge amount."
+			tasks: [
+				{
+					id: "69AECA0A82D3932B"
+					item: "gtceu:hssg_ingot"
+					type: "item"
+				}
+				{
+					id: "19E3FD41B45120F9"
+					item: "gtceu:hsse_ingot"
+					type: "item"
+				}
+				{
+					id: "4F9B6296DB64EC00"
+					item: "gtceu:hsss_ingot"
+					type: "item"
+				}
+			]
+			title: "HSS-What?"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07788E00ACDADA47"]
+			id: "52924590F6336B3F"
+			subtitle: "Who wants more power? You!"
+			tasks: [{
+				id: "2CA0022A7A19D4F5"
+				item: "gtceu:ev_energy_output_hatch_16a"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["485B70E3768131BC"]
+			id: "646EE7FB8DAB257E"
+			subtitle: "If not, then do so now."
+			tasks: [{
+				id: "6D46B8CCF1014287"
+				title: "Have you automated Iron III Chloride yet?"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C552EFE006DD84B"]
+			id: "50608BD74D196AB5"
+			subtitle: "Ever wanted Indium or Epoxy? Oh sorry, you dont have a choice."
+			tasks: [{
+				id: "4089FE68688739DA"
+				title: "Check the processing lines tab! Have fun :)"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["799952303170F816"]
+			id: "057B9352388CB95D"
+			subtitle: "Go to the red planet!"
+			tasks: [{
+				id: "30097CF855C7DF90"
+				title: "Bastnasite fun"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7754CC83DB810747"]
+			id: "3C2C8D9067860A91"
+			tasks: [{
+				id: "0E867B43F638B8F5"
+				item: "gtceu:laminated_glass"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5015BA0138EF7E9B"]
+			id: "6905BF15A36D185A"
+			subtitle: "The IV Casing Material"
+			tasks: [{
+				id: "33E870A0959CC0AE"
+				item: "gtceu:voidglass_composite_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Now featuring Micro-Meltdowns!"]
+	title: "&fExtreme Voltage (EV)"
+}

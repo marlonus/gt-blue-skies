@@ -1,0 +1,785 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "high_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: "gtceu:advanced_integrated_circuit"
+	id: "39AD7D836F2A3581"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/hv_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2B6FD5E2AB498769"
+				"60F66059FB0507C0"
+				"14A29DC94EFCEC09"
+			]
+			description: ["Take a peek at the Processing Lines tab. Beware!"]
+			id: "76BB6A934B2C7299"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Finally!"
+			tasks: [{
+				id: "10362FD63630E5BB"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76BB6A934B2C7299"]
+			id: "341B0C797DD23B35"
+			subtitle: "Probably not annoying"
+			tasks: [{
+				id: "5B89169345F93F3C"
+				item: "gtceu:hv_electric_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["341B0C797DD23B35"]
+			id: "4B41C739413119E9"
+			tasks: [{
+				id: "355D76D9F0977D13"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7B26026B0F76D093"
+				"0F36954035ED4B9D"
+			]
+			id: "3BC6F28454D464D0"
+			tasks: [{
+				id: "3E8FB9E827F9B53D"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4B41C739413119E9"
+				"0D909C03D231F235"
+			]
+			id: "7B26026B0F76D093"
+			subtitle: "You need LPICs"
+			tasks: [{
+				id: "644F71E18ED20370"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B41C739413119E9"]
+			description: ["I recommend you make PTFE and PVC first."]
+			id: "7C453D17E5F4A5C7"
+			subtitle: "Amazing ratios."
+			tasks: [
+				{
+					id: "66D54E75B3812467"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "25DAA289C215A06B"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+				{
+					id: "73A0FF05A98A15C0"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "7659D4B3F2912315"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+				{
+					id: "0E6AD870C086AE74"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+			]
+			title: "SMD!"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C453D17E5F4A5C7"]
+			id: "21DE64754FA19CC6"
+			tasks: [{
+				id: "0819F37CA049F144"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BC6F28454D464D0"]
+			id: "7A68BE8E3DD8102D"
+			tasks: [{
+				id: "20E45E62FB73B520"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["535B16A0B1D21A85"]
+			id: "3FD19DA91E5FC4FE"
+			subtitle: "Big Fridge"
+			tasks: [{
+				id: "00F26964C752F75D"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76BB6A934B2C7299"]
+			description: [
+				"No you dont actually."
+				"Even when a recipe says it does, you dont actually need it."
+			]
+			id: "21995DDCAB394EF7"
+			subtitle: "Do you need it?"
+			tasks: [{
+				id: "62C5FC2F66D1C679"
+				title: "Cleanroom"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76BB6A934B2C7299"]
+			description: [
+				"The better the coils, the better the energy efficiency and parallel is."
+				""
+				"Goes up to 1EU/t per parallel, with 2944 parallels."
+			]
+			id: "078DF144EDC94506"
+			subtitle: "Fast smelting!!!"
+			tasks: [{
+				id: "17DA443F9A29AA6B"
+				item: "gtceu:multi_smelter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76BB6A934B2C7299"]
+			description: ["But yes, do oil processing."]
+			id: "2ED715E311DCB8E1"
+			subtitle: "Actually."
+			tasks: [{
+				id: "57CC546D209DE7F9"
+				title: "Oil Up"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FD19DA91E5FC4FE"]
+			description: [
+				"Just vacuum freeze some air, and then distill it."
+				"And no, you probably can't suck out the air of this planet completely. I think."
+			]
+			id: "2E6156552FF3C56D"
+			subtitle: "Not worthy of its own questline."
+			tasks: [{
+				id: "2B963062D7CBB76F"
+				title: "Air Distillation"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76BB6A934B2C7299"]
+			id: "1ABD9272B1756424"
+			tasks: [{
+				id: "601AC6ED966BE353"
+				item: "gtceu:aethermarite_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76BB6A934B2C7299"]
+			description: [
+				""
+				"You need a LCR first. Make PTFE!"
+				""
+				"{ \"text\": \"Have fun :)\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F2F0AE067B19A16\" } }"
+			]
+			id: "669F01A81E42463B"
+			subtitle: "Yeah, for real."
+			tasks: [{
+				id: "42EAAE85024B4CEB"
+				title: "Platline"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7A68BE8E3DD8102D"
+				"3FD19DA91E5FC4FE"
+			]
+			id: "20F185C1AFBFD53D"
+			subtitle: "Automate it!"
+			tasks: [{
+				id: "54B5DDB601FA9657"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76BB6A934B2C7299"]
+			description: ["Remember the old boiler setup?"]
+			id: "57B5CD04CB9C43FD"
+			subtitle: "12A HV!"
+			tasks: [{
+				id: "1BE366E2415F6853"
+				item: "gtceu:hv_steam_turbine_mb"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E6156552FF3C56D"]
+			description: [
+				"Well, fear not! Once you get your first rocket up and running you can actually just extract the air via a \"small\" orbital gas siphon!"
+				"Why can you siphon nether and ender gas from the atmosphere of the earth? Well, they probably are on the same planet, just deeper from each other."
+				""
+				"I totally didnt make that up just to answer your question somehow."
+			]
+			id: "42BE91509186F730"
+			subtitle: "Do you miss them too?"
+			tasks: [{
+				id: "50405205BFF11491"
+				title: "But what about Nether and Ender Air?"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["535B16A0B1D21A85"]
+			id: "08CB2BA724098391"
+			tasks: [{
+				id: "0550BCDE096357CD"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["535B16A0B1D21A85"]
+			description: ["Can turn dusts into gems for some reason. Stock up on iTNT!"]
+			id: "7979A1A930313511"
+			subtitle: "Such a banger"
+			tasks: [{
+				id: "33BB35D7F8807F84"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7979A1A930313511"]
+			id: "4C0F5FF0E1CC94C2"
+			subtitle: "Woah? GTNH?"
+			tasks: [{
+				id: "0BB983717668B2B1"
+				item: "gtnn:heavy_ingot_t1"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C0F5FF0E1CC94C2"]
+			id: "4449682C73E79832"
+			tasks: [{
+				id: "3DDC944F6D94C680"
+				item: "gtnn:heavy_plate_t1"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"08CB2BA724098391"
+				"4449682C73E79832"
+			]
+			id: "371E0A6893E18839"
+			subtitle: "Good luck with the thruster!"
+			tasks: [
+				{
+					id: "1D33E2D39D690B31"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+				{
+					id: "41FF56F8693C5E55"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					id: "67D201200377B1FA"
+					item: "ad_astra:steel_engine"
+					type: "item"
+				}
+			]
+			title: "Rocket Components"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"371E0A6893E18839"
+				"7733A5261985311C"
+			]
+			id: "5AFABE7C6A8C9105"
+			shape: "gear"
+			subtitle: "Look into the Dimension Hopping Chapter!"
+			tasks: [{
+				id: "30229A9997859592"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["341B0C797DD23B35"]
+			id: "6AEC9A05D8B85B7D"
+			tasks: [{
+				id: "371644A5487BC2B2"
+				item: "gtceu:hv_mixer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AEC9A05D8B85B7D"]
+			id: "0F36954035ED4B9D"
+			tasks: [{
+				id: "2C59EF79318A484E"
+				item: "gtceu:nichrome_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AEC9A05D8B85B7D"]
+			description: ["Take these extended ae2 things. Make a lattice out of it, and prepare for the singularity craft!"]
+			id: "68273DB4246CC17E"
+			rewards: [
+				{
+					count: 8
+					id: "745E909E50D8D114"
+					item: "expatternprovider:ex_molecular_assembler"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "290EF45EEA03DB18"
+					item: "expatternprovider:ex_pattern_provider"
+					type: "item"
+				}
+			]
+			subtitle: "Without even using mobs."
+			tasks: [
+				{
+					id: "7D6E144F53A6D078"
+					item: "gtceu:ender_pearl_dust"
+					type: "item"
+				}
+				{
+					id: "08FA013D71B2B473"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "48AA737857E5E855"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Ender Stuff"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25FD805AEF18DDA2"]
+			id: "7F6AF30385A6DFED"
+			tasks: [{
+				id: "791A8B1978C0AEE1"
+				item: "gtceu:ev_machine_casing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F6AF30385A6DFED"]
+			id: "23422FFE7951FC9A"
+			tasks: [{
+				id: "465E9A693F0C1845"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68273DB4246CC17E"]
+			description: ["Need wool? Get polycaprolactam, or just slaughter mobs in the slaughterhouse."]
+			id: "583EB38EB2A0C6D0"
+			subtitle: "Space stations arent going to power themselves"
+			tasks: [
+				{
+					id: "7A00FF24F1B3370B"
+					item: {
+						Count: 1
+						id: "enderchests:ender_chest"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73EA95129764D452"
+					item: {
+						Count: 1
+						id: "endertanks:ender_tank"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ender Equipment"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68273DB4246CC17E"]
+			description: [
+				"Get a tiny tnt, and blow up the singularity with ender dust next to it."
+				"Then you just have a entangled singularity, which is bound to one another!"
+				""
+				"Then you can put one quantum ring in your base, put the entangled singularity in there, and put another with the remaining singularity literally anywhere else!"
+				"Now you got dimensional AE2!"
+			]
+			id: "5DD047A4F53BBBB4"
+			subtitle: "For interdimensional AE2 shenanigans"
+			tasks: [
+				{
+					count: 16L
+					id: "22192B43D845D2D0"
+					item: { Count: 16, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3382121556429263"
+					item: { Count: 2, id: "ae2:quantum_link" }
+					type: "item"
+				}
+				{
+					id: "6DF591F67C020BD7"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			title: "The Quantum Ring"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68273DB4246CC17E"]
+			description: [
+				"But this thing makes it exactly that."
+				""
+				"Add a coordinate you want to teleport to, and just go somewhere, add another if you wish, and now you can travel between places instantly!"
+				"No need for any fancy rockets everytime you fly to the moon again."
+			]
+			id: "3FA63C64B2BFBB0D"
+			subtitle: "Teleportation is not easy"
+			tasks: [{
+				id: "54702B6BF60B61E9"
+				item: "tempad:he_who_remains_tempad"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76BB6A934B2C7299"]
+			description: ["Kills mobs like there's no tomorrow."]
+			id: "1216F907E6D7ACAC"
+			subtitle: "Sorry vegans"
+			tasks: [{
+				id: "1580952E032E205F"
+				item: "gtceu:slaughterhouse"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23422FFE7951FC9A"]
+			id: "6EA75CE1B930A277"
+			subtitle: "Very important!"
+			tasks: [
+				{
+					id: "03C81D18615BA5C2"
+					item: "gtceu:me_input_bus"
+					type: "item"
+				}
+				{
+					id: "3411670434DDB46B"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+				{
+					id: "5015790877B5AB95"
+					item: "gtceu:me_input_hatch"
+					type: "item"
+				}
+				{
+					id: "2466E884D8C03C85"
+					item: "gtceu:me_output_hatch"
+					type: "item"
+				}
+			]
+			title: "ME Busses and Hatches"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F5B2DEB7AA69994"]
+			description: ["You will need the Exxonmobil Chemical Plant for this."]
+			id: "7733A5261985311C"
+			subtitle: "Have fun!"
+			tasks: [{
+				id: "24E0FCD07353CCFF"
+				item: "gtceu:dense_hydrazine_mixed_fuel_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["341B0C797DD23B35"]
+			hide_dependent_lines: true
+			id: "0D909C03D231F235"
+			tasks: [
+				{
+					id: "1CEC62163C96C6B3"
+					item: "gtceu:hv_laser_engraver"
+					type: "item"
+				}
+				{
+					id: "3AF193A6CE4E08D9"
+					item: "gtceu:hv_cutter"
+					type: "item"
+				}
+				{
+					id: "37B9C60B3ECD3CC9"
+					item: "gtceu:phosphorus_boule"
+					type: "item"
+				}
+			]
+			title: "Laser, Cutter, Boule"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20F185C1AFBFD53D"]
+			id: "482F7D6D7346A8B1"
+			subtitle: "Go to the undergarden questline!"
+			tasks: [{
+				id: "67011F440A849FF4"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["21DE64754FA19CC6"]
+			id: "26525694984AD6E1"
+			tasks: [{
+				id: "2B35642C26F16AA7"
+				item: "kubejs:refined_processor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26525694984AD6E1"]
+			id: "6584C97A7F943A35"
+			tasks: [{
+				id: "6C8E6B74496540D7"
+				item: "kubejs:refined_processor_assembly"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6584C97A7F943A35"]
+			id: "1DB075509F57866F"
+			tasks: [{
+				id: "2BB7B124C0913D85"
+				item: "kubejs:refined_processor_supercomputer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DB075509F57866F"]
+			id: "535B16A0B1D21A85"
+			tasks: [{
+				id: "7052601B3C9D21B7"
+				item: "kubejs:refined_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["341B0C797DD23B35"]
+			id: "4D0AF1ADDB671849"
+			tasks: [{
+				id: "402730C3E82B0DBC"
+				item: "gtexolegs:hv_exoskeleton_legs"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["341B0C797DD23B35"]
+			id: "24BC7B9A66B21ABA"
+			tasks: [{
+				id: "63F4BA5057844A63"
+				item: "gtceu:hv_autoclave"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24BC7B9A66B21ABA"]
+			id: "296F9D65F7C1B5C8"
+			tasks: [{
+				id: "18A9C47C452149D4"
+				item: "gtceu:energy_crystal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["296F9D65F7C1B5C8"]
+			id: "74F7CFE7F1922FB3"
+			subtitle: "Finally, good clothing!"
+			tasks: [
+				{
+					id: "7C5D6BFB1F099EB3"
+					item: {
+						Count: 1
+						id: "gtceu:nanomuscle_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "313C91186BF723B1"
+					item: "gtceu:nanomuscle_boots"
+					type: "item"
+				}
+				{
+					id: "46C75E9F532D00C9"
+					item: "gtceu:nanomuscle_leggings"
+					type: "item"
+				}
+				{
+					id: "3CA2A3679157166D"
+					item: "gtceu:nanomuscle_chestplate"
+					type: "item"
+				}
+			]
+			title: "NanoMuscle Suite"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20F185C1AFBFD53D"]
+			id: "25FD805AEF18DDA2"
+			subtitle: "The EV Casing Material"
+			tasks: [{
+				id: "5A7CD8A043F08BCA"
+				item: "gtceu:astral_alloy_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+	]
+	subtitle: [
+		"What could go wrong?"
+		"(Spoiler: Everything. Especially your cables.)"
+	]
+	title: "&6High Voltage (HV)"
+}

@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_great_depression"
+	group: "39117F9F1F55A7DB"
+	icon: "placeablemaxwell:maxwell"
+	id: "5E1276D68564A8F8"
+	order_index: 19
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"BOW TO HIM"
+			""
+			"Now, touch some grass my guy. Honestly, if you completed this, respect."
+			""
+			"I hope your therapy sessions after this can put you back on track."
+		]
+		id: "40FF9EBC869DF6D0"
+		shape: "heart"
+		size: 5.0d
+		subtitle: "THE GREAT MAXWELL"
+		tasks: [{
+			id: "0977E0A65EA89935"
+			item: "placeablemaxwell:maxwell"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: [
+		"Transcendent Kitty"
+		"Honestly, go outside."
+	]
+	title: "&c&oT&6&oh&e&oe &3&oG&9&or&5&oe&c&oa&6&ot &a&oD&3&oe&9&op&5&or&c&oe&6&os&e&os&a&oi&3&oo&9&on"
+}

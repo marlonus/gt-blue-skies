@@ -1,0 +1,637 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "insane_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: "gtceu:micro_processor_mainframe"
+	id: "576CB658835E2E4D"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/iv_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["73B334F059BCF9D2"]
+			id: "1531A714D8A53811"
+			tasks: [{
+				id: "55B7CC34F91CAD7C"
+				item: "gtexolegs:iv_exoskeleton_legs"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"150621B91A0F7867"
+				"67A7D51AB615B963"
+			]
+			id: "73B334F059BCF9D2"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Go insane!"
+			tasks: [{
+				id: "57F9927AD62D9CEC"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73B334F059BCF9D2"]
+			id: "2AF5EBA3280D106C"
+			rewards: [{
+				id: "54D08C5417E47674"
+				item: "gtceu:iv_energy_output_hatch_16a"
+				type: "item"
+			}]
+			subtitle: "Comically long name"
+			tasks: [{
+				id: "399E3AD0F80D4211"
+				item: "gtceu:lava_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73B334F059BCF9D2"]
+			id: "5CAC3928A42742AA"
+			subtitle: "Yaaaay!"
+			tasks: [{
+				id: "18ACCE9E05772559"
+				item: "gtceu:iv_electric_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CAC3928A42742AA"]
+			id: "002AAAB5E34E6A6F"
+			tasks: [{
+				id: "05C8C25909B39E95"
+				item: "gtceu:iv_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["002AAAB5E34E6A6F"]
+			id: "4A84CB3ECA3B3714"
+			subtitle: "Make some cool stuff"
+			tasks: [{
+				id: "5459049BA030C1E3"
+				item: "gtceu:heavy_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["002AAAB5E34E6A6F"]
+			description: [
+				"You will get the parallel hatch very soon too!"
+				""
+				"For stuff like extruders, keep in mind that you can add multiple input busses with a different circuit or mold."
+			]
+			id: "07BA67DF8D0A0923"
+			shape: "gear"
+			subtitle: "Expand EVERYTHING"
+			tasks: [{
+				id: "1800278C6A4EAC38"
+				title: "GCYM"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["002AAAB5E34E6A6F"]
+			description: [
+				"If you never played GTNH, this tool is such a life-saver."
+				"It breaks anything as long as it has power."
+			]
+			id: "491B81DA7258764F"
+			shape: "heart"
+			subtitle: "SOOO IMPORTANT"
+			tasks: [{
+				id: "071158B348DE8391"
+				item: "gtmutils:omnibreaker"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73B334F059BCF9D2"]
+			id: "6D68E85334D7ACC9"
+			subtitle: "Your epoxy is now mandatory"
+			tasks: [{
+				id: "55A25D13522AFDBD"
+				item: "gtceu:epoxy_circuit_board"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D68E85334D7ACC9"]
+			id: "28C7E98524FEB96F"
+			tasks: [{
+				id: "452427AEEB8AF344"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"002AAAB5E34E6A6F"
+				"5EF543D73F66C038"
+			]
+			id: "1775F3BDA1037752"
+			subtitle: "Cheapest circuits!"
+			tasks: [
+				{
+					id: "31332E0454786185"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "3941D727974A1366"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "5D9D72E650D7084B"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "13A38E2FAD69D43E"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "698EE35DABDD9E2D"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			title: "Advanced SMDs"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28C7E98524FEB96F"]
+			id: "5181443590A7D4D8"
+			tasks: [{
+				id: "4AB717D3FB70D651"
+				item: "gtceu:nano_cpu_wafer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5181443590A7D4D8"]
+			id: "5BB800B826B0DA47"
+			tasks: [{
+				id: "571807F4FA96AD84"
+				item: "gtceu:nano_cpu_chip"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5BB800B826B0DA47"]
+			id: "51A2FDDD450B64BD"
+			subtitle: "Cheap HV!"
+			tasks: [{
+				id: "791E22E305744E51"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51A2FDDD450B64BD"]
+			id: "0F89BD47380B8978"
+			tasks: [{
+				id: "71026083A05074C4"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"002AAAB5E34E6A6F"
+				"6E892F17128CB938"
+			]
+			id: "50CDE2315D32A9C1"
+			tasks: [{
+				id: "7B1797F1B4167CEB"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50CDE2315D32A9C1"]
+			description: ["I wish you luck"]
+			id: "5EF543D73F66C038"
+			shape: "gear"
+			subtitle: "The dreaded"
+			tasks: [{
+				id: "0ABE9633B8BA86C3"
+				item: "gtceu:polybenzimidazole_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F89BD47380B8978"]
+			id: "5074693FDAB6C4C4"
+			tasks: [{
+				id: "2E3BE6E478B33C0E"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5074693FDAB6C4C4"
+				"1775F3BDA1037752"
+			]
+			id: "0973D8F727E1847E"
+			shape: "gear"
+			subtitle: "Have fun making this stuff!"
+			tasks: [{
+				id: "3D8F0310C8E99F68"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D715F395FDC6F0A"]
+			id: "6E892F17128CB938"
+			tasks: [{
+				id: "5C530A65A0EE389C"
+				item: "gtceu:hpic_chip"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73B334F059BCF9D2"]
+			id: "0D715F395FDC6F0A"
+			subtitle: "I hope you made indium when i told you"
+			tasks: [{
+				id: "0C8F6A8B1C643233"
+				item: "gtceu:hpic_wafer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F89BD47380B8978"]
+			id: "2E7AA97826704058"
+			subtitle: "Not the dimension sadly"
+			tasks: [{
+				id: "621EE734CB77C3B2"
+				title: "The End"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0973D8F727E1847E"]
+			description: ["THE FACTORY MUST GROW"]
+			id: "116207CCE08331CE"
+			shape: "gear"
+			subtitle: "PARALLELIZATION!!!!!"
+			tasks: [{
+				id: "0034BE0A573DB74B"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73B334F059BCF9D2"]
+			description: ["The inputs need to be in order. I will leave it to you to figure out, have fun!"]
+			hide_dependent_lines: true
+			id: "60C2ABF7552A52FC"
+			shape: "gear"
+			subtitle: "AssLine"
+			tasks: [{
+				id: "7FF2CD9D15488379"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["002AAAB5E34E6A6F"]
+			id: "6872F74619D6CA13"
+			tasks: [{
+				id: "4A4732679BF803AF"
+				item: "gtnn:heavy_ingot_t3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6872F74619D6CA13"]
+			id: "4CA60E011567BF12"
+			tasks: [{
+				id: "76AAE3FE46B43221"
+				item: "gtnn:heavy_plate_t3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CA60E011567BF12"]
+			id: "66EF311254149268"
+			shape: "gear"
+			subtitle: "No chapters for mercury and venus, as their goals are clear and not huge."
+			tasks: [{
+				id: "2FA5610C629971CD"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["002AAAB5E34E6A6F"]
+			id: "75A20BF59D2F6E91"
+			subtitle: "Precisely for Precision Assembly"
+			tasks: [{
+				id: "428E97C9EB24F7FC"
+				item: "gtceu:large_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75A20BF59D2F6E91"]
+			description: [
+				"You need some enriched uranium for this too :)"
+				""
+				"&4&lVERY IMPORTANT!"
+				"&r"
+				"You need to automate this on how its described in the tooltip. A specific casing can be used to read the eV level and send out a redstone signal, potentially blocking input of energy for eV increase, or making the machine input beryllium or caesium to decrease eV."
+				"You are able to wallshare neutron activators, but dont wallshare the  sensor or eV hatch."
+				"Increasing the height of the machine decreases recipe-time, but also decreases EU efficiency."
+				""
+				"Check the GTNH wiki for more information, though be aware that it may be outdated, as this is not 1.7.10. The mathematical function there is useful though."
+				" "
+				"&4DO NOT exceed a specific threshold, otherwise it will explode."
+				""
+				"Understood? Then continue to the IV processing line diagram."
+			]
+			id: "789F6705B08770A1"
+			subtitle: "Your gateway to Naquadah!"
+			tasks: [
+				{
+					id: "2EAC9F18889C22EE"
+					item: "gtnn:neutron_activator"
+					type: "item"
+				}
+				{
+					id: "3D06B626150F4EAE"
+					item: "gtnn:neutron_sensor"
+					type: "item"
+				}
+				{
+					id: "27CB840477D0EC55"
+					item: "gtnn:iv_neutron_accelerator"
+					type: "item"
+				}
+				{
+					id: "250EADC1A63F2F19"
+					item: "gtnn:high_speed_pipe"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["002AAAB5E34E6A6F"]
+			description: ["Or actually, coil of now."]
+			id: "533F7196FF50C11A"
+			subtitle: "Coil of the future"
+			tasks: [{
+				id: "73FF54766476D761"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0973D8F727E1847E"
+				"60C2ABF7552A52FC"
+			]
+			description: ["50% faster than EBFs, can use parallel hatches."]
+			id: "1A186EECD8AA371F"
+			subtitle: "I wish you luck making the LuV components."
+			tasks: [{
+				id: "2B51AB36721770CA"
+				item: "gtca:advanced_ebf"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60C2ABF7552A52FC"]
+			description: [
+				"First, you need a subnet; Use a pattern provider and interface combo to link them together. Place storage busses on all of the item busses and fluid hatch (a quadruple fluid hatch is recommended), important to put stuff from the interface into the right slots."
+				""
+				"Enable \"Report Inacessible\" in the storage busses, without it the pattern provider blocking mode won't work. Then set the priority from High (nearest to controller) to low (farthest from controller)."
+				"Use a interace to get output items, and beware of the channels you use, if they are enabled."
+				""
+				"You should'nt need data sticks at all."
+			]
+			id: "5E52C4B738FBC180"
+			subtitle: "Okay here..."
+			tasks: [{
+				id: "45D141930521C20A"
+				title: "Really no idea how to order them?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["116207CCE08331CE"]
+			description: [
+				"Get a subnet first."
+				"Many ores make different things and need different routes. "
+				""
+				"Raw ore gets macerated for crushed ores."
+				"Then it either gets bathed or washed (different outputs), or even macerated (thats not the best though)."
+				"The purified ore then gets either macerated for purified dust, thermal centrifuged for centrifuged ore, or sifted if its a gem ore."
+				""
+				"The thermal centrifuged ore is macerated, and the purified dust is centrifuged."
+				""
+				"Depending on what dusts you want to get out of each ore, sorting them in different processing routes is important."
+				""
+				"More advanced things in the LuV questline."
+			]
+			id: "09C5B3ADEB668A8A"
+			subtitle: "Once you understand it, its easy."
+			tasks: [{
+				id: "4210780A696E643A"
+				title: "Ore Processing"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["116207CCE08331CE"]
+			description: ["Can use parallel hatches."]
+			id: "4560435A7EF0401D"
+			subtitle: "Why not?"
+			tasks: [
+				{
+					id: "46A53A0D84E91D8A"
+					item: "gtca:mega_oil_cracking_unit"
+					type: "item"
+				}
+				{
+					id: "7EE731A3CD0D2CB6"
+					item: "gtca:mega_lcr"
+					type: "item"
+				}
+			]
+			title: "Big LCR and Big Oil cracker"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["002AAAB5E34E6A6F"]
+			description: ["Can not be rotated! You need the active transformer to do so."]
+			id: "0607EB36EB4833BE"
+			subtitle: "Power transmission at its peak!"
+			tasks: [{
+				id: "74339DED3D94D19E"
+				item: "gtceu:normal_laser_pipe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1775F3BDA1037752"]
+			id: "6986D1725955F819"
+			tasks: [{
+				id: "14CF6D65F2E87281"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6986D1725955F819"]
+			id: "4FF8EE4AC34BF998"
+			tasks: [{
+				id: "79ECA7E43EE16024"
+				item: "gtceu:naquadah_wafer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E7AA97826704058"]
+			id: "3E7830DB9A056FBD"
+			subtitle: "The LuV Casing Material"
+			tasks: [{
+				id: "76203AC3992D49D5"
+				item: "gtceu:quicksilver_resonance_alloy_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["002AAAB5E34E6A6F"]
+			id: "7D8DF37BA7792473"
+			subtitle: "Great Armor!"
+			tasks: [
+				{
+					id: "1B46829823A59A65"
+					item: {
+						Count: 1
+						id: "gtceu:quarktech_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "36B26B396E9ABF9D"
+					item: "gtceu:quarktech_chestplate"
+					type: "item"
+				}
+				{
+					id: "1A9D775688BD96CB"
+					item: "gtceu:quarktech_leggings"
+					type: "item"
+				}
+				{
+					id: "49D6FD751E64BDDF"
+					item: "gtceu:quarktech_boots"
+					type: "item"
+				}
+			]
+			title: "QuarkTech Suite"
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	subtitle: [
+		"Im not insane! You are!"
+		"(We both are)"
+	]
+	title: "&eInsane Voltage (IV)"
+}

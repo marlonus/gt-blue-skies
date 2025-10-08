@@ -1,0 +1,595 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "undergarden"
+	group: "143975462EE54071"
+	icon: "undergarden:depthrock"
+	id: "723889C5457C3963"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["20F185C1AFBFD53D"]
+			description: ["A portal out of normal Stone Bricks should suffice."]
+			id: "69F9B3B2789B28A9"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Your gateway to the swampy lands."
+			tasks: [{
+				id: "4D508F02B3315D47"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69F9B3B2789B28A9"]
+			description: [
+				"You will want to use ME hatches and busses for this, including a subnet and P2P."
+				"There are so many different outputs that it just isnt worth automating using gregtech pipes and tanks."
+				""
+				"&oYou did make the quantum ring right?"
+			]
+			id: "12A185805EA80AA7"
+			subtitle: "Already into the fun."
+			tasks: [{
+				id: "30CA83DF90C83D1B"
+				title: "Time to start processing biosludge!"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12A185805EA80AA7"]
+			description: ["(The underground water / air pockets)"]
+			id: "4B17DE088B016A45"
+			subtitle: "Takes weird pungent sludge out of the lithosphere."
+			tasks: [{
+				id: "0A690E9B6F7423BD"
+				item: "gtceu:lithosphere_extractor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B17DE088B016A45"]
+			icon: "gtceu:biogenic_slurry_bucket"
+			id: "1031959375F6AA29"
+			subtitle: "The perfect place for microbes to grow on."
+			tasks: [{
+				id: "1D1BC1864B4DAE44"
+				title: "Biogenic Slurry"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B17DE088B016A45"]
+			icon: "gtceu:solid_residue_dust"
+			id: "644631DD6F70ED5E"
+			subtitle: "Has small traces of cloggrum. Electrolyze to remove impurities."
+			tasks: [{
+				id: "765B7C8CE2E04354"
+				title: "Solid Residue Dust"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B17DE088B016A45"]
+			icon: "gtceu:undergarden_swamp_sludge_bucket"
+			id: "2695B331D2F66A26"
+			tasks: [{
+				id: "3E726AA0EB7E4EFB"
+				title: "Undergarden Swamp Sludge"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B17DE088B016A45"]
+			icon: "gtceu:biosludge_bucket"
+			id: "3ACD2C24A7ECDDEA"
+			subtitle: "Used in multiple things here."
+			tasks: [{
+				id: "0E5CE4803DF5B6B9"
+				title: "Biosludge"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["644631DD6F70ED5E"]
+			icon: "gtceu:trace_mineral_dust"
+			id: "6B29EC1679C8A204"
+			subtitle: "Still rather impure, but usable. Miasma gas with a carbon catalyst in a Bio Reactor should remove the remaining impurities."
+			tasks: [{
+				id: "00BA9372F78EE120"
+				title: "Trace Mineral Dust"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"69F9B3B2789B28A9"
+				"394FD753A122CD53"
+			]
+			description: ["Expensive!"]
+			hide_dependent_lines: true
+			id: "7696608DD1627B24"
+			subtitle: "Big Thingamajig."
+			tasks: [{
+				id: "75C65BD77D83EE4C"
+				item: "gtceu:bio_reactor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40AE0234429B66EB"]
+			id: "394FD753A122CD53"
+			rewards: [
+				{
+					count: 24
+					id: "4ABFD1DFD45B63EC"
+					item: "gtca:dural_casing"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "081C04FC222E80C4"
+					item: "gtca:vitallium_casing"
+					type: "item"
+				}
+			]
+			subtitle: "Requires a EV Mixer!"
+			tasks: [
+				{
+					id: "0F5269430E9812B9"
+					item: "gtca:dural_casing"
+					type: "item"
+				}
+				{
+					id: "6D0231606706B050"
+					item: "gtca:vitallium_casing"
+					type: "item"
+				}
+				{
+					id: "5DC9D4EF2B5F1251"
+					item: "gtca:vitallium_ingot"
+					type: "item"
+				}
+				{
+					id: "61BBE4DE95A6654E"
+					item: "gtca:dural_ingot"
+					type: "item"
+				}
+			]
+			title: "Vitallium and Dural casings"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6B29EC1679C8A204"
+				"7696608DD1627B24"
+				"230F4EE716BB5A30"
+				"4CFA4777BA40DB0F"
+				"64AA88D122A7621C"
+			]
+			id: "5A054E11722666D4"
+			shape: "gear"
+			subtitle: "A new material!"
+			tasks: [{
+				id: "2FC85CE49C8B1407"
+				item: "gtceu:cloggrum_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2695B331D2F66A26"]
+			icon: "gtceu:tainted_water_bucket"
+			id: "3EB46D74B56C3F6A"
+			subtitle: "Perfect for microbes."
+			tasks: [{
+				id: "533641017D421C49"
+				title: "Tainted Water"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2695B331D2F66A26"]
+			icon: "gtceu:organic_fraction_bucket"
+			id: "27D20B3004C0D762"
+			subtitle: "Has traces of miasma gas and cloggrum."
+			tasks: [{
+				id: "0C2A230760B31A77"
+				title: "Organic Fraction"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2695B331D2F66A26"]
+			icon: "gtceu:impure_metallic_fraction_dust"
+			id: "314767217774A497"
+			subtitle: "Has traces of Froststeel"
+			tasks: [{
+				id: "0C30AD66FE0A6C5E"
+				title: "Impure Metallic Fraction Dust"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27D20B3004C0D762"]
+			hide_dependent_lines: true
+			icon: "gtceu:miasma_gas_bucket"
+			id: "4CFA4777BA40DB0F"
+			subtitle: "Used for cloggrum. You need both ways of obtaining it on passive for it to work constantly."
+			tasks: [{
+				id: "65645B058E437D93"
+				title: "Miasma Gas"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27D20B3004C0D762"]
+			hide_dependent_lines: true
+			icon: "gtceu:trace_mineral_dust"
+			id: "230F4EE716BB5A30"
+			subtitle: "Just like before."
+			tasks: [{
+				id: "304990DE3FFD3C43"
+				title: "Trace Mineral Dust"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["314767217774A497"]
+			description: [
+				"Mind the output of CO, its loopable."
+				""
+				"Get enzyme solution first."
+			]
+			icon: "gtceu:froststeel_residue_dust"
+			id: "3C902E7A270EEB47"
+			subtitle: "Almost there! It seems you can also get a weird dust as well..."
+			tasks: [{
+				id: "05C4EBE93A8AC765"
+				title: "Froststeel Residue Dust"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3C902E7A270EEB47"
+				"0852F6580493EE14"
+			]
+			icon: "gtceu:pure_froststeel_dust"
+			id: "2806FB59DD58B33B"
+			subtitle: "The last stretch!"
+			tasks: [{
+				id: "27134E6A2DCF4F0D"
+				title: "Purified Pile of Froststeel Dust"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C902E7A270EEB47"]
+			hide_dependent_lines: true
+			icon: "gtceu:putrid_effluent_dust"
+			id: "4640A6ECF8DF43CF"
+			subtitle: "Weird dust that undergarden-native microbes like thriving on."
+			tasks: [{
+				id: "6B80976F466DD6C1"
+				title: "Putrid Effluent Dust"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2806FB59DD58B33B"]
+			id: "2393DD3DA706B1EF"
+			shape: "gear"
+			subtitle: "Great metal!"
+			tasks: [{
+				id: "5D9C69A4AF5B31F9"
+				item: "gtceu:froststeel_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3ACD2C24A7ECDDEA"]
+			description: ["You make exactly enough to satisfy all 3 machines."]
+			hide_dependent_lines: true
+			icon: "gtceu:enzyme_solution_bucket"
+			id: "0852F6580493EE14"
+			subtitle: "A great catalyst for 3 purposes here."
+			tasks: [{
+				id: "39449449E253CE32"
+				title: "Enzyme Solution"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3ACD2C24A7ECDDEA"
+				"7696608DD1627B24"
+			]
+			icon: "gtceu:putrid_effluent_dust"
+			id: "49D53DE23EEDF7C6"
+			subtitle: "The weird dust again."
+			tasks: [{
+				id: "451BF289E4679E08"
+				title: "Putrid Effluent"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3ACD2C24A7ECDDEA"
+				"0852F6580493EE14"
+			]
+			description: ["Needs enzyme solution."]
+			icon: "kubejs:mycelial_gel"
+			id: "0EF03D8638B6F94C"
+			subtitle: "A weird gel of mycelia, unprepared."
+			tasks: [{
+				id: "16A91CDBB8B73242"
+				title: "Mycelial Gel"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0EF03D8638B6F94C"
+				"57A28B5842E5F3DC"
+			]
+			description: ["The oxygen is gained back."]
+			icon: "kubejs:prepared_mycelial_gel"
+			id: "1E6ABDB368222371"
+			subtitle: "Imbued with a bit of oxygen to remove the carbon impurities, you can now safely grow a few microbial cultures on this."
+			tasks: [{
+				id: "7360B654C0528B35"
+				title: "Prepared Mycelial Gel"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69F9B3B2789B28A9"]
+			hide_dependent_lines: true
+			id: "7FFC537368A3C72B"
+			subtitle: "Grows microbes!"
+			tasks: [{
+				id: "310ACF1C73A83CDD"
+				item: "gtceu:microbial_biosphere"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69F9B3B2789B28A9"]
+			hide_dependent_lines: true
+			id: "57A28B5842E5F3DC"
+			subtitle: "Ferments stuff for microbes."
+			tasks: [{
+				id: "2213C330456F0D14"
+				item: "gtceu:microbial_fermentation_vat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69F9B3B2789B28A9"]
+			description: ["You need to make it only once at least."]
+			id: "7AFA71B27290586F"
+			subtitle: "Why does it take so long? No one knows."
+			tasks: [{
+				id: "5D24AC1BD03950CF"
+				item: "kubejs:empty_vial"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3ACD2C24A7ECDDEA"
+				"1E6ABDB368222371"
+				"7FFC537368A3C72B"
+			]
+			description: ["Imprisoned in a vial."]
+			id: "40000A31E6B029FD"
+			subtitle: "Your very own microbes!"
+			tasks: [{
+				id: "4E259BCBEFF8565E"
+				item: "kubejs:stable_microbe_culture_vial"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1031959375F6AA29"
+				"3EB46D74B56C3F6A"
+				"4640A6ECF8DF43CF"
+				"49D53DE23EEDF7C6"
+				"40000A31E6B029FD"
+				"0852F6580493EE14"
+				"7FFC537368A3C72B"
+			]
+			id: "167638CD40EBF10E"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "You will need this!"
+			tasks: [{
+				id: "0E65BE2E19BAE0B8"
+				item: "gtceu:infested_biosludge_bucket"
+				type: "item"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ACD2C24A7ECDDEA"]
+			hide_dependent_lines: true
+			icon: "gtceu:miasma_gas_bucket"
+			id: "64AA88D122A7621C"
+			subtitle: "Just like before."
+			tasks: [{
+				id: "7C413D5F630D9642"
+				title: "Miasma Gas"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"69F9B3B2789B28A9"
+				"3CE67EB353B5507E"
+			]
+			id: "625E55F2D4C10519"
+			tasks: [{
+				id: "4758F59AF5F70C3F"
+				title: "Return when you enter EV."
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["625E55F2D4C10519"]
+			icon: "gtceu:undergarden_air_bucket"
+			id: "18F1FB4528C4580B"
+			subtitle: "I recommend the Gas Extractor multiblock!"
+			tasks: [{
+				id: "043FE7F25211C013"
+				title: "Pungent Undergarden Air"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18F1FB4528C4580B"]
+			icon: "gtceu:liquid_undergarden_air_bucket"
+			id: "60B1420A2EDDD585"
+			subtitle: "Freezer"
+			tasks: [{
+				id: "3B78C918E31F35AE"
+				title: "Liquid Pungent Undergarden Air"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60B1420A2EDDD585"]
+			icon: "gtceu:choking_fog_bucket"
+			id: "03758D3D1C81BA6E"
+			subtitle: "Dont really inhale this"
+			tasks: [{
+				id: "7AA72DA313DD6C82"
+				title: "Choking Gas"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60B1420A2EDDD585"]
+			icon: "gtceu:sulphurous_fumes_bucket"
+			id: "1EF7B63C48427DC8"
+			subtitle: "Stinky"
+			tasks: [{
+				id: "7B31F62E7C3771C9"
+				title: "Sulphurous Fume"
+				type: "checkmark"
+			}]
+			title: "Sulphurous Fumes"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60B1420A2EDDD585"]
+			icon: "gtceu:miasma_gas_bucket"
+			id: "58C2B923FBCEDBE1"
+			subtitle: "Remember from the Biosludge?"
+			tasks: [{
+				id: "5DB3D61704198445"
+				title: "Miasma Gas"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60B1420A2EDDD585"]
+			icon: "gtceu:putrescine_vapors_bucket"
+			id: "3CE8B517F47A17C1"
+			subtitle: "Putrid and Vapor"
+			tasks: [{
+				id: "38BF7D33795FD79B"
+				title: "Putrescine Vapors"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60B1420A2EDDD585"]
+			icon: "gtceu:erebon_bucket"
+			id: "558D3533A282D249"
+			subtitle: "Another noble gas"
+			tasks: [{
+				id: "7F58F39EF52D78D4"
+				title: "Erebon"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+	]
+	subtitle: ["Ew"]
+	title: "Undergarden"
+}

@@ -1,0 +1,34 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ontologic_voltage_v"
+	group: "39117F9F1F55A7DB"
+	icon: "kubejs:ontologic_processor_mainframe"
+	id: "443861AD4610042A"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/max3_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 17
+	quest_links: [ ]
+	quests: [{
+		description: ["The highest 1A of power you can get! (137,438,953,408 EU/t) "]
+		id: "47811446751BFFE2"
+		shape: "gear"
+		size: 2.0d
+		subtitle: "What to do now?"
+		tasks: [{
+			id: "14B164E7E7E24FD6"
+			item: "kubejs:ontologic_processor_mainframe"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["The Unecessarily huge circuit tree comes to an end."]
+	title: "&9&oO&5&on&d&ot&9&oo&5&ol&d&oo&9&og&5&oi&d&oc&9&oa&5&ol &9&oV&5&oo&d&ol&9&ot&5&oa&d&og&9&oe &d&o(&9&o𐡀&oV&d&o)"
+}

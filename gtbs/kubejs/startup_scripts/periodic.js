@@ -1,0 +1,60 @@
+GTCEuStartupEvents.registry('gtceu:material', event => {
+
+        // ['scandium', 'strontium', 'rubidium', 'francium', 'radium', 'actinium', 'hafnium', 'technetium', 'rhenium', 'rutherfordium', 'dubnium', 'seaborgium', 'bohrium', 'hassium', 'meitnerium', 'roentgenium', 'copernicium', 'nihonium', 'thallium', 'moscovium', 'flerovium', 'livermorium', 'polonium', 'tellurium', 'selenium', 'astatine', 'tennessine', 'protactinium', 'neptunium', 'promethium', 'curium', 'berkelium', 'dysprosium', 'einsteinium', 'fermium', 'erbium', 'thulium', 'mendelevium', 'nobelium', 'ytterbium', 'lawrencium']
+
+    const periodic = (name, color) => {
+        event.create(name)
+            .ingot()
+            .liquid()
+            .flags([GTMaterialFlags.GENERATE_BOLT_SCREW,GTMaterialFlags.GENERATE_DENSE,GTMaterialFlags.GENERATE_FINE_WIRE,GTMaterialFlags.GENERATE_FOIL,GTMaterialFlags.GENERATE_FRAME,GTMaterialFlags.GENERATE_GEAR,GTMaterialFlags.GENERATE_LENS,GTMaterialFlags.GENERATE_LONG_ROD,GTMaterialFlags.GENERATE_PLATE,GTMaterialFlags.GENERATE_RING,GTMaterialFlags.GENERATE_ROD,GTMaterialFlags.GENERATE_ROTOR,GTMaterialFlags.GENERATE_ROUND,GTMaterialFlags.GENERATE_SMALL_GEAR,GTMaterialFlags.GENERATE_SPRING])
+            .iconSet(GTMaterialIconSet.METALLIC)
+            .color(color)
+            .element(GTElements.get(name))
+        }
+
+
+    periodic('scandium', 0xCED3D6)
+    periodic('strontium', 0xFF4C4C)
+    periodic('rubidium', 0xA04D89)
+    periodic('francium', 0xCFA46E)
+    periodic('radium', 0xD6FF91)
+    periodic('actinium', 0x88C9FF)
+    periodic('hafnium', 0xB7B6C9)
+    periodic('technetium', 0x7A8D94)
+    periodic('rhenium', 0xBBB5A1)
+    periodic('rutherfordium', 0x9DB4C7)
+    periodic('dubnium', 0x7F9FB8)
+    periodic('seaborgium', 0x6AA1C9)
+    periodic('bohrium', 0x6E78C9)
+    periodic('hassium', 0x7D65A9)
+    periodic('meitnerium', 0xA56565)
+    periodic('roentgenium', 0xFFD27D)
+    periodic('copernicium', 0xC8FFF9)
+    periodic('nihonium', 0xC97DA5)
+    periodic('thallium', 0x88A962)
+    periodic('moscovium', 0x8C5D91)
+    periodic('flerovium', 0xD6C6E6)
+    periodic('livermorium', 0x7E949B)
+    periodic('polonium', 0xC0C0C0)
+    periodic('tellurium', 0x4DB39E)
+    periodic('selenium', 0x4E9B4E)
+    periodic('astatine', 0x5A4B6D)
+    periodic('tennessine', 0x7C4F69)
+    periodic('protactinium', 0x8EA0AA)
+    periodic('neptunium', 0x4C665E)
+    periodic('promethium', 0x9D7CC9)
+    periodic('curium', 0xEDB8B8)
+    periodic('berkelium', 0x82A86E)
+    periodic('dysprosium', 0xA4CFE6)
+    periodic('einsteinium', 0x5CC1E6)
+    periodic('fermium', 0x6A7DC9)
+    periodic('erbium', 0xD9A4FF)
+    periodic('thulium', 0x7DA9FF)
+    periodic('mendelevium', 0xBD5C8C)
+    periodic('nobelium', 0x9C65C9)
+    periodic('ytterbium', 0xFFE199)
+    periodic('lawrencium', 0xFF7DA6)
+
+
+
+})

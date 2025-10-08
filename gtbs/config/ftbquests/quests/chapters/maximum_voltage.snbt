@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "maximum_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: "kubejs:supracausal_processor_mainframe"
+	id: "6F54517733550241"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/max_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 14
+	quest_links: [ ]
+	quests: [{
+		id: "792151CBE2E8B9D8"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "0BE0A549426D7DE7"
+			item: "gtceu:max_machine_hull"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["Causality? Never heard of em."]
+	title: "&4Maximum Voltage (MAX)"
+}

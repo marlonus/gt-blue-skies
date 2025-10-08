@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/coils/max3/max3_ctm"
+    }
+}

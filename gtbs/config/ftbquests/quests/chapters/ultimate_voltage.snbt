@@ -1,0 +1,506 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ultimate_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: "gtceu:crystal_processor_mainframe"
+	id: "0E3DF3E30EE358E8"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/uv_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"751BF83615C3099C"
+				"333D7D3853B77726"
+			]
+			id: "7BC67F369B1C5DB1"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Misery"
+			tasks: [{
+				id: "2B9F67E41EC6CE5B"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BC67F369B1C5DB1"]
+			id: "1DF8E6230854C8B8"
+			subtitle: "Far from the last one"
+			tasks: [{
+				id: "6C1C1BA42067F259"
+				item: "gtceu:uv_electric_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DF8E6230854C8B8"]
+			id: "1AC4C9CE1471E9F2"
+			tasks: [{
+				id: "5DD89B1A1A969A03"
+				item: "gtceu:uv_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AC4C9CE1471E9F2"]
+			id: "1278BB2E2FA92824"
+			subtitle: "The final vanilla GT coil"
+			tasks: [{
+				id: "42B3E61D2909862B"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1AC4C9CE1471E9F2"]
+			id: "46F00F0ED7EAFF6C"
+			tasks: [{
+				id: "2592D4B1D0F7FA2B"
+				item: "gtceu:uv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BC67F369B1C5DB1"]
+			id: "5746F7E20EE326C2"
+			tasks: [{
+				id: "57E224132B2C7A14"
+				item: "gtceu:petri_dish"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BC67F369B1C5DB1"]
+			description: ["Check the UV Processing lines."]
+			id: "1737F1350E98236F"
+			subtitle: "Requires a little infrastructure."
+			tasks: [{
+				id: "70AB05CCD3D6568A"
+				item: "gtceu:wetware_circuit_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1737F1350E98236F"
+				"5746F7E20EE326C2"
+			]
+			id: "12804418BB3B1B8F"
+			tasks: [{
+				id: "05219AC21656FA5B"
+				item: "gtceu:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12804418BB3B1B8F"]
+			id: "57B015F3F1F600C4"
+			tasks: [{
+				id: "6295D077A36DD3EF"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57B015F3F1F600C4"]
+			id: "553C981F1354F362"
+			tasks: [{
+				id: "4D319FA1827F538A"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["553C981F1354F362"]
+			id: "44FD5D211306091C"
+			tasks: [{
+				id: "33327F79BCAD2CA1"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44FD5D211306091C"]
+			id: "61103B4445955561"
+			tasks: [{
+				id: "1C46144277C17D02"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61103B4445955561"]
+			id: "5244C7A9E4737EB4"
+			subtitle: "Good luck!"
+			tasks: [{
+				id: "49665CC41C9DE9F7"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5244C7A9E4737EB4"]
+			id: "26E2E656B5191887"
+			tasks: [{
+				id: "6456F871FEAED5D2"
+				item: "gtceu:highly_advanced_soc_wafer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26E2E656B5191887"]
+			id: "6B83363B7344AF42"
+			subtitle: "Extremely easy wetwares!"
+			tasks: [{
+				id: "2531029E53D667B0"
+				item: "gtceu:highly_advanced_soc"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5244C7A9E4737EB4"
+				"3BCDE10F59E40E78"
+			]
+			id: "13F68EAF2EF49BCD"
+			shape: "gear"
+			subtitle: "FUWUSION: THE THIRD COMING"
+			tasks: [{
+				id: "7D67D8B296DEDAF9"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1AC4C9CE1471E9F2"]
+			id: "3BCDE10F59E40E78"
+			tasks: [{
+				id: "2EFA88393CA6BBB6"
+				item: "gtceu:fusion_casing_mk3"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"13F68EAF2EF49BCD"
+				"46F00F0ED7EAFF6C"
+				"1278BB2E2FA92824"
+			]
+			description: ["If you really are ready to get into UHV, then make this please."]
+			id: "09FD3D262D4519F9"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "You think you are ready to continue?"
+			tasks: [{
+				id: "39DCA085D7811B95"
+				item: "gtceu:max_battery"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"09FD3D262D4519F9"
+				"13F68EAF2EF49BCD"
+			]
+			id: "3F45EF426ED885E6"
+			shape: "heart"
+			subtitle: "..."
+			tasks: [{
+				id: "2363E9580C3B98AD"
+				item: "gtceu:nan_certificate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5244C7A9E4737EB4"]
+			description: [""]
+			id: "3CB2038ED203088B"
+			shape: "gear"
+			subtitle: "All of these with the same frequency act as one single transformer."
+			tasks: [{
+				id: "5BE21F929ED34537"
+				item: "gtmutils:pterb_machine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09FD3D262D4519F9"]
+			description: ["Doesnt need any power."]
+			id: "5908C8BCAA93707D"
+			subtitle: "To dial a Stargate"
+			tasks: [{
+				id: "5CF6962381580340"
+				item: {
+					Count: 1
+					id: "sgjourney:milky_way_dhd"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0L
+							Inventory: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0
+										id: "sgjourney:large_control_crystal"
+									}
+									{
+										Count: 1b
+										Slot: 1
+										id: "sgjourney:energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "sgjourney:communication_crystal"
+										tag: {
+											Frequency: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 3
+										id: "sgjourney:energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 5
+										id: "sgjourney:energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7
+										id: "sgjourney:transfer_crystal"
+										tag: {
+											TransferLimit: 2500L
+										}
+									}
+								]
+								Size: 9
+							}
+							energy_inventory: {
+								Items: [{
+									Count: 1b
+									Slot: 0
+									id: "sgjourney:fusion_core"
+								}]
+								Size: 2
+							}
+							id: "sgjourney:milky_way_dhd"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5908C8BCAA93707D"
+				"3F45EF426ED885E6"
+				"5EFD4CF9B3DF8CD1"
+				"6FFBA493654AF739"
+				"2884E703884B4E43"
+				"07D0F1927C3A69DC"
+			]
+			description: [
+				"You can dial things using the coordinates in the quests for the dimension."
+				""
+				"Looks best without shaders."
+			]
+			id: "09E937D8784FBA94"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Insanely fucking costly"
+			tasks: [{
+				id: "740BDC02626D3A7A"
+				item: "sgjourney:milky_way_stargate"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13F68EAF2EF49BCD"]
+			id: "5EFD4CF9B3DF8CD1"
+			subtitle: "You really thought you can just.. assemble a stargate in a assembler?"
+			tasks: [{
+				id: "24DF4DE8765153CF"
+				title: "Stargate Manufactory"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13F68EAF2EF49BCD"]
+			id: "3230DADA7FC0B914"
+			subtitle: "The UHV Casing Material"
+			tasks: [{
+				id: "66A6470B608B110F"
+				item: "gtceu:naquadria_stellar_composite_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5244C7A9E4737EB4"]
+			id: "4CECD265AB2FD53C"
+			tasks: [{
+				id: "074E97D4FA1D5585"
+				item: "gtceu:uv_parallel_hatch"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09E937D8784FBA94"]
+			description: [
+				"Place the DHD a few blocks away from the gate. You dont need power."
+				"You need to input the right order of the numbers and then activate it."
+				""
+				"&oDont know the number? There is a sgjourney command to find out the numbers for each sgjourney dimension! I allow you to use it if the given coordinates dont work."
+			]
+			id: "69F535137C9B28E0"
+			subtitle: "How does it even work?"
+			tasks: [{
+				id: "2B72B7C480B59264"
+				title: "Dialing"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			id: "6FFBA493654AF739"
+			subtitle: "Really advanced LEDs"
+			tasks: [{
+				id: "28E1AECA3AC7F461"
+				title: "Stargate Chevron"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1255674369F67120"]
+			id: "2884E703884B4E43"
+			subtitle: "Can withstand a wormhole"
+			tasks: [{
+				id: "411DBB599CB1AA70"
+				title: "Stargate-Grade Plate"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13F68EAF2EF49BCD"]
+			id: "4E51DA26C90D0F8C"
+			subtitle: "Stargates have a insane stress on them, thats why normal assemblers wont suffice even making the parts needed."
+			tasks: [{
+				id: "1AE96AC8215D5C12"
+				title: "Stargate Component Assemblicator"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63AE7E2B52C11CFF"]
+			id: "07D0F1927C3A69DC"
+			subtitle: "Stores immense power and discharges into a wormhole"
+			tasks: [{
+				id: "03AC8156F47E35C8"
+				title: "Stargate Core Crystal"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			id: "1255674369F67120"
+			subtitle: "Making a wormhole-resistant plating is not a easy task. This is a step away from the product."
+			tasks: [{
+				id: "2739C2C85AC49A55"
+				title: "Imperfect Stargate Plate"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "63AE7E2B52C11CFF"
+			subtitle: "The tons of power need to move someway right?"
+			tasks: [{
+				id: "7B3E3C025F35426E"
+				title: "Hyperadvanced Energy Flow Conduit"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+	]
+	subtitle: ["That dust you need? Yeah, its behind a star forge. Or something like that."]
+	title: "&1Ultimate Voltage (UV)"
+}

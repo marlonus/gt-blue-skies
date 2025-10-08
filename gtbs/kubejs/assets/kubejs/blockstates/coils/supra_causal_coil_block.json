@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "kubejs:coils/off/supra_causal_coil_block"
+    },
+    "active=true": {
+      "model": "kubejs:coils/on/supra_causal_coil_block"
+    }
+  }
+}

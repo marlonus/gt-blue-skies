@@ -1,0 +1,2642 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "processing_lines"
+	group: "486E15D011E2971A"
+	icon: "gtceu:large_chemical_reactor"
+	id: "6CF5D3BBB7876A3D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Fun!!"
+				""
+				"Note: This chapter is very barebones. I assume you know the basics of GregTech already, like looping processing lines if possible and so on."
+				"Thats why a few inputs or outputs may be missing, but EMI got your back."
+			]
+			icon: "gtceu:lv_electric_motor"
+			id: "435FAFE71F7F6B03"
+			shape: "octagon"
+			subtitle: "Even before you get power."
+			tasks: [{
+				id: "7C14BEECA21DB442"
+				title: "LV and ULV"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75D248BE00B22E31"]
+			icon: "gtceu:void_conglomerate_ore"
+			id: "6F423DCFB103833E"
+			tasks: [{
+				id: "4EF8882B8E006272"
+				title: "Conglomerate Ore"
+				type: "checkmark"
+			}]
+			title: "Void Conglomerate Ore"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F423DCFB103833E"]
+			description: ["Divided into tiers!"]
+			icon: "gtceu:crushed_void_conglomerate_ore"
+			id: "721B3A2A18BF75A8"
+			tasks: [{
+				id: "25067D34B8C92A2C"
+				title: "Crushed Void Conglomerate"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["721B3A2A18BF75A8"]
+			icon: "gtceu:void_conglomerate_dust"
+			id: "75D06357C919747E"
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "40B4CD07EDB809F0"
+				title: "Void Conglomerate Dust"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["75D06357C919747E"]
+			description: ["Coal, lapis, redstone, clay, iron, copper, tin, lead, gold and silver."]
+			icon: "gtceu:iron_dust"
+			id: "777765934E998214"
+			tasks: [{
+				id: "013EC850FE8824E6"
+				title: "Minerals"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["435FAFE71F7F6B03"]
+			icon: "gtceu:primitive_void_miner"
+			id: "75D248BE00B22E31"
+			tasks: [{
+				id: "2482DFE56D1ADF61"
+				title: "Primitive Void Miner"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75D248BE00B22E31"]
+			icon: "minecraft:stone"
+			id: "7D7EE132B1682175"
+			tasks: [{
+				id: "15CA909D6DAE2709"
+				title: "Stones"
+				type: "checkmark"
+			}]
+			title: "Stone"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["75D248BE00B22E31"]
+			icon: "minecraft:cobblestone"
+			id: "1B9762654AC447A1"
+			tasks: [{
+				id: "11D97825D20EACE1"
+				title: "Cobblestone"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B9762654AC447A1"]
+			icon: "minecraft:gravel"
+			id: "00E516C0804C867C"
+			tasks: [{
+				id: "24C4B2E642616648"
+				title: "Gravel"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00E516C0804C867C"]
+			icon: "minecraft:sand"
+			id: "3F0688C8D6E0CCF6"
+			require_sequential_tasks: false
+			tasks: [{
+				id: "0F1195C907D0779D"
+				title: "Sand"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F0688C8D6E0CCF6"]
+			icon: "minecraft:glass"
+			id: "118D38258B96FDC0"
+			tasks: [{
+				id: "5CC078C4911D4170"
+				title: "Glass"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"435FAFE71F7F6B03"
+				"6C2AA69AAFB199FB"
+			]
+			id: "22FF4957FF004DC7"
+			tasks: [{
+				id: "42B8C239F504A7BB"
+				item: "gtceu:lv_void_extractor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3C8F1C9179F88D51"]
+			icon: "gtceu:crushed_void_conglomerate_ore"
+			id: "709B2287EFE32479"
+			tasks: [{
+				id: "5B6F7240E6A318C2"
+				title: "Crushed Void Conglomerate"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["22FF4957FF004DC7"]
+			icon: "gtceu:void_conglomerate_ore"
+			id: "0469FA26D3B53265"
+			subtitle: "Again?"
+			tasks: [{
+				id: "3722B9883EE6733E"
+				title: "Void Conglomerate Ore"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0469FA26D3B53265"]
+			icon: "gtceu:lv_macerator"
+			id: "3C8F1C9179F88D51"
+			tasks: [{
+				id: "1694583E40FC2C2D"
+				title: "Macerator"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["709B2287EFE32479"]
+			id: "22E6AE8C2E9F4068"
+			tasks: [{
+				id: "71BEBD1DBF450F77"
+				item: "gtceu:lv_void_purifier"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"22E6AE8C2E9F4068"
+				"5457F72054A77B9D"
+			]
+			icon: "gtceu:clean_void_mixture_bucket"
+			id: "5E92A6F766E21A9D"
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "17B470CA31F56F97"
+				title: "Clean Void Mixture"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"22E6AE8C2E9F4068"
+				"5457F72054A77B9D"
+			]
+			icon: "gtceu:mineral_sludge_residue_bucket"
+			id: "44B5B31E0EA74B7B"
+			subtitle: "Byproduct"
+			tasks: [{
+				id: "0F25D32877F8FFEE"
+				title: "Mineral Sludge Residue"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22E6AE8C2E9F4068"]
+			icon: "gtceu:flocculant_agent_bucket"
+			id: "5457F72054A77B9D"
+			tasks: [{
+				id: "3C1F9A4688916E15"
+				title: "Flocculant Agent"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5E92A6F766E21A9D"]
+			id: "4188658F27D97061"
+			tasks: [{
+				id: "504FDCEB2B95A6AC"
+				item: "gtceu:lv_filter_press"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4188658F27D97061"]
+			icon: "enderio:basic_item_filter"
+			id: "6F726A1CE6775EEA"
+			tasks: [
+				{
+					id: "59AF99671CF25F0A"
+					title: "Gem Filter"
+					type: "checkmark"
+				}
+				{
+					id: "06E34B8FA8A47C64"
+					item: "enderio:basic_item_filter"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4188658F27D97061"]
+			icon: "enderio:basic_fluid_filter"
+			id: "152C9E8C09075ACC"
+			tasks: [
+				{
+					id: "0851DD8CBCE543FA"
+					title: "Mineral Filter"
+					type: "checkmark"
+				}
+				{
+					id: "0343B2051D94B9F1"
+					item: "enderio:basic_fluid_filter"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["152C9E8C09075ACC"]
+			icon: "gtceu:mineral_rich_concentrate_bucket"
+			id: "45CE02FB953E72E3"
+			tasks: [{
+				id: "4DAE9328336BA0BC"
+				title: "Mineral Rich Concentrate"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6F726A1CE6775EEA"]
+			icon: "gtceu:gem_mixture_dust"
+			id: "46C392B7561862E7"
+			tasks: [{
+				id: "3D830E82C9614030"
+				title: "Gem Mixture Dust"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4AD23C694D8E3608"]
+			description: [
+				"Too many to list. 18 different gems."
+				""
+				"Gotta get them lenses!"
+			]
+			icon: "minecraft:emerald"
+			id: "3D6A2D8B23731E70"
+			tasks: [{
+				id: "304F7561D5DA579F"
+				title: "Gems"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["23CCB28C16D334E1"]
+			description: ["Nickel, Iron, Gold, Zinc, Tin, Copper, Silver, Aluminium"]
+			icon: "gtceu:nickel_dust"
+			id: "06CAF50E2DAC560B"
+			tasks: [{
+				id: "688DC7CC96981CE4"
+				title: "Minerals"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["434BF76013B06EB7"]
+			id: "32DA7C94EE85B53F"
+			tasks: [{
+				id: "7CC80780105566E5"
+				item: "gtceu:lv_sludge_reclaimer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["32DA7C94EE85B53F"]
+			icon: "gtceu:trace_metal_mixture_bucket"
+			id: "3473E66B544C703D"
+			tasks: [{
+				id: "7CEAFA764DB05C61"
+				title: "Trace Metal Dust"
+				type: "checkmark"
+			}]
+			title: "Trace Metal Residue"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3473E66B544C703D"
+				"4D629E9D2AFE4610"
+			]
+			description: ["Manganese, lead, antimony"]
+			icon: "gtceu:iron_dust"
+			id: "73E7987E7D4CE499"
+			tasks: [{
+				id: "67C15C5EE63BF4E9"
+				title: "Trace Metals"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32DA7C94EE85B53F"]
+			icon: "gtceu:non_metallic_sludge_bucket"
+			id: "2A185503C03205AC"
+			tasks: [{
+				id: "54FD9690ECF93FFB"
+				title: "Non Metallic Sludge"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2A185503C03205AC"
+				"3473E66B544C703D"
+			]
+			id: "4D629E9D2AFE4610"
+			tasks: [{
+				id: "1C1A45B021C1D018"
+				item: "gtceu:lv_sludge_reclaimer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4D629E9D2AFE4610"
+				"2A185503C03205AC"
+			]
+			description: ["Redstone, coal, glowstone, silicon, lithium, sulfur, magnesium, gallium"]
+			icon: "minecraft:redstone"
+			id: "4C2CCBEA00A8DC35"
+			tasks: [{
+				id: "57B737F82887B519"
+				title: "Non Metallic Stuff"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46C392B7561862E7"]
+			id: "4AD23C694D8E3608"
+			tasks: [{
+				id: "1073375F86C640A2"
+				item: "gtceu:lv_gem_dust_extractor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["45CE02FB953E72E3"]
+			id: "23CCB28C16D334E1"
+			tasks: [{
+				id: "74ACCF14B1AA9198"
+				item: "gtceu:lv_concentrate_extractor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44B5B31E0EA74B7B"]
+			icon: "ftbquests:barrier"
+			id: "434BF76013B06EB7"
+			subtitle: "Its important!"
+			tasks: [{
+				id: "5BDB3C26042A1C6D"
+				title: "Byproduct Processing"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["435FAFE71F7F6B03"]
+			icon: "gtceu:mv_electric_motor"
+			id: "256C3B5792C21068"
+			shape: "octagon"
+			subtitle: "Turn up"
+			tasks: [{
+				id: "672B7E4276C0CB01"
+				title: "MV"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6A9C721308D8CF0B"]
+			id: "6084CBCD58CB98B9"
+			subtitle: "Circuit 8!"
+			tasks: [{
+				id: "4BFF05A0E0ABAF73"
+				item: "gtceu:pyrolyse_oven"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6084CBCD58CB98B9"]
+			id: "54E26EB75FDA4B38"
+			subtitle: "Circuit 6!"
+			tasks: [{
+				id: "0336BD263B88AE2A"
+				item: "gtceu:lv_distillery"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00791B5411EEA7BF"]
+			id: "6A9C721308D8CF0B"
+			subtitle: "2 here too. Or 2?"
+			tasks: [{
+				id: "7477836A07D2BC08"
+				item: "gtceu:large_coke_oven"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["256C3B5792C21068"]
+			id: "00791B5411EEA7BF"
+			subtitle: "You will need 2 to run constantly."
+			tasks: [{
+				id: "24B1E639C96CF157"
+				item: "gtceu:primitive_greenhouse"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54E26EB75FDA4B38"]
+			description: [
+				"Better off later doing other stuff with the coal tar."
+				""
+				"Use it in the ACR!"
+			]
+			icon: "gtceu:benzene_bucket"
+			id: "12EEBB53C39C6A8B"
+			subtitle: "Very lossy though."
+			tasks: [{
+				id: "2EB847AA4CC698F7"
+				title: "Benzene"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			id: "248B1AEEC5330B9F"
+			tasks: [{
+				id: "35194654E56D93C7"
+				title: "Notable PLs"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"248B1AEEC5330B9F"
+				"1B23392173088920"
+			]
+			description: ["Electrolyze glass dust. Get that by macerating said glass, how you get glass is up to you."]
+			icon: "gtceu:silicon_dioxide_dust"
+			id: "5488D426951874B5"
+			subtitle: "Free Oxygen and free Silicon."
+			tasks: [{
+				id: "183675C52B26E649"
+				title: "Silicon Dioxide Line"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"248B1AEEC5330B9F"
+				"0F547361F108D811"
+			]
+			description: [
+				"Clay dust in a Electrolyzer."
+				"Your method of getting said clay is up to you."
+			]
+			icon: "gtceu:clay_dust"
+			id: "1EAFC0EE8EB626F0"
+			subtitle: "Silicon, Aluminium, Lithium, Sodium"
+			tasks: [{
+				id: "2B60329548FE30E8"
+				title: "Clay Line"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["435FAFE71F7F6B03"]
+			description: [
+				"For the first 9 tiers of Superconductors."
+				""
+				"Also gives various fluids."
+			]
+			id: "167A5CEC1BC541E5"
+			subtitle: "Good luck"
+			tasks: [{
+				id: "4657EF6795C449D1"
+				item: "gtceu:voidpiercer_drill_engine"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DDF21554F41ADEB"]
+			id: "5E3E08FB62FFFD63"
+			subtitle: "LV Superconductor"
+			tasks: [{
+				id: "6170BC4729454D1D"
+				item: "gtceu:morovium_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7DDF21554F41ADEB"]
+			id: "101C84BD5D8BBB46"
+			subtitle: "MV Superconductor"
+			tasks: [{
+				id: "021B96A2022EE3D4"
+				item: "gtceu:ferranite_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7DDF21554F41ADEB"]
+			description: ["Not aluminium."]
+			id: "502695D43D89EC5B"
+			subtitle: "HV Superconductor"
+			tasks: [{
+				id: "2BF362B6BDC4A7F1"
+				item: "gtceu:aethermarite_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7DDF21554F41ADEB"]
+			id: "6F6147F53437BE2B"
+			subtitle: "EV Superconductor"
+			tasks: [{
+				id: "7E19147544E1DD65"
+				item: "gtceu:veltrium_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7DDF21554F41ADEB"]
+			id: "53A51FB87847092B"
+			subtitle: "IV Superconductor Precursor"
+			tasks: [{
+				id: "2FF267FFB5CFE4BE"
+				item: "gtceu:durium_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["53A51FB87847092B"]
+			id: "28EC7AEC36FF96AC"
+			subtitle: "IV Superconductor"
+			tasks: [{
+				id: "645D1BA599441330"
+				item: "gtceu:stellar_durium_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["167A5CEC1BC541E5"]
+			description: ["They dont take any processing, and are too brittle to not just come out of the drill in dust form."]
+			id: "7DDF21554F41ADEB"
+			subtitle: "For the easy ones"
+			tasks: [{
+				id: "233734870AB64B03"
+				title: "Nonprocessed Superconductors"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4C031A5C0BE2E71B"]
+			icon: "gtceu:biomass_bucket"
+			id: "6B57E2AC0A1460DC"
+			tasks: [{
+				id: "3E5874FB50381FCB"
+				title: "Biomass"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6B57E2AC0A1460DC"]
+			icon: "gtceu:ethanol_bucket"
+			id: "08255D3217F55804"
+			tasks: [{
+				id: "38871EE7F42BDC86"
+				title: "Ethanol"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["08255D3217F55804"]
+			icon: "gtceu:ethylene_bucket"
+			id: "21DFBBC64D6FC009"
+			tasks: [{
+				id: "17692AED3E018EC2"
+				title: "Ethylene"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["21DFBBC64D6FC009"]
+			description: ["You probably should scale this up as soon as you can."]
+			icon: "gtceu:polyethylene_bucket"
+			id: "7E26CBA79D32E5FA"
+			subtitle: "The first plastic!"
+			tasks: [{
+				id: "30AFEAB6B5E27C70"
+				title: "Polyethylene"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["256C3B5792C21068"]
+			id: "44980F769194E64B"
+			subtitle: "Or anything really"
+			tasks: [{
+				id: "3B4D5C9445E90422"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["44980F769194E64B"]
+			id: "1CEA2925E625E58B"
+			tasks: [{
+				id: "65613E974BE73BE6"
+				item: "gtceu:plant_ball"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1CEA2925E625E58B"]
+			id: "4C031A5C0BE2E71B"
+			tasks: [{
+				id: "258C3B7A605864D4"
+				item: "gtceu:bio_chaff"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4C031A5C0BE2E71B"]
+			id: "64C67FE7CD6999BC"
+			subtitle: "Renewable"
+			tasks: [{
+				id: "08F8294105E97A1C"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["256C3B5792C21068"]
+			description: ["Significantly better than Void Ore Processing."]
+			id: "26C3E861BE3C5C04"
+			subtitle: "Revolution"
+			tasks: [{
+				id: "520048EC9C808DF4"
+				item: "gtceu:astral_extractor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["256C3B5792C21068"]
+			icon: "gtceu:hv_electric_motor"
+			id: "49F7BF865DE132C9"
+			subtitle: "zap"
+			tasks: [{
+				id: "7A180D2EB08A928D"
+				title: "HV"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["26C3E861BE3C5C04"]
+			id: "2F4456F239EF5C66"
+			subtitle: "Bulk Materials"
+			tasks: [{
+				id: "449F8D16FCB9689E"
+				item: "gtceu:large_mineral_extractor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["167A5CEC1BC541E5"]
+			icon: "gtceu:salt_water_bucket"
+			id: "2ECC42D977DCEED3"
+			subtitle: "At least MV!"
+			tasks: [{
+				id: "10C42DAACBB42417"
+				title: "Salt Water"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["167A5CEC1BC541E5"]
+			icon: "minecraft:lava_bucket"
+			id: "4B557DCBEF8D238E"
+			subtitle: "Lots of it."
+			tasks: [{
+				id: "3BC3CA312A4C81C9"
+				title: "Lava"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2ECC42D977DCEED3"]
+			description: [
+				"The electrolyzer just seperates the Salt from the Water, albeit much quicker than the alternative. The water can be electrolyzed later if needed, taking a lot of time in the process."
+				""
+				"The centrifuge seperates the Salt Water into Sodium Hydroxide, Chlorine and Hydrogen, effectively skipping the water electrolyzation. Takes a little longer to complete the recipe, but still shorter than water electrolyzation."
+				"The Sodium Hydroxide can be electrolyzed for Sodium, Hydrogen and Oxygen, at MV or higher."
+				""
+				"I recommend the Centrifuge route for resource maximization, but if you want to void the water to significantly reduce the processing time, do it via electrolyzation."
+				"Later with parallels, its gonna be much easier to just centrifuge it."
+				""
+				"Cant believe I wrote so much for Salt Water."
+			]
+			id: "0E56B0CD9C106890"
+			subtitle: "Pick what suits you best."
+			tasks: [{
+				id: "7201DDAA89EC62E9"
+				title: "Centrifuge or Electrolyzer"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0E56B0CD9C106890"]
+			description: ["You can now passively make Iron III Chloride too!"]
+			icon: "gtceu:chlorine_bucket"
+			id: "66D3D6EF248CD2E7"
+			subtitle: "Probably in a lot of swimming pools."
+			tasks: [{
+				id: "219D4396FF1DEE23"
+				title: "Chlorine"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2F4456F239EF5C66"]
+			description: [
+				"Honestly, the first time setting it up in a GT Playthrough is very daunting to say the least."
+				""
+				"You can gladly manually process what you need, and just smelt the excess. Actual ore processing comes later, have fun!"
+			]
+			id: "0A58EB6853AF3FD3"
+			subtitle: "Dreadful"
+			tasks: [{
+				id: "37B6AD26EB4428C9"
+				title: "Ore Processing for now"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["256C3B5792C21068"]
+			description: [
+				"The AE Level Emitter is very handy for this."
+				""
+				"I recommend automating every material sooner or later, at least the ones you need constantly."
+				""
+				"Having AE2 smelt all the Aluminium once you order something takes some time, and really clogs up the EBFs."
+				""
+				"I would use a Level Emitter on a export bus inputting into.. anything honestly. Make the Level Emitter disable the export bus (via redstone) when a set material overflows or underflows."
+				"{@pagebreak}"
+				"For example, use this setup on a EBF for various materials. Lets say, aluminium."
+				""
+				"There are a few ways of setting this up, but this is what I usually do."
+				""
+				"Set the level emitter to emit a redstone signal when Aluminium Dust goes under a set amount. (Or alternatively, do the opposite with Aluminium Ingots, if the production of dust isn't lacking.) The emitter should face toward a Export Bus that exports Aluminium Dust into a EBF Input Bus, set with \"Enable without redstone signal\"."
+				"And that's basically it."
+				""
+				"Also, subnets are the way to go with bulk materials. I wont explain that fully, but just figure it out as you go. Maybe use drawers instead?"
+				"Its your choice."
+			]
+			id: "35A824295C23D5F5"
+			subtitle: "You should really automate a lot!"
+			tasks: [{
+				id: "0FBA996FF6021B39"
+				title: "Passive Resources"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["256C3B5792C21068"]
+			description: ["The inputs of Salt and Sulfuric Acid are not in a quest on purpose. Most inputs (except 1b of chlorine and 1b of hydrogen) are renewable in this processing line."]
+			hide_dependent_lines: true
+			icon: "gtceu:hydrochloric_acid_bucket"
+			id: "560F6CB22C404EA3"
+			subtitle: "Dont touch!"
+			tasks: [{
+				id: "73868A05FB574E57"
+				title: "Hydrochloric Acid"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["256C3B5792C21068"]
+			icon: "gtceu:methanol_bucket"
+			id: "3E9937C1FE15272F"
+			tasks: [{
+				id: "6153D59C0E6F89E3"
+				title: "Methanol"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3E9937C1FE15272F"
+				"560F6CB22C404EA3"
+			]
+			icon: "gtceu:polydimethylsiloxane_dust"
+			id: "129032192AC383A6"
+			subtitle: "Yay"
+			tasks: [{
+				id: "434ECD7060A66694"
+				title: "Polydimethylsiloxane"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["129032192AC383A6"]
+			icon: "gtceu:silicone_rubber_bucket"
+			id: "0569AB23DDD5B0AF"
+			subtitle: "Better than the old rubber."
+			tasks: [{
+				id: "10CBFD2633C5ECE0"
+				title: "Silicone Rubber"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"21DFBBC64D6FC009"
+				"560F6CB22C404EA3"
+			]
+			icon: "gtceu:vinyl_chloride_bucket"
+			id: "76D1D296672DB1FC"
+			subtitle: "With a hint of Hydrochloric Acid"
+			tasks: [{
+				id: "44BE4939E6451F34"
+				title: "Vinyl Chloride"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["76D1D296672DB1FC"]
+			description: ["I hope you listen to rawstyle and know what I think."]
+			icon: "gtceu:polyvinyl_chloride_bucket"
+			id: "0CD97859FD2B77C3"
+			subtitle: "PVC"
+			tasks: [{
+				id: "30EDF5360785C6D7"
+				title: "Polyvinyl Chloride"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["49F7BF865DE132C9"]
+			description: ["Fun!"]
+			id: "1F2F0AE067B19A16"
+			subtitle: "Fear not. Or actually do fear."
+			tasks: [{
+				id: "1B3A81A7F746C177"
+				title: "Beginnings of the Platline :)"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["49F7BF865DE132C9"]
+			description: ["Each one creates another sulfuric thing better than the last."]
+			id: "1ED82F5024E4AFF7"
+			subtitle: "You can (and I recommend to) use all oil types."
+			tasks: [{
+				id: "7555762485867576"
+				title: "Oil Processing Hell"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F2F0AE067B19A16"]
+			description: ["Nickel byproducts galore!"]
+			icon: "gtceu:purified_pentlandite_ore"
+			id: "768EDE27DA8E84FC"
+			tasks: [{
+				id: "1BFD10BA83BA9F52"
+				title: "Pentlandite"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1F2F0AE067B19A16"]
+			description: ["Copper byproducts galore!"]
+			icon: "gtceu:purified_chalcopyrite_ore"
+			id: "03124F4D64542BC5"
+			tasks: [{
+				id: "62F49AB7A0CFC822"
+				title: "Chalcopyrite"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["03124F4D64542BC5"]
+			description: ["You get double the Sulfuric Acid back!"]
+			icon: "gtceu:sulfuric_copper_solution_bucket"
+			id: "6FF5A77938D75F6A"
+			tasks: [{
+				id: "1EAD76DCE41910BD"
+				title: "Sulfuric Copper Solution"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["768EDE27DA8E84FC"]
+			description: ["You get double the Sulfuric Acid back!"]
+			icon: "gtceu:sulfuric_nickel_solution_bucket"
+			id: "03702388BE2A4BB4"
+			tasks: [{
+				id: "2A401928219D9649"
+				title: "Sulfuric Nickel Solution"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"768EDE27DA8E84FC"
+				"03124F4D64542BC5"
+			]
+			dependency_requirement: "one_completed"
+			description: ["The beginning of despair"]
+			icon: "gtceu:platinum_group_sludge_dust"
+			id: "5097C51B6F9FF155"
+			subtitle: "(Dependency \"OR\" Logic!)"
+			tasks: [{
+				id: "56EDDDBDFA88055B"
+				title: "Platinum Group Sludge"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2E822C5686F3EF97"]
+			icon: "gtceu:rarest_metal_mixture_dust"
+			id: "7C43539B8F836417"
+			tasks: [{
+				id: "6214B455AA7613FF"
+				title: "Rarest Metal Mixture"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2E822C5686F3EF97"]
+			icon: "gtceu:iridium_metal_residue_dust"
+			id: "39E4EC9E62771634"
+			tasks: [{
+				id: "59E24753E6F6A08B"
+				title: "Iridium Metal Mixture"
+				type: "checkmark"
+			}]
+			title: "Iridium Metal Residue"
+			x: -14.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2E822C5686F3EF97"]
+			hide_dependent_lines: true
+			icon: "gtceu:palladium_metal_dust"
+			id: "53785288335A9BF9"
+			subtitle: "Dependent Lines invisible."
+			tasks: [{
+				id: "455C8F3D4ABDB6E3"
+				title: "Palladium Dust"
+				type: "checkmark"
+			}]
+			title: "Palladium Metal Dust"
+			x: -13.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2E822C5686F3EF97"]
+			icon: "gtceu:platinum_metal_dust"
+			id: "1753678C977DF842"
+			tasks: [{
+				id: "5C35A992694E4FF6"
+				title: "Platinum Metal Dust"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1753678C977DF842"]
+			icon: "gtceu:concentrated_platinum_bucket"
+			id: "3F4473C0C3AE4A35"
+			tasks: [{
+				id: "709C2106E0486272"
+				title: "Concentrated Platinum"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1753678C977DF842"]
+			icon: "gtceu:platinum_slag_dust"
+			id: "5CBC6ED9C88CB1AE"
+			tasks: [{
+				id: "336919CC165DC9C4"
+				title: "Platinum Slag Dust"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5CBC6ED9C88CB1AE"]
+			icon: "gtceu:inert_metal_mixture_dust"
+			id: "2DFE9EEDFC3C03FB"
+			tasks: [{
+				id: "01178E5F0A7E5DDB"
+				title: "Inert Metal Mixture Dust"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5CBC6ED9C88CB1AE"]
+			icon: "gtceu:rhodium_sulfate_gas_bucket"
+			id: "67E64978E15207BB"
+			subtitle: "You get the potassium back"
+			tasks: [{
+				id: "137D807A4ACABA74"
+				title: "Rhodium Sulfate"
+				type: "checkmark"
+			}]
+			title: "Rhodium Sulfate Gas"
+			x: -11.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2DFE9EEDFC3C03FB"]
+			icon: "gtceu:sodium_rutheniate_dust"
+			id: "7A0D21B79B745767"
+			tasks: [{
+				id: "2F676EAA36A88CBF"
+				title: "Sodium Rutheniate"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2DFE9EEDFC3C03FB"]
+			description: [
+				""
+				"{ \"text\": \"Here\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C43539B8F836417\" } }"
+			]
+			icon: "gtceu:rarest_metal_mixture_dust"
+			id: "329D996DBE2DB3E3"
+			subtitle: "Back again"
+			tasks: [{
+				id: "531CA5AD54BEE1D3"
+				title: "Rarest Metal Mixture"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["67E64978E15207BB"]
+			description: [
+				""
+				"{ \"text\": \"There\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5CBC6ED9C88CB1AE\" } }"
+			]
+			icon: "gtceu:platinum_slag_dust"
+			id: "5C2D26EF2401DEF3"
+			subtitle: "Back again"
+			tasks: [{
+				id: "7AA691F513EA8DBE"
+				title: "Platinum Slag"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["67E64978E15207BB"]
+			icon: "gtceu:rhodium_sulfate_bucket"
+			id: "58BB88D2CD7E3547"
+			tasks: [{
+				id: "1486553A041220E8"
+				title: "Rhodium Sulfate"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5097C51B6F9FF155"]
+			id: "2E822C5686F3EF97"
+			subtitle: "Just for organization"
+			tasks: [{
+				id: "4C70D50A85D85D3B"
+				title: "Great Depression"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7A0D21B79B745767"]
+			icon: "gtceu:ruthenium_tetroxide_dust"
+			id: "157D43145DDA217C"
+			tasks: [{
+				id: "599DA19A72ACBE4D"
+				title: "Ruthenium Tetroxide"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["157D43145DDA217C"]
+			icon: "gtceu:ruthenium_tetroxide_hot_bucket"
+			id: "62A117EBB2A7B37A"
+			tasks: [{
+				id: "74F293D0208B54ED"
+				title: "Hot Ruthenium Tetroxide"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["62A117EBB2A7B37A"]
+			icon: "gtceu:ruthenium_tetroxide_lq_bucket"
+			id: "7A06211B24823F6B"
+			subtitle: "I dont know what the LQ stands for"
+			tasks: [{
+				id: "328A4754E59EC73C"
+				title: "Low Quality Ruthenium Tetroxide"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7A06211B24823F6B"]
+			icon: "gtceu:ruthenium_dust"
+			id: "06A18E8F2FDD5224"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "7FA675927C840EAA"
+				title: "Ruthenium"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["58BB88D2CD7E3547"]
+			icon: "gtceu:roughly_rhodium_metal_dust"
+			id: "7DAB290F507CAC95"
+			tasks: [{
+				id: "3F3397621BA73A6C"
+				title: "Roughly Rodium Metal Dust"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7DAB290F507CAC95"]
+			icon: "gtceu:rhodium_salt_dust"
+			id: "3A203F7E2B1B0179"
+			tasks: [{
+				id: "13FF86B0C60943AA"
+				title: "Rhodium Salt Dust"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3A203F7E2B1B0179"]
+			icon: "gtceu:rhodium_salt_bucket"
+			id: "1F6BBFD0FEDF068E"
+			tasks: [{
+				id: "446AFA47756C4C68"
+				title: "Liquid Rhodium Salt"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1F6BBFD0FEDF068E"]
+			icon: "gtceu:rhodium_nitrate_dust"
+			id: "4ECD11798AC1F92C"
+			tasks: [{
+				id: "1ECBAF38359B94E0"
+				title: "Rhodium Nitrate"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4ECD11798AC1F92C"]
+			icon: "gtceu:rhodium_filter_cake_dust"
+			id: "25DC002962BD2A43"
+			subtitle: "Do not eat this cake"
+			tasks: [{
+				id: "2205E3A59AEF9EF0"
+				title: "Rhodium Filter Cake Dust"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["25DC002962BD2A43"]
+			icon: "gtceu:rhodium_filter_cake_bucket"
+			id: "42FA521BA62B38A4"
+			tasks: [{
+				id: "4766A16C64795650"
+				title: "Liquid Rhodium Filter Cake"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["42FA521BA62B38A4"]
+			icon: "gtceu:reprecipitated_rhodium_dust"
+			id: "377EB9975DDF83B8"
+			tasks: [{
+				id: "32C4DAA50288979F"
+				title: "Reprecipicated Rhodium Dust"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["377EB9975DDF83B8"]
+			icon: "gtceu:rhodium_dust"
+			id: "6FCBD8136002782C"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2837637A6E6EF322"
+				title: "Rhodium Dust"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3F4473C0C3AE4A35"]
+			icon: "gtceu:platinum_salt_dust"
+			id: "6412A6B48ADE7A3F"
+			tasks: [{
+				id: "50B837EF6756E4F9"
+				title: "Platinum Salt Dust"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3F4473C0C3AE4A35"]
+			icon: "gtceu:platinum_raw_dust"
+			id: "21888CD333DB54DD"
+			tasks: [{
+				id: "217343DF50C4022B"
+				title: "Raw Platinum Powder"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3F4473C0C3AE4A35"]
+			icon: "gtceu:palladium_rich_ammonia_bucket"
+			id: "65D3D26A04E872E8"
+			tasks: [{
+				id: "0029E13D3C0A231A"
+				title: "Palladium Rich Ammonia"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6412A6B48ADE7A3F"]
+			icon: "gtceu:refined_platinum_salt_dust"
+			id: "29AC226E85973273"
+			tasks: [{
+				id: "5197617EDD41123B"
+				title: "Refined Platinum Salt Dust"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["29AC226E85973273"]
+			description: [
+				""
+				"{ \"text\": \"There\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1753678C977DF842\" } }"
+			]
+			icon: "gtceu:platinum_metal_dust"
+			id: "5A3416C5C1CEE18A"
+			subtitle: "Back Again"
+			tasks: [{
+				id: "032497BED5E56F94"
+				title: "Platinum Metal Dust"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["21888CD333DB54DD"]
+			icon: "gtceu:platinum_dust"
+			id: "56C026BBD8945726"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "6526D1A6A1FB9C50"
+				title: "Platinum Dust"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"65D3D26A04E872E8"
+				"53785288335A9BF9"
+			]
+			icon: "gtceu:palladium_salt_dust"
+			id: "7999DF44557CFF8A"
+			tasks: [{
+				id: "23C6F1D5CF5974DC"
+				title: "Raw Palladium Salt Dust"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"65D3D26A04E872E8"
+				"53785288335A9BF9"
+			]
+			icon: "gtceu:palladium_raw_dust"
+			id: "7AACEF1B16755F97"
+			tasks: [{
+				id: "46A971317C476660"
+				title: "Raw Palladium Powder"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7AACEF1B16755F97"]
+			icon: "gtceu:palladium_dust"
+			id: "06B6512BD71BF95D"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "596648DE2C8DC13C"
+				title: "Palladium Dust"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7999DF44557CFF8A"]
+			description: [
+				""
+				"{ \"text\": \"There\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53785288335A9BF9\" } }"
+			]
+			icon: "gtceu:palladium_metal_dust"
+			id: "0F513935420D65F5"
+			subtitle: "Back Again"
+			tasks: [{
+				id: "3CE765F311FE4BEC"
+				title: "Palladium Metal Dust"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7C43539B8F836417"]
+			description: [
+				""
+				"{ \"text\": \"Here\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"39E4EC9E62771634\" } }"
+			]
+			icon: "gtceu:iridium_metal_residue_dust"
+			id: "302C5956AF084773"
+			subtitle: "Back Again"
+			tasks: [{
+				id: "0239CDD08A1F8199"
+				title: "Iridium Metal Residue"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7C43539B8F836417"]
+			icon: "gtceu:acidic_osmium_solution_bucket"
+			id: "35A6C1D833187EC3"
+			tasks: [{
+				id: "13C126B8C600DB07"
+				title: "Acidic Osmium Solution"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["39E4EC9E62771634"]
+			icon: "gtceu:platinum_sludge_residue_dust"
+			id: "56E5674D7829F237"
+			subtitle: "Not notable outputs"
+			tasks: [{
+				id: "0DA0E926B38C1DC5"
+				title: "Platinum Sludge Residue"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["39E4EC9E62771634"]
+			icon: "gtceu:iridium_dioxide_dust"
+			id: "66327A89BF06D0A5"
+			tasks: [{
+				id: "0515E8BCADC10795"
+				title: "Iridium Dioxide Dust"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["66327A89BF06D0A5"]
+			icon: "gtceu:acidic_iridium_bucket"
+			id: "46C8CF75CFD77A74"
+			tasks: [{
+				id: "332C8BA662BD1AEE"
+				title: "Acidic Iridium"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["46C8CF75CFD77A74"]
+			icon: "gtceu:iridium_chloride_dust"
+			id: "57F16F5A6DC1CB9A"
+			tasks: [{
+				id: "03D3727F638222E4"
+				title: "Iridium Chloride Dust"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["57F16F5A6DC1CB9A"]
+			icon: "gtceu:iridium_dust"
+			id: "6A03F1C6EAAED5AD"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "EV!"
+			tasks: [{
+				id: "205B66922DAD8E33"
+				title: "Iridium Dust"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["35A6C1D833187EC3"]
+			icon: "gtceu:osmium_tetroxide_dust"
+			id: "19406316D2CC6F66"
+			tasks: [{
+				id: "50D6ADAA8C4F70EB"
+				title: "Osmium Tetroxide"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["19406316D2CC6F66"]
+			icon: "gtceu:osmium_dust"
+			id: "3EF6D3C876BA1A2C"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "5886312C467607EC"
+				title: "Osmium"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1ED82F5024E4AFF7"]
+			icon: "gtceu:oil_medium_bucket"
+			id: "28F755E5E3241C9F"
+			require_sequential_tasks: false
+			tasks: [{
+				id: "32524C97DECCED88"
+				title: "Raw oil"
+				type: "checkmark"
+			}]
+			title: "Raw Oil"
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1ED82F5024E4AFF7"]
+			icon: "gtceu:oil_heavy_bucket"
+			id: "586512C266187036"
+			tasks: [{
+				id: "02BD1293741A92C1"
+				title: "Heavy Oil"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1ED82F5024E4AFF7"]
+			icon: "gtceu:oil_light_bucket"
+			id: "518B6A41FE2270FF"
+			tasks: [{
+				id: "6543BBA983D1BB54"
+				title: "Light Oil"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1ED82F5024E4AFF7"]
+			icon: "gtceu:oil_bucket"
+			id: "5B69F1FA88B9CF8B"
+			tasks: [{
+				id: "284171F588309714"
+				title: "Oil"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5B69F1FA88B9CF8B"]
+			icon: "gtceu:sulfuric_light_fuel_bucket"
+			id: "41E0248192BF8024"
+			tasks: [{
+				id: "19A065765E31EB48"
+				title: "Sulfuric Light Fuel"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["586512C266187036"]
+			icon: "gtceu:sulfuric_naphtha_bucket"
+			id: "7492EDC3FC67BCA7"
+			tasks: [{
+				id: "0787DF0505835EEA"
+				title: "Sulfuric Naphtha"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["518B6A41FE2270FF"]
+			icon: "gtceu:sulfuric_heavy_fuel_bucket"
+			id: "03977CB7D08C78EC"
+			tasks: [{
+				id: "29AD88DE7BC2DA6E"
+				title: "Sulfuric Heavy Fuel"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28F755E5E3241C9F"]
+			icon: "gtceu:sulfuric_gas_bucket"
+			id: "689427CCD0D498A1"
+			tasks: [{
+				id: "4835B2DF84410630"
+				title: "Sulfuric Refinery Gas"
+				type: "checkmark"
+			}]
+			title: "Sulfuric Refinery Gas"
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["41E0248192BF8024"]
+			icon: "gtceu:light_fuel_bucket"
+			id: "625AE750AAD5255E"
+			tasks: [{
+				id: "235B45A1C480BCB0"
+				title: "Light Fuel"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["689427CCD0D498A1"]
+			icon: "gtceu:refinery_gas_bucket"
+			id: "60EE42750561356E"
+			tasks: [{
+				id: "2B02D59B128EB785"
+				title: "Gas"
+				type: "checkmark"
+			}]
+			title: "Refinery Gas"
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03977CB7D08C78EC"]
+			icon: "gtceu:heavy_fuel_bucket"
+			id: "0FABFB6808505BD1"
+			tasks: [{
+				id: "2CF064FC5F2F3659"
+				title: "Heavy Fuel"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7492EDC3FC67BCA7"]
+			icon: "gtceu:naphtha_bucket"
+			id: "3CE2C1F9D9BC33EB"
+			tasks: [{
+				id: "49D2BFCF83F8A506"
+				title: "Naphtha"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A135D60F3670BAF"]
+			hide_dependent_lines: true
+			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
+			id: "6C3BC03184B9D23F"
+			tasks: [{
+				id: "7FAF4C97C3BBC93B"
+				title: "Steam Cracked Naphtha"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"625AE750AAD5255E"
+				"0FABFB6808505BD1"
+				"60EE42750561356E"
+				"3CE2C1F9D9BC33EB"
+			]
+			description: [
+				"Hydro cracked is mostly for Power Generation, so we will rule that out."
+				""
+				"I would mostly go with Severely Steam Cracked all the time, but you can choose what you want more."
+				"Or maybe even make all these setups 2 times, severely and lightly cracked."
+			]
+			id: "5A135D60F3670BAF"
+			subtitle: "Good question"
+			tasks: [{
+				id: "02B83C148AE8856C"
+				title: "Which cracking should I use?"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A135D60F3670BAF"]
+			hide_dependent_lines: true
+			icon: "gtceu:severely_steam_cracked_heavy_fuel_bucket"
+			id: "5B5DE0A1278A641B"
+			tasks: [{
+				id: "468D4D1D8A41CB60"
+				title: "Steam Cracked Heavy Fuel"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A135D60F3670BAF"]
+			hide_dependent_lines: true
+			icon: "gtceu:severely_steam_cracked_gas_bucket"
+			id: "7A18FC5CE6CB1E54"
+			tasks: [{
+				id: "380089416CC939FB"
+				title: "Steam Cracked Refinery Gas"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A135D60F3670BAF"]
+			hide_dependent_lines: true
+			icon: "gtceu:severely_steam_cracked_light_fuel_bucket"
+			id: "57AF06C34A9BAF7A"
+			tasks: [{
+				id: "2FFC4259308D2C75"
+				title: "Steam Cracked Light Fuel"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6C3BC03184B9D23F"
+				"5B5DE0A1278A641B"
+				"57AF06C34A9BAF7A"
+				"7A18FC5CE6CB1E54"
+			]
+			icon: "gtceu:methane_bucket"
+			id: "729E6029F7505F1E"
+			tasks: [{
+				id: "0449051BA20E23BB"
+				title: "Methane"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6C3BC03184B9D23F"
+				"5B5DE0A1278A641B"
+				"57AF06C34A9BAF7A"
+				"7A18FC5CE6CB1E54"
+			]
+			icon: "gtceu:ethylene_bucket"
+			id: "37D31D518A3624C3"
+			tasks: [{
+				id: "6396B5445DDBF165"
+				title: "Ethylene"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6C3BC03184B9D23F"
+				"5B5DE0A1278A641B"
+				"57AF06C34A9BAF7A"
+			]
+			icon: "gtceu:propane_bucket"
+			id: "07FD5842B579C9A3"
+			tasks: [{
+				id: "694457163874CACE"
+				title: "Propane"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6C3BC03184B9D23F"
+				"5B5DE0A1278A641B"
+				"57AF06C34A9BAF7A"
+				"7A18FC5CE6CB1E54"
+			]
+			icon: "gtceu:propene_bucket"
+			id: "2B4DC79D605F877D"
+			tasks: [{
+				id: "2CF64266F32032D8"
+				title: "Propene"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6C3BC03184B9D23F"
+				"5B5DE0A1278A641B"
+				"57AF06C34A9BAF7A"
+				"7A18FC5CE6CB1E54"
+			]
+			icon: "gtceu:ethane_bucket"
+			id: "5053E6C842B25633"
+			tasks: [{
+				id: "1CDBE4EB323A15B5"
+				title: "Ethane"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6C3BC03184B9D23F"
+				"5B5DE0A1278A641B"
+				"57AF06C34A9BAF7A"
+			]
+			icon: "gtceu:benzene_bucket"
+			id: "3A061B15E4648307"
+			tasks: [{
+				id: "68399D4C6F095641"
+				title: "Benzene"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6C3BC03184B9D23F"
+				"5B5DE0A1278A641B"
+				"57AF06C34A9BAF7A"
+			]
+			icon: "gtceu:butene_bucket"
+			id: "46F480E49DFE1F03"
+			tasks: [{
+				id: "78C1117A828AC18D"
+				title: "Butene"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6C3BC03184B9D23F"
+				"5B5DE0A1278A641B"
+				"57AF06C34A9BAF7A"
+			]
+			icon: "gtceu:butadiene_bucket"
+			id: "035717CCB4105473"
+			tasks: [{
+				id: "51F1B3F0D50B93C1"
+				title: "Butadiene"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6C3BC03184B9D23F"
+				"5B5DE0A1278A641B"
+			]
+			icon: "gtceu:light_fuel_bucket"
+			id: "167C0F96697974D3"
+			tasks: [{
+				id: "1D0C2FD78EA82247"
+				title: "Light Fuel"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5B5DE0A1278A641B"
+				"57AF06C34A9BAF7A"
+			]
+			icon: "gtceu:naphtha_bucket"
+			id: "577C9097E56DA1AE"
+			tasks: [{
+				id: "46F5F2CDE6EBCD3E"
+				title: "Naphtha"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6C3BC03184B9D23F"
+				"5B5DE0A1278A641B"
+				"57AF06C34A9BAF7A"
+			]
+			icon: "gtceu:toluene_bucket"
+			id: "0EA130CD366749C9"
+			tasks: [{
+				id: "6EEC8A0B17FB78C1"
+				title: "Toluene"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A18FC5CE6CB1E54"]
+			icon: "gtceu:helium_bucket"
+			id: "530DAF0EBFA8B98A"
+			tasks: [{
+				id: "6814A8CE06C6249B"
+				title: "Helium Gas"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6C3BC03184B9D23F"
+				"57AF06C34A9BAF7A"
+			]
+			icon: "gtceu:heavy_fuel_bucket"
+			id: "14FB9540770850E9"
+			tasks: [{
+				id: "60474E3A88525F5E"
+				title: "Heavy Fuel"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49F7BF865DE132C9"]
+			icon: "gtceu:chloroform_bucket"
+			id: "6F950D753D91BAE0"
+			tasks: [{
+				id: "2571C8DFA7436D98"
+				title: "Chloroform"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["49F7BF865DE132C9"]
+			icon: "gtceu:hydrofluoric_acid_bucket"
+			id: "06B0B5DC173B9DC4"
+			tasks: [{
+				id: "1319644BDBDB2D9F"
+				title: "Hydrofluoric Acid"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6F950D753D91BAE0"
+				"06B0B5DC173B9DC4"
+			]
+			icon: "gtceu:tetrafluoroethylene_bucket"
+			id: "143F1B98FFC5362D"
+			tasks: [{
+				id: "4C9B943980F2AD06"
+				title: "Tetrafluoroethylene"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["143F1B98FFC5362D"]
+			description: ["Lashmak the legend"]
+			icon: "gtceu:polytetrafluoroethylene_bucket"
+			id: "4D325BBC5A116B84"
+			subtitle: "\"aka: Go to Hell\""
+			tasks: [{
+				id: "6987F909B42522A9"
+				title: "Polytetrafluoroethylene"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["49F7BF865DE132C9"]
+			icon: "gtceu:rutile_dust"
+			id: "5E7091D33FF66876"
+			tasks: [{
+				id: "6ED3EF59ED77FA8B"
+				title: "Rutile"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E7091D33FF66876"]
+			icon: "gtceu:titanium_tetrachloride_bucket"
+			id: "1C534EB1462A7515"
+			tasks: [{
+				id: "59143C04AA2BAB27"
+				title: "Titanium Tetrachloride"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1C534EB1462A7515"]
+			icon: "gtceu:titanium_ingot"
+			id: "6E975DD1B018F816"
+			tasks: [{
+				id: "391D741C19A6E44C"
+				title: "Titanium"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["49F7BF865DE132C9"]
+			icon: "gtceu:liquid_air_bucket"
+			id: "2F151DD080D28A9C"
+			tasks: [{
+				id: "33F53C16879FCE07"
+				title: "Distilling Air"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["167A5CEC1BC541E5"]
+			description: ["You get tons of oil with the drill!"]
+			id: "46167460F6ECF81B"
+			subtitle: "Dont remind me of that one Immersive Engineering achievement!"
+			tasks: [{
+				id: "1EF0B606CAC45054"
+				title: "Oily Endavours"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["49F7BF865DE132C9"]
+			id: "1D544198FF62BF8A"
+			tasks: [{
+				id: "59183676B4410669"
+				title: "HV-Part 2"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"055E5D6EFB156019"
+				"5967E102A41DBB96"
+			]
+			id: "0C472EADA656F63A"
+			subtitle: "Rockets tier 1-3 will thank you"
+			tasks: [{
+				id: "6424016A666309C0"
+				item: "gtceu:dense_hydrazine_mixed_fuel_bucket"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D544198FF62BF8A"]
+			icon: "gtceu:methanol_bucket"
+			id: "5967E102A41DBB96"
+			tasks: [{
+				id: "63C562E764D45A3C"
+				title: "Methanol"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"356624838FCAFB3C"
+				"445B4AED999741FC"
+			]
+			icon: "gtceu:hydrazine_bucket"
+			id: "055E5D6EFB156019"
+			tasks: [{
+				id: "0F284D4B762C2A66"
+				title: "Hydrazine"
+				type: "checkmark"
+			}]
+			x: -16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D544198FF62BF8A"]
+			icon: "gtceu:hydrogen_peroxide_bucket"
+			id: "445B4AED999741FC"
+			tasks: [{
+				id: "6F164054880209CC"
+				title: "Hydrogen Peroxide"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1D544198FF62BF8A"]
+			icon: "gtceu:ammonia_bucket"
+			id: "356624838FCAFB3C"
+			tasks: [{
+				id: "3257C8429398AB23"
+				title: "Ammonia"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1D544198FF62BF8A"]
+			id: "4733244F77244CBC"
+			subtitle: "Look into the undergarden chapter for it."
+			tasks: [{
+				id: "368D09853902D7AF"
+				title: "Undergarden"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4733244F77244CBC"]
+			id: "502E74152FBD6A0B"
+			subtitle: "They are also in their respective chapter."
+			tasks: [{
+				id: "32834B503FE153E2"
+				title: "Other planets and dimensions"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1D544198FF62BF8A"
+				"57037FCE7B543F3C"
+				"48269322B67C8EE5"
+			]
+			id: "7754CC83DB810747"
+			tasks: [{
+				id: "21997B9C9E390F97"
+				item: "gtceu:polyvinyl_butyral_plate"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7DDF21554F41ADEB"]
+			id: "59C878944023E1AF"
+			subtitle: "LuV Superconductor"
+			tasks: [{
+				id: "11AA42E2AD033D25"
+				item: "gtceu:quantalyte_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["167A5CEC1BC541E5"]
+			description: ["You can use this to get some spare minerals."]
+			id: "6AF0F272E3F588B7"
+			subtitle: "Gained with quantalyte."
+			tasks: [{
+				id: "3C0310F584E591A6"
+				item: "gtca:pahoehoe_lava_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"0582ECA8603FA6A0"
+				"283441801825C11F"
+			]
+			icon: "gtceu:polyvinyl_acetate_bucket"
+			id: "48269322B67C8EE5"
+			tasks: [{
+				id: "2EF5D4A3841804BC"
+				title: "Polyvinyl Acetate"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0861ABA99D53323C"
+				"447A65599E62D01A"
+				"4C9B0739E42D7743"
+			]
+			icon: "gtceu:butyraldehyde_bucket"
+			id: "57037FCE7B543F3C"
+			tasks: [{
+				id: "104A628901B52B4A"
+				title: "Butyraldehyde"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"662AD4B86B47E181"
+				"484836F545F2AA30"
+				"0582ECA8603FA6A0"
+			]
+			icon: "gtceu:vinyl_acetate_bucket"
+			id: "283441801825C11F"
+			tasks: [{
+				id: "7CE031A51CB8C540"
+				title: "Vinyl Acetate"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:oxygen_bucket"
+			id: "0582ECA8603FA6A0"
+			tasks: [{
+				id: "6C528B612C6C0699"
+				title: "Oxygen"
+				type: "checkmark"
+			}]
+			x: -20.5d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:ethylene_bucket"
+			id: "484836F545F2AA30"
+			subtitle: "Oil Byproduct"
+			tasks: [{
+				id: "7BDE4718F72A9D9D"
+				title: "Ethylene"
+				type: "checkmark"
+			}]
+			x: -21.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0582ECA8603FA6A0"
+				"484836F545F2AA30"
+			]
+			icon: "gtceu:acetic_acid_bucket"
+			id: "662AD4B86B47E181"
+			tasks: [{
+				id: "6ECDBBCD359DF1B7"
+				title: "Acetic Acid"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:propene_bucket"
+			id: "447A65599E62D01A"
+			subtitle: "Oil byproduct"
+			tasks: [{
+				id: "00FED371FEAD0B6E"
+				title: "Propene"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:hydrogen_bucket"
+			id: "4C9B0739E42D7743"
+			tasks: [{
+				id: "3DCDBD120E1FBE7E"
+				title: "Hydrogen"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:carbon_monoxide_bucket"
+			id: "0861ABA99D53323C"
+			tasks: [{
+				id: "346CAE8E72A41FE6"
+				title: "Carbon Monoxide"
+				type: "checkmark"
+			}]
+			x: -21.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1D544198FF62BF8A"
+				"1A7A02CE787F970E"
+				"5320FC0D7F963626"
+			]
+			id: "268B22B49E997236"
+			subtitle: "The greatest rubber of rubbers"
+			tasks: [{
+				id: "70514333205A5FEE"
+				item: "gtceu:styrene_butadiene_rubber_bucket"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5BA270BCC74CC683"
+				"26291F0A6ACA58BD"
+			]
+			icon: "gtceu:raw_styrene_butadiene_rubber_dust"
+			id: "1A7A02CE787F970E"
+			tasks: [{
+				id: "661E30A290D13182"
+				title: "Raw Styrene Butadiene Rubber Pulp"
+				type: "checkmark"
+			}]
+			x: -18.0d
+			y: 3.5d
+		}
+		{
+			id: "5320FC0D7F963626"
+			tasks: [{
+				id: "2A980218E9598ACE"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 4.5d
+		}
+		{
+			icon: "gtceu:butadiene_bucket"
+			id: "5BA270BCC74CC683"
+			subtitle: "Oil byproduct"
+			tasks: [{
+				id: "55EE63867A618552"
+				title: "Butadiene"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5B181C4D1BCD798D"
+				"727101B73D345B1C"
+			]
+			icon: "gtceu:styrene_bucket"
+			id: "26291F0A6ACA58BD"
+			tasks: [{
+				id: "70929FEEFF1B4142"
+				title: "Styrene"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 2.5d
+		}
+		{
+			icon: "gtceu:ethylene_bucket"
+			id: "5B181C4D1BCD798D"
+			subtitle: "Oil byproduct"
+			tasks: [{
+				id: "645BBF33B685BB03"
+				title: "Ethylene"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			icon: "gtceu:benzene_bucket"
+			id: "727101B73D345B1C"
+			subtitle: "Oil byproduct"
+			tasks: [{
+				id: "4125345520011AA6"
+				title: "Benzene"
+				type: "checkmark"
+			}]
+			x: -18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"055E5D6EFB156019"
+				"4945B0F4CA6DEF1C"
+			]
+			id: "4B12142053B82FEB"
+			subtitle: "For T4"
+			tasks: [{
+				id: "70B5D31DCD519EE7"
+				item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 8.5d
+		}
+		{
+			id: "4945B0F4CA6DEF1C"
+			tasks: [{
+				id: "512E8F5375BD8657"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 8.5d
+		}
+	]
+	subtitle: ["12 Step Purification processes build character."]
+	title: "Processing Lines ULV-HV"
+}

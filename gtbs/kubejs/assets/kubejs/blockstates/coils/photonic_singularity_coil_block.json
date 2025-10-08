@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "kubejs:coils/off/photonic_singularity_coil_block"
+    },
+    "active=true": {
+      "model": "kubejs:coils/on/photonic_singularity_coil_block"
+    }
+  }
+}

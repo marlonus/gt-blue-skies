@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lantea"
+	group: "143975462EE54071"
+	icon: {
+		Count: 1
+		id: "botania:water_bowl"
+		tag: {
+			Fluid: {
+				Amount: 1000
+				FluidName: "minecraft:water"
+			}
+		}
+	}
+	id: "2002BD8DCEE9F28B"
+	order_index: 12
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Subnautica"]
+	title: "Lantea"
+}

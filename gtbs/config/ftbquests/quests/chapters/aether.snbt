@@ -1,0 +1,241 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "143975462EE54071"
+	icon: "aether:aether_portal_frame"
+	id: "7C9FF443670EF200"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E8ED592232013AA"]
+			icon: "aether:aether_portal_frame"
+			id: "454886A6AC4B550C"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Enter the dimension"
+			tasks: [{
+				id: "65E1F1F14C3127A4"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["454886A6AC4B550C"]
+			id: "3A1ACC507AB001E9"
+			subtitle: "Just to get some funny new materials!"
+			tasks: [{
+				id: "3B9449C0ECBBCCBC"
+				title: "You should probably beam some energy here."
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A1ACC507AB001E9"]
+			icon: "gtceu:impure_aether_air_bucket"
+			id: "278F5A1845861C55"
+			subtitle: "Centrifuge that guy"
+			tasks: [{
+				id: "04DDA1283B55751D"
+				title: "Impure Air of the Aetherian Gods"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["278F5A1845861C55"]
+			icon: "gtceu:aether_air_bucket"
+			id: "5A23DD464470072D"
+			subtitle: "Ready to liquify"
+			tasks: [{
+				id: "078256DFCCCE44EE"
+				title: "Air of the Aetherian Gods"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["278F5A1845861C55"]
+			icon: "gtceu:luminescent_residue_dust"
+			id: "46F5F316B3C23C0A"
+			subtitle: "Looks like it needs a little more processing."
+			tasks: [{
+				id: "734CE2C4B4BA1E1E"
+				title: "Luminescent Residue Dust"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A23DD464470072D"]
+			description: [
+				"Seperation is a integral part of most GregTech players."
+				"The seperation of their father and mother figure."
+			]
+			icon: "gtceu:liquid_aether_air_bucket"
+			id: "6C5FE2A67C0E8CFA"
+			subtitle: "Freeze 'em, seperate 'em"
+			tasks: [{
+				id: "027451637EADDB32"
+				title: "Liquid Air of the Aetherian Gods"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C5FE2A67C0E8CFA"]
+			icon: "gtceu:charged_mist_bucket"
+			id: "5D264E060BCAFD3E"
+			subtitle: "How can mist be charged? Find out!"
+			tasks: [{
+				id: "6A552901E043138E"
+				title: "Charged Mist"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C5FE2A67C0E8CFA"]
+			icon: "gtceu:aether_vapor_bucket"
+			id: "3A285E38D16F92EF"
+			subtitle: "No vaping."
+			tasks: [{
+				id: "679CE1EF8DEB93A4"
+				title: "Aether Vapor"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C5FE2A67C0E8CFA"]
+			icon: "gtceu:void_suspension_bucket"
+			id: "5AB72739318CACFA"
+			subtitle: "Very important very soonTM"
+			tasks: [{
+				id: "7F3A442FF3F3B6CC"
+				title: "Void Suspension"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C5FE2A67C0E8CFA"]
+			description: ["Think quick"]
+			icon: "gtceu:aether_crystal_dust"
+			id: "2B44DB1AE8732673"
+			subtitle: "Hmmm... I wonder what its for."
+			tasks: [{
+				id: "6A9E1E760FF78E83"
+				title: "Aether Crystal Dust"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46F5F316B3C23C0A"]
+			icon: "gtceu:aetherium_solution_bucket"
+			id: "10409044F519569A"
+			subtitle: "It sure is the solution to Aetherium"
+			tasks: [{
+				id: "76FC3965928134F0"
+				title: "Aetherium Solution"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["46F5F316B3C23C0A"]
+			icon: "gtceu:skyborne_alloy_dust"
+			id: "7642FEFABB9BDCFE"
+			subtitle: "Not smeltable actually."
+			tasks: [{
+				id: "3572E48CAA27FAAD"
+				title: "Skyborne Alloy Dust"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10409044F519569A"]
+			id: "219233E04CA37A3B"
+			shape: "gear"
+			subtitle: "Takes a carbon catalyst, is returned after the process though."
+			tasks: [{
+				id: "0229DC44F98C4462"
+				item: "gtceu:aetherium_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7642FEFABB9BDCFE"]
+			id: "69CEB3F807E737C7"
+			shape: "gear"
+			subtitle: "No, you wont orbit it."
+			tasks: [{
+				id: "03E144753BB67C4C"
+				item: "gtceu:gravitite_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7642FEFABB9BDCFE"]
+			id: "413B52874C02B77C"
+			shape: "gear"
+			subtitle: "Cool lights"
+			tasks: [{
+				id: "551B28F5F0C6A477"
+				item: "gtceu:aurorite_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B44DB1AE8732673"]
+			id: "49A5CAC1C8C5E194"
+			shape: "gear"
+			subtitle: "It really seems to be magical."
+			tasks: [{
+				id: "36A8FE18C0F611C6"
+				item: "gtceu:skystone_gem"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B44DB1AE8732673"]
+			id: "0A0CEBF97C4F508F"
+			shape: "gear"
+			subtitle: "Looks nice"
+			tasks: [{
+				id: "7D5118DC9578A362"
+				item: "gtceu:zanite_gem"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+	]
+	subtitle: ["Sky high"]
+	title: "Aether"
+}

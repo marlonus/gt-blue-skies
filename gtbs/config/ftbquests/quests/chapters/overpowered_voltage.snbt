@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overpowered_voltage"
+	group: "39117F9F1F55A7DB"
+	icon: "kubejs:cosmic_processor_mainframe"
+	id: "7265EE98CD81B467"
+	images: [{
+		height: 3.0d
+		image: "kubejs:item/circuits/universal/opv_universal_circuit"
+		rotation: 0.0d
+		width: 3.0d
+		x: -3.5d
+		y: 0.0d
+	}]
+	order_index: 13
+	quest_links: [ ]
+	quests: [{
+		id: "7591395ECF88B200"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "6401D87B16B414D3"
+			item: "gtceu:opv_machine_hull"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: [
+		"Problems bigger than Planets."
+		"(Compressing galaxies into buckets since forever)"
+	]
+	title: "&1Overpowered Voltage (OpV)"
+}

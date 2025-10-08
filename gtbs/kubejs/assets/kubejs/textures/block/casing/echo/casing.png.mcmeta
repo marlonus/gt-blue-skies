@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/casing/echo/casing_ctm"
+    }
+}

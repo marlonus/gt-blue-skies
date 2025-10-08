@@ -1,0 +1,1987 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "processing_lines_evluv"
+	group: "486E15D011E2971A"
+	icon: "gtceu:large_chemical_reactor"
+	id: "05B4C6DE74D21EAF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "gtceu:ev_electric_motor"
+			id: "5F4E34D2216418FE"
+			shape: "gear"
+			subtitle: "Now the real fun begins."
+			tasks: [{
+				id: "3540EB70B705F9DE"
+				title: "EV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"05AFAF5838B1E572"
+				"7BA36D2F8AB8F941"
+				"5F4E34D2216418FE"
+			]
+			icon: "gtceu:indium_dust"
+			id: "0E8904A5DE8E6956"
+			shape: "gear"
+			subtitle: "You will need this stuff for InGaP, used in HPICs and Qubit Wafers."
+			tasks: [{
+				id: "3B80D3C1E0755EB4"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54101114C4160748"]
+			icon: "gtceu:aluminium_dust"
+			id: "7BA36D2F8AB8F941"
+			tasks: [{
+				id: "645BF1F48002230C"
+				title: "Aluminium"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4BA6E2A2D9571450"
+				"1D938D7117EDAE96"
+				"116C13932A92C252"
+			]
+			icon: "gtceu:indium_concentrate_bucket"
+			id: "05AFAF5838B1E572"
+			tasks: [{
+				id: "7443DD21244121C9"
+				title: "Indium Concentrate"
+				type: "checkmark"
+			}]
+			title: "Indium Concentrate"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E8904A5DE8E6956"]
+			icon: "gtceu:lead_zinc_solution_bucket"
+			id: "5554B6DB508425F6"
+			subtitle: "A few nice byproducts!"
+			tasks: [{
+				id: "30CD058DFB185B0B"
+				title: "Lead Zinc Solution"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E8904A5DE8E6956"]
+			icon: "gtceu:aluminium_sulfite_dust"
+			id: "7A0625CDB2D6D8B7"
+			subtitle: "You get way less aluminium back than you put in sadly."
+			tasks: [{
+				id: "422FADFE614A141D"
+				title: "Aluminium Sulfite"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54101114C4160748"]
+			icon: "gtceu:purified_sphalerite_ore"
+			id: "1D938D7117EDAE96"
+			tasks: [{
+				id: "679FC198B2702FD4"
+				title: "Sphalerite"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54101114C4160748"]
+			icon: "gtceu:purified_galena_ore"
+			id: "4BA6E2A2D9571450"
+			tasks: [{
+				id: "4CF1A00D8E1A8220"
+				title: "Galena"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54101114C4160748"]
+			icon: "gtceu:sulfuric_acid_bucket"
+			id: "116C13932A92C252"
+			tasks: [{
+				id: "6B3D787887909E59"
+				title: "Sulfuric Acid"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "54101114C4160748"
+			subtitle: "You should have a abundance anyway."
+			tasks: [{
+				id: "6008D9A4994EEF4F"
+				title: "Outsourced Materials"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5DAC904DF0DFF19E"
+				"2D1D118B1B781152"
+				"0F9468BDFB8DE48F"
+				"5F4E34D2216418FE"
+			]
+			description: ["Not really though. You will mostly need this for PCBs."]
+			id: "40BB27258CA3BC3C"
+			subtitle: "Your new plastic!"
+			tasks: [{
+				id: "7E8C14AF0F3E315E"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40BB27258CA3BC3C"]
+			icon: "gtceu:salt_water_bucket"
+			id: "7E613BCB537FEF98"
+			subtitle: "For the NaOH regaining."
+			tasks: [{
+				id: "5D2080737A6B00C1"
+				title: "Salt Water"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"305604967207A852"
+				"3403F49719178BB4"
+				"22A52F8FA8B0394D"
+				"71A68A4EE0B23912"
+			]
+			icon: "gtceu:epichlorohydrin_bucket"
+			id: "5DAC904DF0DFF19E"
+			tasks: [{
+				id: "49122269C9AEEA71"
+				title: "Epichlorohydrin"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3456415C801ADCA2"
+				"4555F52C77BB93B9"
+				"09D713BCF8ADE318"
+			]
+			icon: "gtceu:bisphenol_a_bucket"
+			id: "2D1D118B1B781152"
+			tasks: [{
+				id: "5BB4EE27E9454179"
+				title: "Bisphenol-A"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			icon: "gtceu:sodium_hydroxide_dust"
+			id: "0F9468BDFB8DE48F"
+			tasks: [{
+				id: "3853AD19184015A4"
+				title: "Sodium Hydroxide"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			icon: "gtceu:phenol_bucket"
+			id: "3456415C801ADCA2"
+			subtitle: "Oil byproduct."
+			tasks: [{
+				id: "442DFEDDE9E1CA88"
+				title: "Phenol"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"37AFEC113346A07F"
+				"14D69BA7FCD505FF"
+			]
+			icon: "gtceu:acetone_bucket"
+			id: "09D713BCF8ADE318"
+			tasks: [{
+				id: "2D26928DD055BF18"
+				title: "Acetone"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"70B34B85A36CD2E3"
+				"204C1BF346F5C771"
+			]
+			icon: "gtceu:hydrochloric_acid_bucket"
+			id: "4555F52C77BB93B9"
+			tasks: [{
+				id: "308BADCE36E29610"
+				title: "Hydrochloric Acid"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4C2768AFF23DCA61"
+				"663776F2ACEE64B5"
+				"6514B52E698DAF49"
+			]
+			icon: "gtceu:cumene_bucket"
+			id: "37AFEC113346A07F"
+			tasks: [{
+				id: "407C6F22D46A8D21"
+				title: "Cumene"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			icon: "gtceu:oxygen_bucket"
+			id: "14D69BA7FCD505FF"
+			tasks: [{
+				id: "405B6526949F3466"
+				title: "Oxygen"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			icon: "gtceu:propene_bucket"
+			id: "4C2768AFF23DCA61"
+			subtitle: "Oil byproduct."
+			tasks: [{
+				id: "7BF48F4D432F6055"
+				title: "Propene"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			icon: "gtceu:benzene_bucket"
+			id: "663776F2ACEE64B5"
+			subtitle: "Oil byproduct."
+			tasks: [{
+				id: "26C5BEF043B063BD"
+				title: "Benzene"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"131DB3DB4D0BD75A"
+				"734D2795B72BBA5B"
+				"30D43429FE234861"
+			]
+			icon: "gtceu:phosphoric_acid_bucket"
+			id: "6514B52E698DAF49"
+			tasks: [{
+				id: "16D99727CEF5D6F8"
+				title: "Phosphoric Acid"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			icon: "gtceu:phosphorus_dust"
+			id: "734D2795B72BBA5B"
+			tasks: [{
+				id: "56A244ADF9713E16"
+				title: "Phosphorus"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			icon: "gtceu:oxygen_bucket"
+			id: "30D43429FE234861"
+			tasks: [{
+				id: "579420297D11AF7B"
+				title: "Oxygen"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			icon: "minecraft:water_bucket"
+			id: "131DB3DB4D0BD75A"
+			tasks: [{
+				id: "7EDBEB58570E75D6"
+				title: "Water"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			icon: "gtceu:hydrogen_bucket"
+			id: "204C1BF346F5C771"
+			tasks: [{
+				id: "52E6775EAD8BDE06"
+				title: "Hydrogen"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			icon: "gtceu:chlorine_bucket"
+			id: "70B34B85A36CD2E3"
+			tasks: [{
+				id: "55C2297467D7BE00"
+				title: "Chlorine"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"208328FF5802BD3F"
+				"27910F67658EB9D5"
+			]
+			icon: "gtceu:hypochlorous_acid_bucket"
+			id: "305604967207A852"
+			tasks: [{
+				id: "4695333F7FC8E9BD"
+				title: "Hypochlorous Acid"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			icon: "gtceu:propene_bucket"
+			id: "71A68A4EE0B23912"
+			subtitle: "Oil byproduct."
+			tasks: [{
+				id: "6C2A368BF99AFEB9"
+				title: "Propene"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			icon: "gtceu:chlorine_bucket"
+			id: "22A52F8FA8B0394D"
+			tasks: [{
+				id: "4C4514621C7EFE1B"
+				title: "Chlorine"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			icon: "gtceu:sodium_hydroxide_dust"
+			id: "3403F49719178BB4"
+			tasks: [{
+				id: "196B7C6E33C6FF0F"
+				title: "Sodium Hydroxide"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			icon: "gtceu:chlorine_bucket"
+			id: "27910F67658EB9D5"
+			tasks: [{
+				id: "13E70FFEC202AD00"
+				title: "Chlorine"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			icon: "minecraft:water_bucket"
+			id: "208328FF5802BD3F"
+			tasks: [{
+				id: "7017AE57E5BEB776"
+				title: "Water"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5F4E34D2216418FE"]
+			icon: "gtceu:iv_electric_motor"
+			id: "31E5B3444B529E3C"
+			shape: "gear"
+			tasks: [{
+				id: "10230BC54CB79A49"
+				title: "IV"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31E5B3444B529E3C"]
+			icon: "gtceu:luv_electric_motor"
+			id: "6BDB6F0DA8913EC4"
+			tasks: [{
+				id: "2F42AE5DBE680FEC"
+				title: "LuV"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"31E5B3444B529E3C"
+				"62CC9A7C54E86E19"
+				"0E1DB1D6CCC5F5B6"
+			]
+			id: "4ADAA2A9CB0DCED8"
+			subtitle: "Rubber of rubbers"
+			tasks: [{
+				id: "2A3F67E171C7D970"
+				item: "gtceu:polybenzimidazole_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"683FF4D85400B433"
+				"446D136B73267FFF"
+			]
+			icon: "gtceu:diaminobenzidine_bucket"
+			id: "0E1DB1D6CCC5F5B6"
+			tasks: [{
+				id: "120D77AEBEA5EE36"
+				title: "Diaminobenzidine"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"255EFC19047BE15C"
+				"203263B37222CD0B"
+				"1D0E9C42F75962AB"
+			]
+			icon: "gtceu:diphenyl_isophthalate_bucket"
+			id: "62CC9A7C54E86E19"
+			tasks: [{
+				id: "53826976FA01EF7D"
+				title: "Diphenyl Isophthalate"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"50E9A8A820A7E068"
+				"182AAF14B5D02480"
+			]
+			icon: "gtceu:dichlorobenzidine_bucket"
+			id: "446D136B73267FFF"
+			tasks: [{
+				id: "75595352CD58F26D"
+				title: "Dichlorobenzidine"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			icon: "gtceu:ammonia_bucket"
+			id: "683FF4D85400B433"
+			tasks: [{
+				id: "1FD3C4AA121F9B70"
+				title: "Ammonia"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			icon: "gtceu:phenol_bucket"
+			id: "203263B37222CD0B"
+			tasks: [{
+				id: "42B439FED7298CCB"
+				title: "Phenol"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6251A086B1B07322"
+				"1C8CBFEB6A4B9541"
+			]
+			icon: "gtceu:phthalic_acid_bucket"
+			id: "1D0E9C42F75962AB"
+			tasks: [{
+				id: "1CF251FE2D3C11F1"
+				title: "Pthalic Acid"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			icon: "gtceu:sulfuric_acid_bucket"
+			id: "255EFC19047BE15C"
+			tasks: [{
+				id: "379DE702D9015FB3"
+				title: "Sulfuric Acid"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			icon: "gtceu:potassium_dichromate_dust"
+			id: "1C8CBFEB6A4B9541"
+			tasks: [{
+				id: "136656B9B9783432"
+				title: "Potassium Dichromate"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"790E1A20C906E5AB"
+				"5C3F508AAD09A4E4"
+			]
+			icon: "gtceu:dimethylbenzene_bucket"
+			id: "6251A086B1B07322"
+			tasks: [{
+				id: "12A0D64D63790C83"
+				title: "Dimethylbenzene"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"14A7F651A7C5351B"
+				"2044457AE0BDAADA"
+			]
+			icon: "gtceu:nitrochlorobenzene_bucket"
+			id: "50E9A8A820A7E068"
+			tasks: [{
+				id: "5232818387A06E37"
+				title: "Nitrochlorobenzene"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			icon: "gtceu:copper_dust"
+			id: "182AAF14B5D02480"
+			tasks: [{
+				id: "763CAB5FAE5E4648"
+				title: "Copper"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			icon: "gtceu:methane_bucket"
+			id: "790E1A20C906E5AB"
+			tasks: [{
+				id: "0DF610B3A49CCFD0"
+				title: "Methane"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			icon: "gtceu:benzene_bucket"
+			id: "5C3F508AAD09A4E4"
+			tasks: [{
+				id: "105D0F06F73E781D"
+				title: "Benzene"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"255EFC19047BE15C"
+				"7D3E7FC79ACA141E"
+			]
+			icon: "gtceu:nitration_mixture_bucket"
+			id: "14A7F651A7C5351B"
+			tasks: [{
+				id: "5B2634390E4DDD68"
+				title: "Nitration Mixture"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6F794FC46BCAE089"
+				"05143E0D141E2E48"
+			]
+			icon: "gtceu:chlorobenzene_bucket"
+			id: "2044457AE0BDAADA"
+			tasks: [{
+				id: "53F5D4E5237D18EF"
+				title: "Chlorobenzene"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			icon: "gtceu:nitric_acid_bucket"
+			id: "7D3E7FC79ACA141E"
+			tasks: [{
+				id: "0C49FEE2A5743B2E"
+				title: "Nitric Acid"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			icon: "gtceu:benzene_bucket"
+			id: "05143E0D141E2E48"
+			tasks: [{
+				id: "5CB9C502C5A3CB6F"
+				title: "Benzene"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			icon: "gtceu:chlorine_bucket"
+			id: "6F794FC46BCAE089"
+			tasks: [{
+				id: "3A38E5842E59FDFC"
+				title: "Chlorine"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"38731AF16BDA09B5"
+				"7A42E75798D08F9A"
+				"31E5B3444B529E3C"
+			]
+			description: [
+				"With a minimum of 220MeV and max of 230MeV."
+				""
+				"Not the last time in this line though."
+			]
+			id: "223502374C175BC6"
+			shape: "gear"
+			subtitle: "The neutron activator is now finally used!"
+			tasks: [{
+				id: "5C5B9DC3FA848CF5"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1EAE03E2D742CE96"
+				"31E5B3444B529E3C"
+			]
+			id: "31B0933F1CADC403"
+			shape: "gear"
+			subtitle: "You need a Naq-coil for this. LuV!"
+			tasks: [{
+				id: "230B3B0074C0BCFB"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7122BB278AA992ED"]
+			icon: "gtceu:naquadah_oxide_mixture_dust"
+			id: "7A42E75798D08F9A"
+			tasks: [{
+				id: "16C3B2D285E2CB54"
+				title: "Naquadah Oxide Mixture Dust"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			icon: "gtceu:fluoroantimonic_acid_bucket"
+			id: "38731AF16BDA09B5"
+			tasks: [{
+				id: "24AF80A05A0C2C26"
+				title: "Fluoroantimonic Acid"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			icon: "gtceu:raw_naquadah"
+			id: "7122BB278AA992ED"
+			tasks: [{
+				id: "4461ABDB9D65BB77"
+				title: "Naquadah Ore"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76FFAFF255538F2C"]
+			icon: "gtceu:enriched_naquadah_sulfate_dust"
+			id: "1EAE03E2D742CE96"
+			tasks: [{
+				id: "316668D567BCB3AE"
+				title: "Enriched Naquadah Sulfate Dust"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["75C49AC9CE158D97"]
+			icon: "gtceu:enriched_naquadah_solution_bucket"
+			id: "51F58BA0B1C2C656"
+			tasks: [{
+				id: "08152E7A474CFB64"
+				title: "Enriched Naquadah Solution"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["76FFAFF255538F2C"]
+			icon: "gtceu:impure_naquadria_solution_bucket"
+			id: "431BB279AEFDC4DE"
+			tasks: [{
+				id: "4DFC5B30628368AF"
+				title: "Impure Naquadria Solution"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["431BB279AEFDC4DE"]
+			icon: "gtceu:hexafluoride_naquadria_solution_bucket"
+			id: "1C0628EF5AD99335"
+			tasks: [{
+				id: "6FC5C42A3E1E2361"
+				title: "Hexafluoride Naquadria Solution"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C0628EF5AD99335"]
+			icon: "gtceu:radon_naquadria_octafluoride_bucket"
+			id: "0388A208993AB91D"
+			tasks: [{
+				id: "772E2AD9EB0675A3"
+				title: "Radon Naquadria Octafluoride"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C0628EF5AD99335"]
+			icon: "gtceu:naquadria_residue_solution_bucket"
+			id: "5E8FDAF8040FC3F3"
+			tasks: [{
+				id: "3A91B4C18DF6027D"
+				title: "Naquadria Residue Solution"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0388A208993AB91D"]
+			icon: "gtceu:naquadria_caesium_xenonnonfluoride_bucket"
+			id: "34B6A26B9188AC6A"
+			tasks: [{
+				id: "3AA26E71FB40205A"
+				title: "Naquadria Caesium Xenonnonfluoride"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34B6A26B9188AC6A"]
+			icon: "gtceu:naquadria_caesiumfluoride_bucket"
+			id: "05AF5DC6B9050813"
+			tasks: [{
+				id: "7C9F99DD7B80B61A"
+				title: "Naquadria Caesiumfluoride"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["05AF5DC6B9050813"]
+			icon: "gtceu:acidic_naquadria_caesiumfluoride_bucket"
+			id: "222EF85A3622CA9C"
+			tasks: [{
+				id: "687D63D04A1163F8"
+				title: "Acidic Naquadria Caesiumfluoride"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["222EF85A3622CA9C"]
+			icon: "gtceu:naquadria_sulfate_dust"
+			id: "183F91DA01ED4C67"
+			tasks: [{
+				id: "0BF7D2070301EB09"
+				title: "Naquadria Sulfate Dust"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["222EF85A3622CA9C"]
+			icon: "gtceu:caesium_dust"
+			id: "1ED505236B058032"
+			tasks: [{
+				id: "6634CB5967CA5206"
+				title: "Caesium"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"183F91DA01ED4C67"
+				"31E5B3444B529E3C"
+			]
+			id: "105F92C1C04D4165"
+			shape: "gear"
+			subtitle: "You need trinium coils for this. Have fun in ZPM!"
+			tasks: [{
+				id: "2C210FC24B72139A"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E8FDAF8040FC3F3"]
+			icon: "gtceu:indium_phosphide_dust"
+			id: "7BC7BFD5126C6A40"
+			tasks: [{
+				id: "0DBDC8CAED9E1A82"
+				title: "Indium Phosphide"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E8FDAF8040FC3F3"]
+			icon: "gtceu:naquadria_solution_bucket"
+			id: "032E5CB864BDEC01"
+			tasks: [{
+				id: "2A2DE4D127B326ED"
+				title: "Naquadria Solution"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["032E5CB864BDEC01"]
+			icon: "gtceu:acidic_naquadria_solution_bucket"
+			id: "44FE5DAFA426D7AA"
+			tasks: [{
+				id: "168633D344B11ECF"
+				title: "Acidic Naquadria Solution"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["44FE5DAFA426D7AA"]
+			icon: "gtceu:naquadria_waste_bucket"
+			id: "069230204C494FFB"
+			tasks: [{
+				id: "1D2C4626E87C2D3A"
+				title: "Naquadria Waste"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["069230204C494FFB"]
+			icon: "gtceu:enriched_naquadah_solution_bucket"
+			id: "08A481B00DD3FE6C"
+			tasks: [{
+				id: "0FA3B5D5A38AE498"
+				title: "Enriched Naquadah Solution"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25396C2766804E23"]
+			icon: "gtceu:xenon_hexafluoro_enriched_naquadate_bucket"
+			id: "75C49AC9CE158D97"
+			tasks: [{
+				id: "35006B325A04C559"
+				title: "Xenon Hexafluoro Enriched Naquadate"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["70465B871D5C865A"]
+			icon: "gtceu:hexafluoride_enriched_naquadah_solution_bucket"
+			id: "25396C2766804E23"
+			tasks: [{
+				id: "4FB548D0ACEA58FF"
+				title: "Hexafluoride Enriched Naquadah Solution"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FF3A2D8BB279F8E"]
+			icon: "gtceu:impure_enriched_naquadah_solution_bucket"
+			id: "70465B871D5C865A"
+			tasks: [{
+				id: "3BBB8C404D409052"
+				title: "Impure Enriched Naquadah Solution"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["51F58BA0B1C2C656"]
+			icon: "gtceu:acidic_enriched_naquadah_solution_bucket"
+			id: "76FFAFF255538F2C"
+			tasks: [{
+				id: "2C193495E8D54803"
+				title: "Acidic Enriched Naquadah Solution"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"44FE5DAFA426D7AA"
+				"069230204C494FFB"
+			]
+			icon: "gtceu:naquadria_solution_bucket"
+			id: "7319035E6B159876"
+			tasks: [{
+				id: "2D5F792232B5F598"
+				title: "Naquadria Solution"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["08A481B00DD3FE6C"]
+			id: "61EB089671B6E26F"
+			subtitle: "Check the quest on the left with the same name as the one before this"
+			tasks: [{
+				id: "688A80FB873CEDA2"
+				title: "Byproduct to get rid of earlier in the line?"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5D773E2668252A44"]
+			icon: "gtceu:enriched_naquadah_oxide_mixture_dust"
+			id: "5FF3A2D8BB279F8E"
+			tasks: [{
+				id: "63A828AF8E49AE25"
+				title: "Enriched Naquadah Oxide Mixture Dust"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			icon: "gtceu:raw_enriched_naquadah"
+			id: "5D773E2668252A44"
+			tasks: [{
+				id: "272651352F8B07DF"
+				title: "Enriched Naquadah Ore"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7319035E6B159876"]
+			id: "0B80C03CD9CAD1EA"
+			subtitle: "Check the immediate top left of this quest."
+			tasks: [{
+				id: "30B5A5F2E4AC2AA2"
+				title: "Here again?"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6D3E78A2E3409AA5"]
+			id: "041C85B27C8D912B"
+			tasks: [{
+				id: "07287F6015155171"
+				item: "gtca:nickel_froth_bucket"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0C6B22BC12885629"]
+			id: "3DD8B163C6EBBBBD"
+			tasks: [{
+				id: "2C6795D64402AEAF"
+				item: "gtca:chalcopyrite_froth_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6B140F9744400E50"]
+			id: "3455112E9C732D8A"
+			tasks: [{
+				id: "569E0EA9ACD8FF22"
+				item: "gtca:sphalerite_froth_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7B4F6D6B4FDAA244"]
+			id: "72B3FFB73A9C7C71"
+			tasks: [{
+				id: "340D41B8F6382CA6"
+				item: "gtca:pentlandite_froth_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7FB509AF4332EDAE"]
+			id: "2D3B611F4CD1A751"
+			tasks: [{
+				id: "74FC3867D5DDA077"
+				item: "gtca:redstone_froth_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["77DA9C340FC0E95F"]
+			id: "132DC8F9CC8756B1"
+			tasks: [{
+				id: "4C3C3197C5ECBCD3"
+				item: "gtca:spessartine_froth_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["786857DCCE3FBACA"]
+			id: "2477522F464674A2"
+			tasks: [{
+				id: "4B423A85D715C2AA"
+				item: "gtca:platinum_froth_bucket"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7A21E09084AB98D0"]
+			id: "11C1059D50B9B955"
+			tasks: [{
+				id: "643C470E225E9686"
+				item: "gtca:grossular_froth_bucket"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1F80A2D88F846930"]
+			id: "6F574F6A920656B8"
+			tasks: [{
+				id: "4B7B28DD821E85C6"
+				item: "gtca:almandine_froth_bucket"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["471AE4FEB63BDA8A"]
+			id: "468C6F46B366B568"
+			tasks: [{
+				id: "395037BC8FFF83D2"
+				item: "gtca:pyrope_froth_bucket"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7F8B90AB4DE8576A"]
+			id: "1DF10D2C872F6AE2"
+			tasks: [{
+				id: "4A7CFCF4E30871E2"
+				item: "gtca:monazite_froth_bucket"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7CEC59F0F3D9CE7E"]
+			id: "086331886CA08934"
+			tasks: [{
+				id: "3D566D85E1F35F7A"
+				item: "gtca:milled_monazite"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CEC59F0F3D9CE7E"]
+			id: "21A6169E7944177A"
+			tasks: [{
+				id: "65A5F175F224C468"
+				item: "gtca:milled_pyrope"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CEC59F0F3D9CE7E"]
+			id: "4CB0D66C4096D31B"
+			tasks: [{
+				id: "2F356BD295F64FEB"
+				item: "gtca:milled_almandine"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CEC59F0F3D9CE7E"]
+			id: "467B370ABBA56932"
+			tasks: [{
+				id: "0A318F47E540666A"
+				item: "gtca:milled_grossular"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CEC59F0F3D9CE7E"]
+			id: "3F3CB3ADB576879D"
+			tasks: [{
+				id: "158170D11969BB9B"
+				item: "gtca:milled_platinum"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CEC59F0F3D9CE7E"]
+			id: "4D9799316359DE33"
+			tasks: [{
+				id: "5B360318F28380B0"
+				item: "gtca:milled_nickel"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CEC59F0F3D9CE7E"]
+			id: "7B7368F44256FA2B"
+			tasks: [{
+				id: "2A886B9346DAC941"
+				item: "gtca:milled_chalcopyrite"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CEC59F0F3D9CE7E"]
+			id: "32C2ED07A85288F5"
+			tasks: [{
+				id: "18230D598CA3D2F7"
+				item: "gtca:milled_sphalerite"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CEC59F0F3D9CE7E"]
+			id: "5E32CAD9A7D25872"
+			tasks: [{
+				id: "3FD2E5C8D3829BFE"
+				item: "gtca:milled_pentlandite"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CEC59F0F3D9CE7E"]
+			id: "5740FC4180D2F493"
+			tasks: [{
+				id: "1E836925EB010BD8"
+				item: "gtca:milled_redstone"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CEC59F0F3D9CE7E"]
+			id: "5D1AEAD5E90F9A27"
+			tasks: [{
+				id: "480A3B3F0628F4E1"
+				item: "gtca:milled_spessartine"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"11C1059D50B9B955"
+				"1DF10D2C872F6AE2"
+				"3455112E9C732D8A"
+				"132DC8F9CC8756B1"
+				"6F574F6A920656B8"
+				"2D3B611F4CD1A751"
+				"468C6F46B366B568"
+				"041C85B27C8D912B"
+				"72B3FFB73A9C7C71"
+				"2477522F464674A2"
+				"3DD8B163C6EBBBBD"
+			]
+			id: "295C0D91CAD8EA8F"
+			subtitle: "Most of them require different coils! Some even use trinium."
+			tasks: [{
+				id: "26431FBDA36A7429"
+				item: "gtca:thermal_reactor"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["295C0D91CAD8EA8F"]
+			id: "23B35F86E4E5C850"
+			subtitle: "Trinium Coils!"
+			tasks: [
+				{
+					count: 64L
+					id: "6061BEA31BD67B9B"
+					item: { Count: 64, id: "gtceu:lanthanum_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "5BF174278A71FC6A"
+					item: { Count: 64, id: "gtceu:lutetium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3B7D21981CA43BC4"
+					item: { Count: 64, id: "gtceu:europium_dust" }
+					type: "item"
+				}
+			]
+			title: "Monazite"
+			x: -21.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["295C0D91CAD8EA8F"]
+			id: "4CF4496505E1AA9C"
+			subtitle: "Nichrome Coils."
+			tasks: [
+				{
+					count: 64L
+					id: "02A85EA59441EBF0"
+					item: { Count: 64, id: "gtceu:magnesium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0EE0FB551000F1BF"
+					item: { Count: 64, id: "gtceu:manganese_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7D4299BEBAE0395B"
+					item: { Count: 64, id: "gtceu:borax_dust" }
+					type: "item"
+				}
+			]
+			title: "Pyrope"
+			x: -20.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["295C0D91CAD8EA8F"]
+			id: "55F77028817131EF"
+			subtitle: "Naquadah Coils!"
+			tasks: [
+				{
+					count: 64L
+					id: "304A123AC58E6F55"
+					item: { Count: 64, id: "gtceu:aluminium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1FBC5C45B3DE1709"
+					item: { Count: 64, id: "gtceu:magnesium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "090E0DF2E81D9736"
+					item: { Count: 64, id: "gtceu:yttrium_dust" }
+					type: "item"
+				}
+			]
+			title: "Almandine"
+			x: -19.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["295C0D91CAD8EA8F"]
+			id: "397624F443EDF289"
+			subtitle: "Naquadah Coils!"
+			tasks: [
+				{
+					count: 64L
+					id: "3A7B14A7F024A9B0"
+					item: { Count: 64, id: "gtceu:calcium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "5D669B542A6BC611"
+					item: { Count: 64, id: "gtceu:aluminium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0C7446AF851AC168"
+					item: "gtceu:tungsten_dust"
+					type: "item"
+				}
+			]
+			title: "Grossular"
+			x: -18.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"3F3CB3ADB576879D"
+				"12F715B1FCE11C9A"
+			]
+			id: "786857DCCE3FBACA"
+			tasks: [{
+				id: "24B60F2C7ECF01F2"
+				item: "gtca:potassium_ethyl_xanthate_dust"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"467B370ABBA56932"
+				"12F715B1FCE11C9A"
+			]
+			id: "7A21E09084AB98D0"
+			tasks: [{
+				id: "32F154CDB186CCCC"
+				item: "gtca:potassium_ethyl_xanthate_dust"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"4D9799316359DE33"
+				"12F715B1FCE11C9A"
+			]
+			id: "6D3E78A2E3409AA5"
+			tasks: [{
+				id: "4536082DD788F6C0"
+				item: "gtca:potassium_ethyl_xanthate_dust"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5D1AEAD5E90F9A27"
+				"12F715B1FCE11C9A"
+			]
+			id: "77DA9C340FC0E95F"
+			tasks: [{
+				id: "1DEF43B52D66D450"
+				item: "gtca:potassium_ethyl_xanthate_dust"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"086331886CA08934"
+				"12F715B1FCE11C9A"
+			]
+			id: "7F8B90AB4DE8576A"
+			tasks: [{
+				id: "5CCA35C109632A84"
+				item: "gtca:potassium_ethyl_xanthate_dust"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7B7368F44256FA2B"
+				"12F715B1FCE11C9A"
+			]
+			id: "0C6B22BC12885629"
+			tasks: [{
+				id: "4D224E55D1E416B0"
+				item: "gtca:sodium_ethyl_xanthate_dust"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"32C2ED07A85288F5"
+				"12F715B1FCE11C9A"
+			]
+			id: "6B140F9744400E50"
+			tasks: [{
+				id: "01E05DF5CC399EE9"
+				item: "gtca:sodium_ethyl_xanthate_dust"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5E32CAD9A7D25872"
+				"12F715B1FCE11C9A"
+			]
+			id: "7B4F6D6B4FDAA244"
+			tasks: [{
+				id: "78E24537F19B87A7"
+				item: "gtca:sodium_ethyl_xanthate_dust"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5740FC4180D2F493"
+				"12F715B1FCE11C9A"
+			]
+			id: "7FB509AF4332EDAE"
+			tasks: [{
+				id: "4857CF3024B2CFD7"
+				item: "gtca:sodium_ethyl_xanthate_dust"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"4CB0D66C4096D31B"
+				"12F715B1FCE11C9A"
+			]
+			id: "1F80A2D88F846930"
+			tasks: [{
+				id: "5346AFFF2AE4C8BE"
+				item: "gtca:sodium_ethyl_xanthate_dust"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"21A6169E7944177A"
+				"12F715B1FCE11C9A"
+			]
+			id: "471AE4FEB63BDA8A"
+			tasks: [{
+				id: "0318B2A5CD868765"
+				item: "gtca:sodium_ethyl_xanthate_dust"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5740FC4180D2F493"
+				"4CB0D66C4096D31B"
+				"32C2ED07A85288F5"
+				"467B370ABBA56932"
+				"21A6169E7944177A"
+				"5D1AEAD5E90F9A27"
+				"7B7368F44256FA2B"
+				"3F3CB3ADB576879D"
+				"5E32CAD9A7D25872"
+				"4D9799316359DE33"
+				"086331886CA08934"
+			]
+			id: "12F715B1FCE11C9A"
+			subtitle: "Grow spruce trees and make oil out of it. Why is this required? I have no idea."
+			tasks: [
+				{
+					id: "030F2F426D902427"
+					item: "gtca:spruce_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "2CE5EA70B3137D26"
+					item: "gtca:extreme_heat_exchanger"
+					type: "item"
+				}
+				{
+					id: "3DE1D6F6A8D71904"
+					item: "gtca:crushed_spruce"
+					type: "item"
+				}
+			]
+			title: "Spruce Oil"
+			x: -16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["295C0D91CAD8EA8F"]
+			id: "076E02D5A300FA66"
+			subtitle: "Who needs a Platline? (Naquadah Coils!)"
+			tasks: [
+				{
+					count: 64L
+					id: "52162FFBBC89937D"
+					item: { Count: 64, id: "gtceu:palladium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "72F2A88DA5E75D07"
+					item: { Count: 64, id: "gtceu:ruthenium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1EEF1D7637D2702F"
+					item: { Count: 64, id: "gtceu:iridium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3889D475FCCD798C"
+					item: { Count: 64, id: "gtceu:rhodium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4A65D58075FB5B05"
+					item: { Count: 64, id: "gtceu:platinum_dust" }
+					type: "item"
+				}
+			]
+			title: "Platinum"
+			x: -17.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["295C0D91CAD8EA8F"]
+			id: "77C14D9ACB1D7BA4"
+			subtitle: "RTM Alloy Coils."
+			tasks: [
+				{
+					count: 64L
+					id: "75FCEDADE1ECAF9B"
+					item: { Count: 64, id: "gtceu:nickel_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3351B5D9BB6CA007"
+					item: { Count: 64, id: "gtceu:cobalt_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "002EF25118DAF937"
+					item: { Count: 64, id: "gtceu:rhodium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7D1CC33974DBC87B"
+					item: { Count: 64, id: "gtceu:ruthenium_dust" }
+					type: "item"
+				}
+			]
+			title: "Nickel"
+			x: -16.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["295C0D91CAD8EA8F"]
+			id: "7D675207FBC80206"
+			subtitle: "RTM Alloy Coils."
+			tasks: [
+				{
+					count: 64L
+					id: "654FE33023B0B8A5"
+					item: { Count: 64, id: "gtceu:copper_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "75FE1AC7E13336AE"
+					item: { Count: 64, id: "gtceu:iron_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2810B95EF2CEA538"
+					item: { Count: 64, id: "gtceu:cadmium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "6E4F8AB06D4569B2"
+					item: { Count: 64, id: "gtceu:indium_dust" }
+					type: "item"
+				}
+			]
+			title: "Chalcopyrite"
+			x: -15.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["295C0D91CAD8EA8F"]
+			id: "1AB3DEC8528059DF"
+			subtitle: "Naquadah Coils!"
+			tasks: [
+				{
+					count: 64L
+					id: "5796AF4721CE5585"
+					item: { Count: 64, id: "gtceu:zinc_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7E6B8E639B9B8662"
+					item: { Count: 64, id: "gtceu:iron_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7CC84D49581154A1"
+					item: { Count: 64, id: "gtceu:indium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2CC8FEA57B0166C0"
+					item: { Count: 64, id: "gtceu:germanium_dust" }
+					type: "item"
+				}
+			]
+			title: "Sphalerite"
+			x: -14.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["295C0D91CAD8EA8F"]
+			id: "5BA287B15F363E8B"
+			subtitle: "Naquadah Coils!"
+			tasks: [
+				{
+					count: 64L
+					id: "5BF2AD6E1D995F31"
+					item: { Count: 64, id: "gtceu:iron_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "514B5C0C745A47B1"
+					item: { Count: 64, id: "gtceu:nickel_dust" }
+					type: "item"
+				}
+			]
+			title: "Pentlandite"
+			x: -13.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["295C0D91CAD8EA8F"]
+			id: "555F1AC08B18B4FC"
+			subtitle: "RTM Alloy Coils."
+			tasks: [
+				{
+					count: 64L
+					id: "5B14DC9835C3FB45"
+					item: { Count: 64, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0C75F53DA3E15432"
+					item: { Count: 64, id: "gtceu:gold_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2937783210CBDAFC"
+					item: { Count: 64, id: "gtceu:chromium_dust" }
+					type: "item"
+				}
+			]
+			title: "Redstone"
+			x: -12.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["295C0D91CAD8EA8F"]
+			id: "7F994258E6C5B0E8"
+			subtitle: "Naquadah Coils!"
+			tasks: [
+				{
+					count: 64L
+					id: "374C0C9331880A9C"
+					item: { Count: 64, id: "gtceu:manganese_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "20C654BFDC66DD36"
+					item: { Count: 64, id: "gtceu:aluminium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "40849FB44E1457B6"
+					item: { Count: 64, id: "gtceu:iridium_dust" }
+					type: "item"
+				}
+			]
+			title: "Spessartine"
+			x: -11.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"23B35F86E4E5C850"
+				"55F77028817131EF"
+				"77C14D9ACB1D7BA4"
+				"1AB3DEC8528059DF"
+				"397624F443EDF289"
+				"555F1AC08B18B4FC"
+				"4CF4496505E1AA9C"
+				"7F994258E6C5B0E8"
+				"076E02D5A300FA66"
+				"7D675207FBC80206"
+				"5BA287B15F363E8B"
+			]
+			id: "6A0C6EDB3DCC6455"
+			subtitle: "A few spare minerals."
+			tasks: [
+				{
+					id: "65C63F7D2250226F"
+					item: "gtca:red_mud_slurry_bucket"
+					type: "item"
+				}
+				{
+					id: "4A73641CC0A5E95D"
+					item: "gtceu:large_centrifuge"
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["60D2AD23D2AC6F09"]
+			description: [
+				"Trust me, its worth investing in."
+				"One grinding ball is 144 ingots btw :)"
+				""
+				"If you can't afford it, use tungsten ones instead."
+			]
+			id: "7CEC59F0F3D9CE7E"
+			subtitle: "You need some Nq+ for the best one."
+			tasks: [{
+				id: "3F022DF2A580D765"
+				title: "Grinding Balls"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20AB480D7E6C078E"]
+			id: "60D2AD23D2AC6F09"
+			subtitle: "You will need a few of these."
+			tasks: [{
+				id: "0A5B43ED42008A73"
+				item: "gtca:isamill"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"41BEE28BAF363FB5"
+				"6BDB6F0DA8913EC4"
+			]
+			description: [
+				"You can use the IsaMill and other stuff that works together with it to gain insanely many materials."
+				"The cost of setting it up is immense though."
+			]
+			id: "20AB480D7E6C078E"
+			subtitle: "What even is a IsaMill?"
+			tasks: [{
+				id: "46EEF7DC6DA4672B"
+				title: "More advanced Ore Processing"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+	]
+	title: "Processing Lines EV-LuV"
+}

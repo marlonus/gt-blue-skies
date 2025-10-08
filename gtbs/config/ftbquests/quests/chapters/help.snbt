@@ -1,0 +1,123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "help"
+	group: "1F64FD07622D29DF"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftbteams:textures/accept.png"
+		}
+	}
+	id: "3732E85CED1E3633"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This modpack is a dream of mine."
+				""
+				"I always wanted a modpack that emphasizes automation from the get go, no buts."
+				""
+				"I hate sieving, or the most used ore from nothing methods. I hate the tinkers smeltery early game, I hate steam age and I hate unnecessary waiting."
+				""
+				"This modpack is basically my magnum opus of perfection. Many resources, many processes, a ton of mental hospitalization."
+				""
+				"Need AE2? Have it. Need machines? You have a lot."
+				""
+				"Resources are easy to get, but the processes intricate. Good luck!"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ldlib:textures/gui/icon/information.png"
+				}
+			}
+			id: "768F820446E546B8"
+			optional: true
+			subtitle: "What is this?"
+			tasks: [{
+				id: "130A29629707BAC6"
+				title: "general"
+				type: "checkmark"
+			}]
+			title: "General"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"There are several UI enhancement mods and several resource packs preinstalled for you."
+				""
+				""
+				""
+				"Some mods can annoy you though, if you dont want their effect."
+				"They are good to remove, and dont carry any misfortune when doing so. (I hope at least)"
+				""
+				"Modern and Immersive UI enhance stuff a little."
+				"Extra Sounds adds... extra sounds for UI and stuff. Who'd have thought."
+				""
+				"Check out the resource packs! There are a shit ton of them, for literally any style you want to play in."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ldlib:textures/gui/icon/resource_setting.png"
+				}
+			}
+			id: "65F336FAB20C74AB"
+			subtitle: "Always let the GT Blue Skies Assets on top in load order!"
+			tasks: [{
+				id: "07ED296E9052E04D"
+				title: "Mods and Resource Packs"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Many custom things use textures of other modpacks / creators."
+				"I really want to thank them for the ability to use some of them, as I really cant make them myself, especially not as good as they did."
+				""
+				"Used textures include materialsets, coils, casings and individual items."
+				""
+				"I also took a lot of inspiration from them, and I try to mostly change them up from their original purpose / name."
+				""
+				"(Regarding licenses, every license is GNU LGPL 3.0, except Star Technology, which uses MIT.)"
+				" "
+				"Thanks to most notably:"
+				"&1Pansmith (Monifactory)"
+				"&r&aEzlych (Sky of Grind)"
+				"&r&4Phoenixvine (Phoenix Forge Technologies)"
+				"&r&5stellaurora (Star Technology)&r"
+				"&r&dGhostipedia (Cosmic Frontiers)&r"
+				"The GTNH Team and the Modernity GTNH Texturepack"
+				""
+				"The actual custom textures that this pack has, including UEV-MAX circuits and UXV+ universal circuits is under LPGL 3.0 too."
+				"If you wanna use them, just credit me if you want, and maybe tell me on discord because im curious as to what you are cooking up."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "aether:block/dungeon/exclamation"
+				}
+			}
+			id: "6CF4791EBDAA0FDB"
+			subtitle: "I am very bad"
+			tasks: [{
+				id: "16C94A7261E23997"
+				title: "Regarding Textures"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["You will cry less if you know what you are doing."]
+	title: "Info"
+}

@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cavum_tenebrae"
+	group: "143975462EE54071"
+	icon: "botania:black_hole_talisman"
+	id: "6453AD9C085DA9DF"
+	order_index: 11
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Not in a good condition"]
+	title: "Cavum Tenebrae"
+}

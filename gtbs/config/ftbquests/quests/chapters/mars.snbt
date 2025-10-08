@@ -1,0 +1,887 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mars"
+	group: "143975462EE54071"
+	icon: "ad_astra:mars_globe"
+	id: "4D759942C8A2EC09"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["503C8D57E1298A1D"]
+			icon: "ad_astra:mars_globe"
+			id: "36E920A36DDB4572"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "45CA9BDF3C61CFE9"
+				title: "Mars"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36E920A36DDB4572"]
+			description: ["You will also need 3 of these."]
+			id: "7AA11EA0FDC5DA7F"
+			subtitle: "You will need a shit ton of ore processing."
+			tasks: [{
+				id: "3A149AA9A40A3DDD"
+				item: "gtceu:planetary_miner"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AA11EA0FDC5DA7F"]
+			id: "586FFDDC595F26D8"
+			subtitle: "Have fun now!"
+			tasks: [{
+				id: "6FDC10E304B2970B"
+				item: "gtceu:raw_bastnasite"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AA11EA0FDC5DA7F"]
+			id: "3909835A04FB9EDD"
+			subtitle: "Have fun later!"
+			tasks: [{
+				id: "31AAA2D7134A4ADC"
+				item: "gtceu:raw_naquadah"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AA11EA0FDC5DA7F"]
+			id: "1D0FD47080EB7BAE"
+			subtitle: "Have fun later!"
+			tasks: [{
+				id: "78AB453A1CD7B22E"
+				item: "gtceu:raw_enriched_naquadah"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["586FFDDC595F26D8"]
+			id: "241D02AA1D8AE793"
+			tasks: [{
+				id: "26F8CE56FF881063"
+				item: "gtceu:crushed_bastnasite_ore"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"241D02AA1D8AE793"
+				"163520B80233A393"
+			]
+			icon: "gtca:muddy_bastnasite_rare_earth_solution_bucket"
+			id: "431FFE505B0AB176"
+			tasks: [{
+				id: "5B515304C2E253EF"
+				title: "Bastnasite Rare Earth Solution"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"241D02AA1D8AE793"
+				"163520B80233A393"
+			]
+			icon: "gtceu:silicon_dioxide_dust"
+			id: "52D918D0B314D996"
+			tasks: [{
+				id: "334771D8B875AA55"
+				title: "Silicon Dioxide"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			icon: "gtceu:nitric_acid_bucket"
+			id: "163520B80233A393"
+			tasks: [{
+				id: "7D3E255755AF7B02"
+				title: "Nitric Acid"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["431FFE505B0AB176"]
+			icon: "gtca:steam_cracked_bastnasite_mud_bucket"
+			id: "11CEE98C91452A1F"
+			tasks: [{
+				id: "2B298DAB3DD6781E"
+				title: "Steam Cracked Bastnasite Mud"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11CEE98C91452A1F"]
+			icon: "gtca:conditioned_bastnasite_mud_bucket"
+			id: "3C0340392A5409DD"
+			tasks: [{
+				id: "2A582E45FF8279C0"
+				title: "Conditoned Bastnasite Mud"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C0340392A5409DD"]
+			icon: "gtca:diluted_bastnasite_mud_bucket"
+			id: "7498E7D7928896DF"
+			tasks: [{
+				id: "535A11B488840DAF"
+				title: "Diltued Bastnasite Mud"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7498E7D7928896DF"]
+			icon: "gtca:filtered_bastnasite_mud_bucket"
+			id: "393778AC8F226C18"
+			tasks: [{
+				id: "438E8F0A3B4F3618"
+				title: "Filtered Bastnasite Mud"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7498E7D7928896DF"]
+			icon: "gtceu:silicon_dioxide_dust"
+			id: "28AB54D909DC922C"
+			tasks: [{
+				id: "7EB161A2318F7E56"
+				title: "Silicon Dioxide"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7498E7D7928896DF"]
+			icon: "gtceu:rutile_dust"
+			id: "1175C331E095D6E2"
+			tasks: [{
+				id: "7420C5B17F5EF20F"
+				title: "Rutile"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7498E7D7928896DF"]
+			icon: "gtca:red_zircon_dust"
+			id: "43FD422F4CC58D32"
+			tasks: [{
+				id: "47798A29B00CBCDF"
+				title: "Red Zircon"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7498E7D7928896DF"]
+			icon: "gtceu:ilmenite_dust"
+			id: "5015CEBDD31FC55D"
+			tasks: [{
+				id: "10BB29E63540ACA7"
+				title: "Ilmenite"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["393778AC8F226C18"]
+			icon: "gtca:bastnasite_rare_earth_oxides_dust"
+			id: "25E0DFD88EAA8E48"
+			tasks: [{
+				id: "296EC4C672CC4EB0"
+				title: "Bastnasite Rare Earth Oxides Dust"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"25E0DFD88EAA8E48"
+				"3E71944EC4D5D58C"
+			]
+			icon: "gtca:acid_leached_rare_earth_oxides_dust"
+			id: "592CB77F46BF76AA"
+			tasks: [{
+				id: "063695377D442762"
+				title: "Acid Leached Rare Earth Oxides Dust"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:hydrochloric_acid_bucket"
+			id: "3E71944EC4D5D58C"
+			tasks: [{
+				id: "291A2F8FE51BEB90"
+				title: "Hydrochloric Acid"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"592CB77F46BF76AA"
+				"679149FCB03E9A1E"
+			]
+			icon: "gtca:roasted_rare_earth_oxides_dust"
+			id: "6480347F0D97701F"
+			tasks: [{
+				id: "1B5827019866BDB7"
+				title: "Roasted Rare Earth Oxides Dust"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6480347F0D97701F"]
+			icon: "gtceu:fluorine_bucket"
+			id: "5DB26F130E7AD11B"
+			subtitle: "Why so little? I dont know."
+			tasks: [{
+				id: "45ADF5F389E1D9A8"
+				title: "Fluorine"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			icon: "gtceu:oxygen_bucket"
+			id: "679149FCB03E9A1E"
+			tasks: [{
+				id: "3449EB19298EDEA0"
+				title: "Oxygen"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6480347F0D97701F"]
+			icon: "gtca:wet_rare_earth_oxides_dust"
+			id: "749B379F2C24FA79"
+			tasks: [{
+				id: "1596364FFEE3832B"
+				title: "Wet Rare Earth Oxides Dust"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"749B379F2C24FA79"
+				"52963BCC45FC78C9"
+			]
+			icon: "gtca:cerium_oxidised_rare_earth_oxides_dust"
+			id: "5DFDBE4199F529A4"
+			tasks: [{
+				id: "5647066FF6F55DAE"
+				title: "Cerium Rare Earth Oxides Dust"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:fluorine_bucket"
+			id: "52963BCC45FC78C9"
+			subtitle: "The hydrofluoric acid you regain gets you the fluorine back."
+			tasks: [{
+				id: "6B0DCFD431A41CC8"
+				title: "Fluorine"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DFDBE4199F529A4"]
+			icon: "gtceu:hydrofluoric_acid_bucket"
+			id: "2C2519BC2FFF74A1"
+			tasks: [{
+				id: "469E7198ACE2EE6D"
+				title: "Hydrofluoric Acid"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5DFDBE4199F529A4"]
+			icon: "gtca:bastnasite_rarer_earth_oxides_dust"
+			id: "51A639091D84DC2C"
+			tasks: [{
+				id: "69E7F751F93765C5"
+				title: "Bastnasite Rarer Earth Oxides Dust"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5DFDBE4199F529A4"]
+			icon: "gtca:cerium_dioxide_dust"
+			id: "58F1248CCDCDDB50"
+			tasks: [{
+				id: "3AC112972A03C474"
+				title: "Cerium Dioxide"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"58F1248CCDCDDB50"
+				"2CDBA789D53DD857"
+				"0D567877F72497D8"
+			]
+			icon: "gtca:cerium_chloride_dust"
+			id: "7C76E472A93C22D0"
+			tasks: [{
+				id: "3B8F519D204BB3FB"
+				title: "Cerium Chloride"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			icon: "gtceu:hydrogen_bucket"
+			id: "2CDBA789D53DD857"
+			tasks: [{
+				id: "2967C06701BB002D"
+				title: "Hydrogen"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["515645F74DAA6621"]
+			icon: "gtceu:ammonium_chloride_bucket"
+			id: "0D567877F72497D8"
+			subtitle: "Get that ammonium back!"
+			tasks: [{
+				id: "0185F900450A69CC"
+				title: "Liquid Ammonium Chloride"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C76E472A93C22D0"]
+			icon: "gtceu:ammonia_bucket"
+			id: "27024EC1F5685488"
+			tasks: [{
+				id: "5BC1CD20D76BFD28"
+				title: "Ammonia"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			icon: "gtceu:hydrochloric_acid_bucket"
+			id: "515645F74DAA6621"
+			tasks: [{
+				id: "5BF271583FE18479"
+				title: "Hydrochloric Acid"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7C76E472A93C22D0"
+				"546A725FC6E78C92"
+			]
+			icon: "gtca:cerium_oxalate_dust"
+			id: "7A7ED8A0AA944298"
+			tasks: [{
+				id: "246B9D5D892483A9"
+				title: "Cerium Oxalate Dust"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3EC891B1586C3AE7"
+				"4B03F6AEE4C4425C"
+				"25B1BAAE16C0B7A5"
+			]
+			icon: "gtca:oxalate_bucket"
+			id: "546A725FC6E78C92"
+			subtitle: "What even is this?"
+			tasks: [{
+				id: "3AE42511ED119F08"
+				title: "Oxalate"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			id: "25B1BAAE16C0B7A5"
+			subtitle: "Catalyst."
+			tasks: [{
+				id: "777EE4F0B06B0068"
+				item: "gtceu:vanadium_pentoxide_dust"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			icon: "gtceu:nitric_acid_bucket"
+			id: "4B03F6AEE4C4425C"
+			tasks: [{
+				id: "48DD71F77E89889E"
+				title: "Nitric Acid"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			icon: "minecraft:sugar"
+			id: "3EC891B1586C3AE7"
+			subtitle: "Maybe from a slaughterhouse?"
+			tasks: [{
+				id: "582DC06257697DA3"
+				title: "Sugar"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7A7ED8A0AA944298"
+				"6A7B12F4AABD75C6"
+			]
+			icon: "gtca:cerium_iii_oxide_dust"
+			id: "3CE5B8C5C53DAD9A"
+			tasks: [{
+				id: "14AD44F5623648F0"
+				title: "Cerium III Oxide"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			id: "6A7B12F4AABD75C6"
+			subtitle: "You gain more back than you put in via CO."
+			tasks: [{
+				id: "60EAB2A8010846CE"
+				item: "gtceu:carbon_dust"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3CE5B8C5C53DAD9A"]
+			id: "111248595F5452BE"
+			shape: "gear"
+			subtitle: "Yay!"
+			tasks: [{
+				id: "6F8BA458FF620DA8"
+				item: "gtceu:cerium_dust"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"51A639091D84DC2C"
+				"0E0D904A537D04DB"
+			]
+			icon: "gtca:nitrogenated_bastnasite_rarer_earth_oxides_bucket"
+			id: "34F854806CD80933"
+			tasks: [{
+				id: "5494233D33FF621A"
+				title: "Nitrogenated Bastnasite Rarer Earth Oxides"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			icon: "gtceu:nitric_acid_bucket"
+			id: "0E0D904A537D04DB"
+			tasks: [{
+				id: "253F05185C41ED86"
+				title: "Nitric Acid"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"34F854806CD80933"
+				"491313BDE7099AC3"
+			]
+			icon: "gtca:bastnasite_rarer_earth_oxides_suspension_bucket"
+			id: "012A4737F85F9DE2"
+			tasks: [{
+				id: "2F00A89F64C61725"
+				title: "Bastnasite Rare Earth Oxides Suspension"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			icon: "gtceu:ammonia_bucket"
+			id: "491313BDE7099AC3"
+			tasks: [{
+				id: "0C4D381E25A91BCB"
+				title: "Ammonia"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["012A4737F85F9DE2"]
+			icon: "gtca:neodymium_rare_earth_concentrate_dust"
+			id: "5E8BA820A6DD2657"
+			tasks: [{
+				id: "0F4E8CB414CA0C2F"
+				title: "Neodymium Rare Earth Concentrate Dust"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["012A4737F85F9DE2"]
+			icon: "gtca:samaric_rare_earth_concentrate_dust"
+			id: "71A7414B96227896"
+			tasks: [{
+				id: "699FF8A92F30F801"
+				title: "Samaric Rare Earth Concentrate Dust"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["012A4737F85F9DE2"]
+			icon: "gtceu:acetone_bucket"
+			id: "326BF9BC3C7E67E4"
+			tasks: [{
+				id: "5081BDEE69706C8B"
+				title: "Acetone"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"71A7414B96227896"
+				"435E3E8B5BB1DF16"
+			]
+			icon: "gtca:fluorinated_samaric_concentrate_dust"
+			id: "5BBE18FF65E9B555"
+			tasks: [{
+				id: "2617B4547EE5D82F"
+				title: "Fluorinated Samaric Concentrate Dust"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			icon: "gtceu:hydrofluoric_acid_bucket"
+			id: "435E3E8B5BB1DF16"
+			tasks: [{
+				id: "4CBF8ABCB897E2B2"
+				title: "Hydrofluoric Acid"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BBE18FF65E9B555"]
+			id: "02331A5893D9376B"
+			shape: "gear"
+			tasks: [{
+				id: "5CC132DC0529BB8D"
+				item: "gtceu:holmium_dust"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5BBE18FF65E9B555"
+				"6597747BD30ECD54"
+			]
+			icon: "gtca:samarium_terbium_mixture_dust"
+			id: "0F39E495CC063623"
+			tasks: [{
+				id: "3288226C6763830C"
+				title: "Samarium Terbium Mixture Dust"
+				type: "checkmark"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			id: "6597747BD30ECD54"
+			subtitle: "You get it back via Calcium Fluoride"
+			tasks: [{
+				id: "4DF638D9009639F6"
+				item: "gtceu:calcium_dust"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0F39E495CC063623"
+				"202AE546AA2360C6"
+			]
+			icon: "gtca:nitrogenated_samarium_terbium_mixture_dust"
+			id: "67B21A6F6470D574"
+			tasks: [{
+				id: "3EC1B4E27AC83C35"
+				title: "Nitrogenated Samarium Terbium Mixture Dust"
+				type: "checkmark"
+			}]
+			x: 20.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["791DEDA88D170F2A"]
+			icon: "gtca:ammonium_nitrate_dust"
+			id: "202AE546AA2360C6"
+			tasks: [{
+				id: "32E0B3B4280014C4"
+				title: "Ammonium Nitrate"
+				type: "checkmark"
+			}]
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5C98CD2DA1651213"
+				"0CAEF63B53115A30"
+			]
+			icon: "gtca:hydrated_ammonium_nitrate_slurry_bucket"
+			id: "791DEDA88D170F2A"
+			tasks: [{
+				id: "6845AA0A542409F7"
+				title: "Hydrated Ammonium Nitrate Slurry"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			icon: "gtceu:ammonia_bucket"
+			id: "0CAEF63B53115A30"
+			tasks: [{
+				id: "234BACA75CB74998"
+				title: "Ammonia"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			icon: "gtceu:nitric_acid_bucket"
+			id: "5C98CD2DA1651213"
+			tasks: [{
+				id: "252F9E2CCB5E824B"
+				title: "Nitric Acid"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67B21A6F6470D574"]
+			icon: "gtca:samarium_residue_dust"
+			id: "741D4D542C9E1B07"
+			tasks: [{
+				id: "19D7554E6EFDB221"
+				title: "Samarium Residue Dust"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6B341B13CD8EA9AC"
+				"67B21A6F6470D574"
+			]
+			icon: "gtca:terbium_nitrate_dust"
+			id: "648BC03BDF179D1A"
+			tasks: [{
+				id: "0438B11CBF3878D1"
+				title: "Terbium Nitrate Dust"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: 3.5d
+		}
+		{
+			id: "6B341B13CD8EA9AC"
+			tasks: [{
+				id: "1EFE47BC5B4E0040"
+				item: "gtceu:copper_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["741D4D542C9E1B07"]
+			id: "114F8D385E676EBB"
+			shape: "gear"
+			subtitle: "Yay!"
+			tasks: [{
+				id: "028B24284CE72D59"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["741D4D542C9E1B07"]
+			id: "67E14EB7AA8CF452"
+			shape: "gear"
+			subtitle: "Yay!"
+			tasks: [{
+				id: "31F4416BFC645093"
+				item: "gtceu:gadolinium_dust"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["648BC03BDF179D1A"]
+			id: "23EFBDCDBDD0FC1F"
+			shape: "gear"
+			subtitle: "Yay!"
+			tasks: [{
+				id: "5510C20541324B99"
+				item: "gtceu:terbium_dust"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E8BA820A6DD2657"]
+			icon: "gtca:lanthanium_chloride_dust"
+			id: "6853DFCE89EEB65C"
+			tasks: [{
+				id: "10FB0FACD072F2F8"
+				title: "Lanthanium Chloride Dust"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5E8BA820A6DD2657"]
+			icon: "gtca:neodymium_oxide_dust"
+			id: "7830420C21FEDB5A"
+			tasks: [{
+				id: "69C8E3F71D1B7077"
+				title: "Neodymium Oxide Dust"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6853DFCE89EEB65C"]
+			id: "3BBE3B7B41610E17"
+			shape: "gear"
+			subtitle: "Yay!"
+			tasks: [{
+				id: "698B81B8A60333DF"
+				item: "gtceu:lanthanum_dust"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7830420C21FEDB5A"]
+			id: "3659D7C1B8BEDED7"
+			shape: "gear"
+			subtitle: "Yay!"
+			tasks: [{
+				id: "2B5F99DD92E5E675"
+				item: "gtceu:neodymium_dust"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.5d
+		}
+	]
+	subtitle: ["Elon is jealous"]
+	title: "Mars"
+}

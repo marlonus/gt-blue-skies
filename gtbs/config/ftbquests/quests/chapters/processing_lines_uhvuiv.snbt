@@ -7,6 +7,577 @@
 	id: "5A8BB60C8C6A078A"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["70F31BA46D422987"]
+			id: "6B3465EFF28BC52F"
+			subtitle: "The inert knots of specific types need to be imbued with their native plasma to become usable."
+			tasks: [{
+				id: "3B896168AFDD611C"
+				title: "Foldspace Chamber"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["70F31BA46D422987"]
+			id: "0530E41D167086E3"
+			subtitle: "Reverses the polarity of knots by imbuing the polar opposite plasma to it."
+			tasks: [{
+				id: "070C242E214896C4"
+				title: "Polarity Reverser"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"71372F77F4615615"
+				"18BE915DC5F2D09B"
+			]
+			description: ["Have fun!"]
+			id: "70F31BA46D422987"
+			subtitle: "Makes the plasma necessary to make knots usable."
+			tasks: [{
+				id: "3F0485EBCE112487"
+				title: "Anomalous Plasma Creation Chamber"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70F31BA46D422987"]
+			id: "37E45CD71BE4736F"
+			tasks: [{
+				id: "667DE2EC387D08AE"
+				title: "Order"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70F31BA46D422987"]
+			id: "2C4657DB31509D8E"
+			tasks: [{
+				id: "2E1FF93878CA2650"
+				title: "Luminal"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70F31BA46D422987"]
+			id: "0175407157A03193"
+			tasks: [{
+				id: "40299B9D9F9E0C41"
+				title: "Mass"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70F31BA46D422987"]
+			id: "7DABD42E48F04BF7"
+			tasks: [{
+				id: "5ECB95D182167087"
+				title: "Bio"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70F31BA46D422987"]
+			id: "2EA33F6C97F67DE9"
+			tasks: [{
+				id: "3D760FAFADA067AE"
+				title: "Cognition"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70F31BA46D422987"]
+			id: "1EEA37CFC3CC1B8E"
+			tasks: [{
+				id: "36E5C147645F9011"
+				title: "Temporal"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70F31BA46D422987"]
+			id: "7BCAC2A623652E86"
+			tasks: [{
+				id: "16FEEB9E9FE21825"
+				title: "Spatial"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70F31BA46D422987"]
+			id: "70C4403CD8747E1A"
+			tasks: [{
+				id: "351BB5C342B5D729"
+				title: "Fractal"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37E45CD71BE4736F"]
+			id: "012EFCDE6B08E638"
+			tasks: [{
+				id: "1A5B347AB8BCBE74"
+				title: "Sensical Plasma"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37E45CD71BE4736F"]
+			id: "58B34596A068B15C"
+			tasks: [{
+				id: "6BA7BEDFB32408C9"
+				title: "Entropy Plasma"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C4657DB31509D8E"]
+			id: "5FB9840B8002C8EF"
+			tasks: [{
+				id: "147EE7FE7816760E"
+				title: "Blinding Plasma"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C4657DB31509D8E"]
+			id: "0915CF39AE256779"
+			tasks: [{
+				id: "4082EC9E2492EA7F"
+				title: "Umbral Plasma"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0175407157A03193"]
+			id: "56B58319DB96885A"
+			tasks: [{
+				id: "4C176F8C93C30565"
+				title: "Density Plasma"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0175407157A03193"]
+			id: "2106C188CA37598F"
+			tasks: [{
+				id: "541B31D498AAF089"
+				title: "Flux Plasma"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DABD42E48F04BF7"]
+			id: "0D4C9D6ED952C66F"
+			tasks: [{
+				id: "04AA33B3C2784000"
+				title: "Life Plasma"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DABD42E48F04BF7"]
+			id: "07397072F0CA1EA4"
+			tasks: [{
+				id: "49F8B67E6E834AD4"
+				title: "Thanic Plasma"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EA33F6C97F67DE9"]
+			id: "0300601559DDD69D"
+			tasks: [{
+				id: "23D37A81155EA67E"
+				title: "Smart Plasma"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2EA33F6C97F67DE9"]
+			id: "5521CD3177B1481F"
+			tasks: [{
+				id: "2C8CEA11A7B8E3C6"
+				title: "Null Plasma"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EEA37CFC3CC1B8E"]
+			id: "15566A1AA18B9011"
+			tasks: [{
+				id: "123BDE0632FCE4BF"
+				title: "Chrono Plasma"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EEA37CFC3CC1B8E"]
+			id: "0D69470CA0EE2C1A"
+			tasks: [{
+				id: "1A6C55A5A601DE6B"
+				title: "Eternity Plasma"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BCAC2A623652E86"]
+			id: "0908725DEF9E0DE5"
+			tasks: [{
+				id: "5C80D1499D129938"
+				title: "Space Plasma"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BCAC2A623652E86"]
+			id: "01DECA42FF71DE79"
+			tasks: [{
+				id: "56B62D424F6DD9A7"
+				title: "Vacuum Plasma"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70C4403CD8747E1A"]
+			id: "37969F76F99F424B"
+			tasks: [{
+				id: "035F46481F2A8855"
+				title: "Logical Plasma"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70C4403CD8747E1A"]
+			id: "269BE39908B358B4"
+			tasks: [{
+				id: "1B1F7C1E90478918"
+				title: "Empathetic Plasma"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70F31BA46D422987"]
+			id: "6B78A5BAB444962A"
+			subtitle: "The inert knots of specific types need to be imbued with their native plasma to become usable."
+			tasks: [{
+				id: "36F66B35A269A6A5"
+				title: "Foldspace Chamber"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"012EFCDE6B08E638"
+				"6B78A5BAB444962A"
+			]
+			id: "0A6AD414DEA823AF"
+			subtitle: "Stability, Formation"
+			tasks: [{
+				id: "2C8BEDA9837F7F5B"
+				title: "Alpha Knot"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"58B34596A068B15C"
+				"6B78A5BAB444962A"
+			]
+			id: "03643A7620329DA9"
+			subtitle: "Instability, Change"
+			tasks: [{
+				id: "4A51FBA6DF78CCFF"
+				title: "Beta Knot"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5FB9840B8002C8EF"
+				"6B78A5BAB444962A"
+			]
+			id: "0AC630616E4E9590"
+			subtitle: "Radiance, Energy flow"
+			tasks: [{
+				id: "6AC78FCE30EE320F"
+				title: "Gamma Knot"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0915CF39AE256779"
+				"6B78A5BAB444962A"
+			]
+			id: "76AB69D7C47C54D1"
+			subtitle: "Negation, concealment"
+			tasks: [{
+				id: "5FF779953672B0A2"
+				title: "Delta Knot"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"56B58319DB96885A"
+				"6B78A5BAB444962A"
+			]
+			id: "585FF62A078F0F3C"
+			subtitle: "Density, coherence"
+			tasks: [{
+				id: "5E2F0F459664E360"
+				title: "Epsilon Knot"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2106C188CA37598F"
+				"6B78A5BAB444962A"
+			]
+			id: "372D4BD08AA4B5CB"
+			subtitle: "Power, volatility"
+			tasks: [{
+				id: "761720240578424C"
+				title: "Zeta Knot"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0D4C9D6ED952C66F"
+				"6B78A5BAB444962A"
+			]
+			id: "48BC459417AF4276"
+			subtitle: "Vitality, growth"
+			tasks: [{
+				id: "5EF06397CBF6E0B5"
+				title: "Eta Knot"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"07397072F0CA1EA4"
+				"6B78A5BAB444962A"
+			]
+			id: "08586B19DC8D6805"
+			subtitle: "Decay, entropy harvest"
+			tasks: [{
+				id: "2BC338D17A4470BF"
+				title: "Theta Knot"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0300601559DDD69D"
+				"6B3465EFF28BC52F"
+			]
+			id: "0150D541FA923075"
+			subtitle: "Logic, understanding"
+			tasks: [{
+				id: "2C2763CB0ABE2982"
+				title: "Iota Knot"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5521CD3177B1481F"
+				"6B3465EFF28BC52F"
+			]
+			id: "6B242DC97043CACB"
+			subtitle: "Forgetting, entropy of data"
+			tasks: [{
+				id: "0A0E4DE266B8A878"
+				title: "Kappa Knot"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"15566A1AA18B9011"
+				"6B3465EFF28BC52F"
+			]
+			id: "56F3A719C6BDE0ED"
+			subtitle: "Causality, continuity"
+			tasks: [{
+				id: "3BFEE07605A4D146"
+				title: "Lambda Knot"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0D69470CA0EE2C1A"
+				"6B3465EFF28BC52F"
+			]
+			id: "13E09F0101EF74CA"
+			subtitle: "Stillness, transcendence"
+			tasks: [{
+				id: "160FE00F0903F4E4"
+				title: "Mu Knot"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0908725DEF9E0DE5"
+				"6B3465EFF28BC52F"
+			]
+			id: "2382B926162D3053"
+			subtitle: "Expansion, geometry"
+			tasks: [{
+				id: "198377F42F3036CC"
+				title: "Nu Knot"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"01DECA42FF71DE79"
+				"6B3465EFF28BC52F"
+			]
+			id: "3422D616289B6D2A"
+			subtitle: "Collapse, singularity"
+			tasks: [{
+				id: "7ACF3DF1D7178CF4"
+				title: "Xi Knot"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"37969F76F99F424B"
+				"6B3465EFF28BC52F"
+			]
+			id: "2542C9F45A5D42BA"
+			subtitle: "Pattern, structure"
+			tasks: [{
+				id: "1A3DA35E2476C2EC"
+				title: "Omicron Knot"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"269BE39908B358B4"
+				"6B3465EFF28BC52F"
+			]
+			id: "42912A8EE215BADA"
+			subtitle: "Instinct, soul resonance"
+			tasks: [{
+				id: "7796918C058B82A6"
+				title: "Pi Knot"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C483C796BA0DC02"]
+			icon: "gtceu:uhv_electric_motor"
+			id: "18BE915DC5F2D09B"
+			shape: "gear"
+			subtitle: "The knot madness"
+			tasks: [{
+				id: "044C2DF503C561F8"
+				title: "UHV"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+	]
 	title: "Processing Lines UHV-UIV"
 }

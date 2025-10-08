@@ -474,6 +474,18 @@
 			x: 2.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["41BEE28BAF363FB5"]
+			id: "5AAD684BAAA60617"
+			subtitle: "Energy!"
+			tasks: [{
+				id: "46712B3EFBA048EC"
+				item: "gtceu:quicksilver_turbine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
 	]
 	subtitle: ["Is it the voltage thats ludicrous, or is it you?"]
 	title: "&bLudicrous Voltage (LuV)"

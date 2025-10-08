@@ -15,18 +15,470 @@
 	}]
 	order_index: 9
 	quest_links: [ ]
-	quests: [{
-		id: "1C483C796BA0DC02"
-		shape: "gear"
-		size: 2.0d
-		tasks: [{
-			id: "521B86F4643B8174"
-			item: "gtceu:uhv_machine_hull"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["19D2775A6C596C75"]
+			id: "1C483C796BA0DC02"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "521B86F4643B8174"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C483C796BA0DC02"]
+			id: "7AEEC4DD1A7F1964"
+			subtitle: "Fun materials"
+			tasks: [{
+				id: "6BE35975B77AFC1A"
+				item: "gtceu:naquadria_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F749417A3D4F84"]
+			description: ["Makes resource collection even better."]
+			id: "795F247F33FF7C02"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Planetary core? Whats that?"
+			tasks: [{
+				id: "398992FFBABE7805"
+				title: "Core Drill"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C483C796BA0DC02"]
+			id: "55F749417A3D4F84"
+			subtitle: "Withstands a lot!"
+			tasks: [{
+				id: "5DF5FF1C9F47CBC5"
+				item: "gtceu:neutronium_drill_head"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["795F247F33FF7C02"]
+			id: "19E2B892D5B8D6B2"
+			subtitle: "Straight from the abydos core!"
+			tasks: [{
+				id: "064280A26A8E025B"
+				item: "gtceu:moltenheart_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19E2B892D5B8D6B2"]
+			description: ["Uses immense heat from moltenheart and combines it with other things to create extremely temperature dense things."]
+			id: "4F793A385B08462D"
+			shape: "gear"
+			subtitle: "A big, hot cauldron"
+			tasks: [{
+				id: "761D4959B1836E87"
+				title: "Thermal Singularity Crucible"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4F793A385B08462D"]
+			id: "2596139CEB989CEA"
+			subtitle: "Literally inconceivably hot."
+			tasks: [{
+				id: "0CECCED8E8D50E85"
+				title: "Heatwave Plasma"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["795F247F33FF7C02"]
+			id: "5C80EF12FD7620CF"
+			tasks: [{
+				id: "581E4B15166EA8FD"
+				title: "Unstable Abydos Plasma"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C80EF12FD7620CF"]
+			id: "76F43D9066DC89A3"
+			tasks: [{
+				id: "65CCC7B0D2EB6854"
+				title: "Stable Abydos Plasma"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"19E2B892D5B8D6B2"
+				"76F43D9066DC89A3"
+				"2596139CEB989CEA"
+			]
+			description: ["Actually more heat resistant due to that. Usable in Quantum Flux Coils."]
+			id: "50EE94009AE4A1CF"
+			shape: "gear"
+			subtitle: "Iridium but with a lot of energy."
+			tasks: [{
+				id: "3CC33DF8AA9DE642"
+				item: "gtceu:fluxed_iridium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50EE94009AE4A1CF"]
+			description: ["Good luck!"]
+			id: "0DC596C01F74AA12"
+			subtitle: "11700K, the first exclusive coil."
+			tasks: [{
+				id: "32C4B8597E638D68"
+				item: "kubejs:quantum_flux_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C483C796BA0DC02"]
+			id: "4E17E6F9F68F5637"
+			subtitle: "Yay!"
+			tasks: [{
+				id: "5AC59E20E15F27C3"
+				item: "gtceu:uhv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C483C796BA0DC02"]
+			id: "1E6683E5F160EF72"
+			subtitle: "Placed in orbit to shoot satellites somewhere."
+			tasks: [{
+				id: "71BE2E899A10C3DF"
+				title: "Satellite Cannon"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C483C796BA0DC02"]
+			id: "09651E70AD0CBACB"
+			subtitle: "Collects weird interstellar anomalies."
+			tasks: [{
+				id: "2B88F314DA469C07"
+				title: "Interstellar Satellite"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1E6683E5F160EF72"
+				"09651E70AD0CBACB"
+			]
+			description: ["The fragment pulses with various frequencies."]
+			id: "3D869D9C3980F6E8"
+			subtitle: "A piece of something powerful"
+			tasks: [{
+				id: "336EB052A2E3988E"
+				title: "Primordial Knot Fragment"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D869D9C3980F6E8"]
+			id: "55753C2562A6DE3D"
+			subtitle: "Takes plasma and the weird fragments to put it back together."
+			tasks: [{
+				id: "4007E764817AC8DE"
+				title: "Knot Condenser"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55753C2562A6DE3D"]
+			id: "5B5CE1E4038A8E9E"
+			subtitle: "Not energized enough, you can see the potential though."
+			tasks: [{
+				id: "1220F48E0BBE9238"
+				title: "Neutral Cosmoknot Core"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B5CE1E4038A8E9E"]
+			description: ["Knots are never consumed, they just get flipped."]
+			id: "71372F77F4615615"
+			subtitle: "Does funky things to the knots, polarizing them in specific ways."
+			tasks: [{
+				id: "2F6D0A31946F5832"
+				title: "Knot Polarizer"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71372F77F4615615"]
+			id: "5F931448A0514DC6"
+			tasks: [{
+				id: "2B4A33455400F0EE"
+				title: "Inert Order Cosmoknot"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71372F77F4615615"]
+			id: "51831E81F5C15672"
+			tasks: [{
+				id: "3252B4645DDD94AC"
+				title: "Inert Luminal Cosmoknot"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71372F77F4615615"]
+			id: "01671C1BE6CCAE3A"
+			tasks: [{
+				id: "516F47EF7476AF95"
+				title: "Inert Mass Cosmoknot"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71372F77F4615615"]
+			id: "7193A29EA72A9EC1"
+			tasks: [{
+				id: "7AA579EFE300A54F"
+				title: "Inert Bio Cosmoknot"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71372F77F4615615"]
+			id: "45AB1DEF9ECE34FA"
+			tasks: [{
+				id: "360CF5F9B4BDE2D9"
+				title: "Inert Fractal Cosmoknot"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71372F77F4615615"]
+			id: "7FEA94AE14C85AFC"
+			tasks: [{
+				id: "62C7E937E09A5F67"
+				title: "Inert Spatial Cosmoknot"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71372F77F4615615"]
+			id: "2A8F77566EB49E36"
+			tasks: [{
+				id: "6531D036B731F280"
+				title: "Inert Temporal Cosmoknot"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71372F77F4615615"]
+			id: "066776C121D3DFEE"
+			tasks: [{
+				id: "31878ABEB8F98C64"
+				title: "Inert Cognition Cosmoknot"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71372F77F4615615"]
+			id: "0E2BA66132087A54"
+			tasks: [{
+				id: "43A5C15E990A1ACC"
+				title: "Processing lines tab, organization!!!!"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C483C796BA0DC02"]
+			id: "0DD419D0DB1B1AAB"
+			subtitle: "Ain't it great?"
+			title: "Ultra-Advanced SMD Components"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C483C796BA0DC02"]
+			id: "14B089F281FE700E"
+			subtitle: "Sticky..."
+			title: "Gooey Circuit Board"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14B089F281FE700E"]
+			description: ["Takes a cosmoknot."]
+			id: "19C61539BC8003B1"
+			subtitle: "Can hold goo amazingly."
+			title: "Gooey Printed Circuit Board"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0DD419D0DB1B1AAB"
+				"19C61539BC8003B1"
+			]
+			id: "5B3E2E5F48E876A0"
+			subtitle: "mmmm"
+			tasks: [{
+				id: "2C0EF2AD5BDE0F47"
+				item: "kubejs:gooware_processor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B3E2E5F48E876A0"]
+			id: "2776718CE1FFC87E"
+			subtitle: "almost alive"
+			tasks: [{
+				id: "2679EF578B59228C"
+				item: "kubejs:gooware_processor_assembly"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19C61539BC8003B1"]
+			id: "70A3277A03DEAF75"
+			subtitle: "You need something to contain the neurons."
+			title: "Neural Goo Matrix"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2776718CE1FFC87E"]
+			id: "005E9C3F75DD629F"
+			subtitle: "deeply terrifying"
+			tasks: [{
+				id: "7BA06C1DDD68A59C"
+				item: "kubejs:gooware_processor_computer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["005E9C3F75DD629F"]
+			id: "0A430B438288F3D3"
+			subtitle: "Logically logical"
+			title: "Gooware Logic Array"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0A430B438288F3D3"
+				"70A3277A03DEAF75"
+			]
+			description: ["Your first UEV Circuit!"]
+			id: "1ACD9FBCE372AB39"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Actually blinking?"
+			tasks: [{
+				id: "48484A121B3422F0"
+				item: "kubejs:gooware_processor_mainframe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1ACD9FBCE372AB39"]
+			id: "62DA56CCFF0CAEA8"
+			subtitle: "You can instantly complete processing lines in a single step with this."
+			tasks: [{
+				id: "36A05287770E153F"
+				title: "Time-Dilating Processing Array"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DC596C01F74AA12"]
+			id: "5077541998A705DE"
+			shape: "gear"
+			subtitle: "Withstands UEV components."
+			title: "Abydium Alloy"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C483C796BA0DC02"]
+			id: "6BB92833AE7180E8"
+			subtitle: "You thought you were safe?"
+			tasks: [{
+				id: "592E8D6BB99E4146"
+				item: "gtceu:uhv_electric_motor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+	]
 	subtitle: ["I hope the circuits are the only wet thing here."]
 	title: "&4Highly Ultimate Voltage (UHV)"
 }

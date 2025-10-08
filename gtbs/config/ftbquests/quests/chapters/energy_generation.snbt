@@ -278,7 +278,7 @@
 				item: "gtceu:lava_generator"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
@@ -861,6 +861,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["41BEE28BAF363FB5"]
 			icon: "gtceu:luv_electric_motor"
 			id: "50BB06DE2BF02D9A"
 			shape: "gear"
@@ -874,6 +875,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["1399E47C5BA441CA"]
 			icon: "gtceu:zpm_electric_motor"
 			id: "2D5B6C0D0574BE48"
 			shape: "gear"
@@ -887,6 +889,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["7BC67F369B1C5DB1"]
 			icon: "gtceu:uv_electric_motor"
 			id: "6DA3E0FF4E421AEC"
 			shape: "gear"
@@ -900,6 +903,7 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["1C483C796BA0DC02"]
 			icon: "gtceu:uhv_electric_motor"
 			id: "013FCA6AB880961D"
 			shape: "gear"
@@ -910,6 +914,234 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["47BAD9B6E881AD22"]
+			description: ["Uses the resonance of with-weird-stuff-enriched mercury to create power."]
+			id: "62B438D206247460"
+			subtitle: "8A LuV!"
+			tasks: [{
+				id: "4DEA77581A2DE78A"
+				item: "gtceu:quicksilver_turbine"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50BB06DE2BF02D9A"]
+			id: "47BAD9B6E881AD22"
+			subtitle: "Adding random stuff to mercury does funny things."
+			tasks: [{
+				id: "74D4CCEBFFF6F99F"
+				title: "Resonant Mercury"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62B438D206247460"]
+			description: ["Further adding weird components to the mercury transforms it to.. this."]
+			id: "37C261744A36A39E"
+			subtitle: "16A LuV!"
+			tasks: [{
+				id: "2453E825E6DCE6FC"
+				title: "Resonant Quicksilver"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7690A25B9D2AD31B"]
+			description: ["Uses the temperature difference of a hot and a cold thing to create power."]
+			id: "76A89C369219F780"
+			subtitle: "The Seebeck effect, now turned up to 16A of ZPM."
+			tasks: [{
+				id: "542094AD264307F4"
+				item: "gtceu:cryo_dynamo"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["24CA5D4B695E7FC5"]
+			description: ["Extracting pure cold from glacio stones."]
+			id: "145217EA1FA68D17"
+			subtitle: "Better make a igloo!"
+			tasks: [{
+				id: "727053C7ABCEAF22"
+				item: "ad_astra:permafrost"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2D5B6C0D0574BE48"]
+			description: ["There is a way to automatically collect it, dont worry."]
+			id: "24CA5D4B695E7FC5"
+			subtitle: "Extremely brittle due to the absolute coldness."
+			tasks: [{
+				id: "6AD69796A81743AD"
+				item: "ad_astra:glacio_stone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["145217EA1FA68D17"]
+			description: ["This stuff is so insanely cold, just being near it makes you want to turn up the heater."]
+			id: "7690A25B9D2AD31B"
+			subtitle: "Makes atoms move extremely slowly."
+			tasks: [{
+				id: "3D992D751563E42C"
+				title: "Permafrost Extract"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3A365BC95C553C6A"]
+			description: [
+				"Poop really is useful sometimes. Adding the digested stuff to a specially designed fusion reactor generates energy out of the box!"
+				"It even returns the hydrogen input at the beginning."
+			]
+			id: "79275E7AA683F9A6"
+			subtitle: "16A UV!"
+			tasks: [{
+				id: "45CF83CCA044AA41"
+				item: "gtceu:bio_fusion"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5B240F62E5FA41B7"]
+			description: ["Making two hydrogen atoms collide in a insane speed, like actually fucking crazy speed, makes them denser and denser, the perfect food for them."]
+			id: "0B7CEE2DFB7299A5"
+			subtitle: "Ever made a particle collider?"
+			tasks: [{
+				id: "6C4845D80D63B9F8"
+				title: "High-Density Hydrogen"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6DA3E0FF4E421AEC"]
+			description: [
+				"Yes, they have eyes. Does that make them count as a microbe? Probably not. Do I care? No."
+				""
+				"These things feed on the stuff more than anything else."
+				"(Don't worry, you can transport them safely through dimensions.)"
+				"They convert hydrogen to energy as it seems, using them in mass allows you get a lot of it."
+				"One problem though, how do you get energy off of a microbe?"
+				""
+				"I have an idea..."
+			]
+			id: "01EF3E320B937DEF"
+			subtitle: "We are back in the biolab... dimension."
+			tasks: [{
+				id: "26719C713CEBC946"
+				title: "Hydrogen-Addicted Microbes"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["01EF3E320B937DEF"]
+			description: [
+				"The microbes start getting the zoomies once they got enough hydrogen."
+				"But a problem persists, they eat a lot of it. Can we increase the energy density somehow?"
+			]
+			id: "5B240F62E5FA41B7"
+			subtitle: "Yes, this is what I came up with and yes, it works."
+			tasks: [{
+				id: "42044A9356EBEA43"
+				title: "Microbial Hamster Wheel"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0B7CEE2DFB7299A5"]
+			description: ["Look, its sleeping!"]
+			id: "4BD4CFBDEE5D6705"
+			subtitle: "All that running made them tired, poor microbe."
+			tasks: [{
+				id: "38946786F68BDC42"
+				title: "Tired Hydrogen-Addicted Microbe"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0B7CEE2DFB7299A5"]
+			description: [
+				"Yes, you need to collect the poop."
+				"Don't worry, it won't smell bad, they didn't produce the compounds necessary for that."
+			]
+			id: "06D629A8781F2E5F"
+			subtitle: "The natural cycle of digestion"
+			tasks: [{
+				id: "1953397CBEF1CE12"
+				title: "Ultradense Microbe Feces"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4BD4CFBDEE5D6705"]
+			description: ["They needed to rest a little. Now they can reenter the cycle of endless running and eating."]
+			id: "61D239A2D97156C2"
+			subtitle: "Wakey wakey, rise and shine! Good morning microbe!"
+			tasks: [{
+				id: "7301EEAD77FC9E29"
+				title: "Microbe Sleeping Compartment"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["06D629A8781F2E5F"]
+			description: [
+				"You didnt just... put poop in a centrifuge right?"
+				""
+				"Honestly, I'm not going to ask. Do what you must."
+			]
+			id: "3A365BC95C553C6A"
+			subtitle: "They even pooped out some richer hydrogen. Never seen before!"
+			tasks: [{
+				id: "2F0B2DD32DFA5593"
+				title: "Digested Ultradense Hydrogen"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["013FCA6AB880961D"]
+			id: "2FFCB762D5AA7244"
+			subtitle: "Uses otherworldy materials with naquadria to create 16A of UHV!"
+			tasks: [{
+				id: "144816AF90DFA877"
+				item: "gtceu:naquadria_core"
+				type: "item"
+			}]
+			x: -1.5d
 			y: -10.5d
 		}
 	]

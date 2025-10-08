@@ -7,6 +7,86 @@
 	id: "1C2B285DA23A92FA"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["1399E47C5BA441CA"]
+			icon: "gtceu:zpm_electric_motor"
+			id: "209348BED17BAD80"
+			shape: "gear"
+			tasks: [{
+				id: "7DC330CEE2F3D3BE"
+				title: "ZPM"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7BC67F369B1C5DB1"
+				"209348BED17BAD80"
+			]
+			icon: "gtceu:uv_electric_motor"
+			id: "7F56E37EC69726AF"
+			shape: "gear"
+			tasks: [{
+				id: "5CE54612AF62061D"
+				title: "UV"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7F56E37EC69726AF"
+				"2D4A068769A7465D"
+				"761E96DA69A7B5DA"
+				"596B788E711EB576"
+			]
+			id: "6EAD02A2F07ABE93"
+			subtitle: "A easy plastic for once"
+			tasks: [{
+				id: "0A676061DA18D9CF"
+				item: "gtca:radon_polymer_plate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			icon: "gtca:titanium_plasma_plasma_bucket"
+			id: "596B788E711EB576"
+			tasks: [{
+				id: "5A26CE1FE0A8EC46"
+				title: "Titanium Plasma"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			icon: "gtceu:oxygen_plasma_bucket"
+			id: "761E96DA69A7B5DA"
+			tasks: [{
+				id: "4DF6259746B4DD27"
+				title: "Oxygen Plasma"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			icon: "gtceu:radon_bucket"
+			id: "2D4A068769A7465D"
+			tasks: [{
+				id: "3555E240D736214B"
+				title: "Radon"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+	]
 	title: "Processing Lines ZPM-UV"
 }

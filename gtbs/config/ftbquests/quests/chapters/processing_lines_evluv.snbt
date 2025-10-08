@@ -483,7 +483,7 @@
 				"0E1DB1D6CCC5F5B6"
 			]
 			id: "4ADAA2A9CB0DCED8"
-			subtitle: "Rubber of rubbers"
+			subtitle: "Funny Plastic"
 			tasks: [{
 				id: "2A3F67E171C7D970"
 				item: "gtceu:polybenzimidazole_bucket"
@@ -1981,6 +1981,143 @@
 			}]
 			x: -16.0d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5F4E34D2216418FE"
+				"5A42D3C3B5DF8225"
+				"7B700A234C8848E9"
+			]
+			id: "333647CA8535E535"
+			subtitle: "Another plastic?"
+			tasks: [{
+				id: "1652ADC13EDA6970"
+				item: "gtca:silamid_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6214282C307898EE"
+				"7176B5BD3401D81C"
+			]
+			id: "5A42D3C3B5DF8225"
+			tasks: [{
+				id: "1721137284BA5DE3"
+				title: "Dihydrodiaminosilane"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"65475A85BEE038A9"
+				"0A9BCABB71FA5645"
+			]
+			id: "7176B5BD3401D81C"
+			tasks: [{
+				id: "41EF752FB1EED18A"
+				title: "Silicon Nitride"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:water_bucket"
+			id: "6214282C307898EE"
+			tasks: [{
+				id: "38B3D9FC3D6F6DF4"
+				title: "Water"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			icon: "gtceu:oxygen_bucket"
+			id: "7B700A234C8848E9"
+			tasks: [{
+				id: "7E2B093D83E17138"
+				title: "Oxygen"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4883E2E5F3BE0691"
+				"1DB31645BF61F57D"
+			]
+			id: "65475A85BEE038A9"
+			tasks: [{
+				id: "7C4B29C4506FAF93"
+				title: "Silicon Tetrachloride"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:ammonia_bucket"
+			id: "0A9BCABB71FA5645"
+			tasks: [{
+				id: "2FEBBAAE5DDD0951"
+				title: "Ammonia"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7176B5BD3401D81C"]
+			icon: "gtceu:ammonium_chloride_bucket"
+			id: "711BBCB5605774C0"
+			tasks: [{
+				id: "334E872B5C0BDD37"
+				title: "Ammonium Chloride"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A42D3C3B5DF8225"]
+			icon: "gtceu:ammonia_bucket"
+			id: "07786CCB1AAD93D6"
+			tasks: [{
+				id: "431311C1F37C1BDA"
+				title: "Ammonia"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			icon: "gtceu:silicon_dust"
+			id: "1DB31645BF61F57D"
+			tasks: [{
+				id: "7C0F02A4095F560D"
+				title: "Silicon"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			icon: "gtceu:chlorine_bucket"
+			id: "4883E2E5F3BE0691"
+			tasks: [{
+				id: "4A329BF774F38D98"
+				title: "Chlorine"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 	title: "Processing Lines EV-LuV"

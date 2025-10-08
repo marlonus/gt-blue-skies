@@ -310,6 +310,18 @@
 			x: 5.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["1399E47C5BA441CA"]
+			id: "63649DFC6465A48F"
+			subtitle: "Cold"
+			tasks: [{
+				id: "2389E0F527131760"
+				item: "gtceu:cryo_dynamo"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
 	]
 	subtitle: [
 		"I still don't know why its called this way."

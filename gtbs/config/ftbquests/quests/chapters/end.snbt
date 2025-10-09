@@ -7,22 +7,144 @@
 	id: "048056C1F3DAA6F9"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["3ECC5478A33284BF"]
-		description: ["The end is far from here."]
-		icon: "minecraft:ender_eye"
-		id: "19D87F65BEB45A0F"
-		shape: "gear"
-		size: 2.0d
-		subtitle: "Not even the dimension."
-		tasks: [{
-			id: "6ED1E01990F6CF7C"
-			title: "End"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["3ECC5478A33284BF"]
+			description: ["The end is far from here."]
+			icon: "minecraft:ender_eye"
+			id: "19D87F65BEB45A0F"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Not even the dimension."
+			tasks: [{
+				id: "6ED1E01990F6CF7C"
+				title: "End"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19D87F65BEB45A0F"]
+			id: "46C0DEE861F79114"
+			subtitle: "Due to the end being inacessible, you need to resort to this."
+			tasks: [{
+				id: "3006445127C54C1A"
+				title: "Endfield Null Probe"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46C0DEE861F79114"]
+			id: "6C6DA6E523F6F738"
+			subtitle: "Weird compound mass that floats around the end."
+			tasks: [{
+				id: "51C5E8D08A8D32E5"
+				title: "Oblivion Echo"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C6DA6E523F6F738"]
+			id: "13BE2B008CF3B4A0"
+			subtitle: "Funky"
+			tasks: [{
+				id: "25C2A0085796FA33"
+				title: "Oblivionite Slurry"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C6DA6E523F6F738"]
+			id: "678D26ECCC8E2A5D"
+			subtitle: "Neural matter in a liquid"
+			tasks: [{
+				id: "3A4DFA625E06D8DC"
+				title: "Neuroplasm Extract"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["678D26ECCC8E2A5D"]
+			id: "6B72D55D1460A276"
+			subtitle: "Literally death itself"
+			tasks: [{
+				id: "7626C5455BC20E83"
+				title: "Entropic Solution"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["678D26ECCC8E2A5D"]
+			id: "0CC9D1FB565E774F"
+			subtitle: "You can grow brains now"
+			tasks: [{
+				id: "517C66B630897191"
+				title: "Mindspores"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0CC9D1FB565E774F"]
+			id: "577F57B999BE9E59"
+			shape: "gear"
+			tasks: [{
+				id: "0D08D1A725842D77"
+				item: "gtceu:mindspore_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E9CDB9E5E29089A"]
+			id: "51A0083B1179613F"
+			shape: "gear"
+			subtitle: "Extremely pretty"
+			tasks: [{
+				id: "3BBAB71747F89094"
+				item: "gtceu:entropy_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B72D55D1460A276"]
+			id: "3E9CDB9E5E29089A"
+			tasks: [{
+				id: "2E8025A7E988E07D"
+				title: "Roasted Entropy"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13BE2B008CF3B4A0"]
+			id: "1033E3A4776CA19E"
+			shape: "gear"
+			tasks: [{
+				id: "0CA3F0C501596D03"
+				item: "gtceu:oblivionite_gem"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+	]
 	subtitle: ["Voidland"]
 	title: "End"
 }

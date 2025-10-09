@@ -1039,6 +1039,7 @@
 		{
 			dependencies: ["3ECC5478A33284BF"]
 			id: "034F0051BE4C5F43"
+			subtitle: "ZPM Tier"
 			tasks: [{
 				id: "5D286B2F8AB48EA5"
 				item: "gtceu:entropy_ingot"

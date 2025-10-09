@@ -465,7 +465,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5015BA0138EF7E9B"]
+			dependencies: [
+				"5015BA0138EF7E9B"
+				"0A098B4EF6CA744E"
+			]
 			id: "6905BF15A36D185A"
 			subtitle: "The IV Casing Material"
 			tasks: [{
@@ -475,6 +478,18 @@
 			}]
 			x: 4.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["799952303170F816"]
+			id: "0A098B4EF6CA744E"
+			subtitle: "Weird glass, looks cool though"
+			tasks: [{
+				id: "66E3EA00D8501128"
+				item: "kubejs:voidglass"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
 		}
 	]
 	subtitle: ["Now featuring Micro-Meltdowns!"]

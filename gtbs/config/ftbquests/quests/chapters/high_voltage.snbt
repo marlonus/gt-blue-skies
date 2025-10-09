@@ -765,7 +765,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["20F185C1AFBFD53D"]
+			dependencies: [
+				"20F185C1AFBFD53D"
+				"4E0BA10CA4F18E64"
+			]
 			id: "25FD805AEF18DDA2"
 			subtitle: "The EV Casing Material"
 			tasks: [{
@@ -775,6 +778,64 @@
 			}]
 			x: 6.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["342D5C12600F6EE4"]
+			id: "4E0BA10CA4F18E64"
+			subtitle: "Woven astral compound"
+			tasks: [{
+				id: "478EF5CFA3CA78CC"
+				item: "malum:astral_weave"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A103EA416A988BB"]
+			id: "342D5C12600F6EE4"
+			tasks: [{
+				id: "4A63D8CE55BB2D1D"
+				item: "malum:processed_soulstone"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["60E9345969B847E5"]
+			id: "02EB4635EEE22205"
+			tasks: [{
+				id: "79DEE4F76E9F4425"
+				item: "malum:crushed_soulstone"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["02EB4635EEE22205"]
+			id: "1A103EA416A988BB"
+			subtitle: "Soulstone processing at last"
+			tasks: [{
+				id: "51B7C512F8E1B459"
+				title: "Soul Totem"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2E6156552FF3C56D"]
+			id: "60E9345969B847E5"
+			subtitle: "Raw souls"
+			tasks: [{
+				id: "48A42D9D80FAAFFE"
+				item: "malum:raw_soulstone"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
 		}
 	]
 	subtitle: [
